@@ -29,23 +29,25 @@
     - Extra LED under caps lock (north/offset?) - for caps-lock state
     - Extra LED under bottom row last three (north/offset?) - for layer state indicator
 - Under-glow RGB - but as optional *(solder off 0ohm trace switch)*
-- Spare GPIO slots for expansion *(e.g. RGB 1-wire extension, QMK speaker, etc.)*
+- Spare GPIO slots for expansion *(e.g. RGB 1-wire extension, etc.)*
 - Two reset buttons
     - Under space-bar = reset without disassembly
     - Bottom of PCB as per normal in case plate covers the space-bar one
 - Layer selector toggle switch in the slot where the AP2 has its wifi-switch - so can be used as a Keychron-esque DIP switch
 - Un-obstructive (tiny) status LED(s) under space-bar (next to reset) and near UPB port
-- Additional EEPROM chip for larger VIA layer support
+- Additional EEPROM chip for larger VIA layer support ***(M.2 module already has this)***
+- Footprint for optional speaker (AST1109MLTRQ)
+- Optional JST header for connection with daughterboard
 
 ### Edge experiments
 
-- Embedded ESP8266 or EP32 chip for over-wifi key-mapping
+- Embedded ESP8266 or EP32 chip for over-wifi key-mapping *(is this viable?)*
 - Support for Logitec Unifying Reciever *(how???)*
 
 ## Possible design aids
 
-- [GH60](https://github.com/komar007/gh60), also [read this](http://blog.komar.be/gh60-evolution/)
 - Closest is the BM60 Poker - but that's not open source.
+- [GH60](https://github.com/komar007/gh60), also [read this](http://blog.komar.be/gh60-evolution/)
 - [Bakeneko 60](https://github.com/kkatano/bakeneko-60)
 - [Voyager 60](https://github.com/ai03-2725/Voyager60)
 - [Plain6-C](https://github.com/evyd13/plain60-c)
