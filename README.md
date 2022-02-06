@@ -68,9 +68,16 @@
 
 ## Tools Used
 
-- Layout - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
-- Eagle - [Kalerator](https://kalerator.clueboard.co/)
-- Plate - [Keyboard CAD Assistant](http://www.keyboardcad.com/)
+- Layout
+    - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
+- Eagle
+    - [Kalerator](https://kalerator.clueboard.co/)
+- KiCad
+    - [@ai03 's PCB Designer Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)
+    - [@ruiqimao 's Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide)
+- Plate
+    - [Swill's Plate & Case Builder](http://builder.swillkb.com/)
+    - [Keyboard CAD Assistant](http://www.keyboardcad.com/)
 
 ---
 Made with &#9829; - Vino Rodrigues
