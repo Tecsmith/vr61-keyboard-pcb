@@ -8,6 +8,10 @@
 
 ## Features
 
+Two 60% PCBs:
+* **VR60-MicroMod** - using SparkFun MicroMod STM32 M.2 module, but no RGB
+* **VR60-RGB** - integrated STM32 MCU, full per-key RGB
+
 ### Core design elements
 
 - 60% form factor
@@ -16,33 +20,35 @@
 - QMK + VIA default f/w
     - Wired only *(no wireless)*
     - Default key-maps for Mac use
-- STM32 Microcontroller  ***(possibly with removable M.2 module)***
+- STM32 Microcontroller
 - USB-C *(left side)*
 - ESD protection, over voltage and over current protection
 - Hot-swap, 5 pin switch slots
 - PCB mounted stabs compatibility
-- 1.25, 1.25, 1.25, 6.25, 1.25, 1.25, 1.25, 1.25 bottom row
-- Per key RGB SMT *(NORTH)*
+- 1.25, 1.25, 1.25, 6.25, 1.25, 1.25, 1.25, 1.25 bottom row *(a.k.a. "Poker")*
+- Per key RGB SMT *(NORTH)* **[VR60-RGB Only]**
     - *(Yes, north because it's more compatible with shine-through caps and I don't buy GMK anyway)*
     - WS2812 or APA102 driver
     - Extra RGB under space - for pudding keycaps / better QMK Matrix animations
     - Extra LED under caps lock (north/offset?) - for caps-lock state
     - Extra LED under bottom row last three (north/offset?) - for layer state indicator
-- Under-glow RGB - but as optional *(solder off 0ohm trace switch)*
+- <s>Under-glow RGB - but as optional *(solder off 0ohm trace switch)*</s>
 - Spare GPIO slots for expansion *(e.g. RGB 1-wire extension, etc.)*
-- Two reset buttons
+- Both [Reset] and [Boot] buttons
     - Under space-bar = reset without disassembly
-    - Bottom of PCB as per normal in case plate covers the space-bar one
-- Layer selector toggle switch in the slot where the AP2 has its wifi-switch - so can be used as a Keychron-esque DIP switch
-- Un-obstructive (tiny) status LED(s) under space-bar (next to reset) and near UPB port
-- Additional EEPROM chip for larger VIA layer support ***(M.2 module already has this)***
+- Un-obstructive (tiny) status LED(s) under space-bar (next to reset) and near USB port
+- Additional EEPROM chip for larger VIA layer support **[VR60-MicroMod module already has this]**
 - Footprint for optional speaker (AST1109MLTRQ)
-- Optional JST header for connection with daughterboard
+- Optional JST header for connection with USB/Power daughterboard *(e.g. C3 Unified)*
+- Optional JST header for CapsLock LED **[VR60-RGB Only]**
 
 ### Edge experiments
 
+> May not do - we'll see...
+
+- Layer selector toggle switch in the slot where the AP2 has its wifi-switch - so can be used as a Keychron-esque DIP switch
 - Embedded ESP8266 or EP32 chip for over-wifi key-mapping *(is this viable?)*
-- Support for Logitec Unifying Reciever *(how???)*
+- Support for Logitec Unifying Reciever or other 2.4GHz module *(how???)*
 
 ## Possible design aids
 
