@@ -1,10 +1,12 @@
-# VR60 *"Goldilocks"* PCB
+# VR61 *"Goldilocks"* PCB
 
 > &#x26A0; BUCKET LIST PROJECT - not currently under development &#x26A0;
 
 > My first foray into building a full keyboard PCB.  This is very, very early WIP.
 
-> But for now... here is my wish list / intent list as a "feature" list :)
+> *But for now... here is my wish list / intent list as a "feature" list* :)
+
+![](kle/vr61-micromod-poker.png)
 
 ## Features
 
