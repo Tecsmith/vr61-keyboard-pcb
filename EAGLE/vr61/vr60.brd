@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="10" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -377,13 +377,228 @@ x136.2 y57.9 d2.5</text>
 </package>
 </packages>
 </library>
+<library name="SparkFun-MicroMod">
+<packages>
+<package name="M.2-CONNECTOR-E">
+<hole x="10" y="0" drill="1.1"/>
+<hole x="-10" y="0" drill="1.6"/>
+<smd name="1" x="9.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="A1" x="10.35" y="-4.5" dx="1.2" dy="2.75" layer="1" rot="R180"/>
+<smd name="A2" x="-10.35" y="-4.5" dx="1.2" dy="2.75" layer="1" rot="R180"/>
+<smd name="2" x="9" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="3" x="8.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="4" x="8.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="8.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="8" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="7" x="7.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="8" x="7.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="9" x="7.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="10" x="7" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="11" x="6.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="12" x="6.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="13" x="6.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="14" x="6" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="15" x="5.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="16" x="5.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="17" x="5.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="18" x="5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="19" x="4.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="20" x="4.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="21" x="4.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="22" x="4" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="23" x="3.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="32" x="1.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="33" x="1.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="34" x="1" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="35" x="0.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="36" x="0.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="37" x="0.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="38" x="0" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="39" x="-0.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="40" x="-0.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="41" x="-0.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="42" x="-1" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="43" x="-1.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="44" x="-1.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="45" x="-1.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="46" x="-2" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="47" x="-2.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="48" x="-2.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="49" x="-2.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="50" x="-3" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="51" x="-3.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="52" x="-3.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="53" x="-3.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="54" x="-4" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="55" x="-4.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="56" x="-4.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="57" x="-4.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="58" x="-5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="59" x="-5.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="60" x="-5.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="61" x="-5.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="62" x="-6" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="63" x="-6.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="64" x="-6.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="65" x="-6.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="66" x="-7" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="67" x="-7.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="68" x="-7.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="69" x="-7.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="70" x="-8" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="71" x="-8.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="72" x="-8.5" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="73" x="-8.75" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="74" x="-9" y="2.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<smd name="75" x="-9.25" y="-5.275" dx="0.3" dy="1.55" layer="1" rot="R180" cream="no"/>
+<wire x1="10.95" y1="2.5" x2="-10.95" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="-10.95" y1="2.5" x2="-10.95" y2="-5.25" width="0.1524" layer="51"/>
+<wire x1="-10.95" y1="-5.25" x2="10.95" y2="-5.25" width="0.1524" layer="51"/>
+<wire x1="10.95" y1="-5.25" x2="10.95" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="11" y1="-2.5" x2="11" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="11" y1="2.5" x2="9.5" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-9.5" y1="2.5" x2="-11" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-11" y1="-2.5" x2="-11" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="9.925" y1="-1" x2="3.225" y2="-1" width="0.0508" layer="51"/>
+<wire x1="2.025" y1="-1" x2="-9.925" y2="-1" width="0.0508" layer="51"/>
+<wire x1="-9.925" y1="-1" x2="-9.925" y2="2.5" width="0.0508" layer="51"/>
+<wire x1="9.925" y1="2.5" x2="9.925" y2="-1" width="0.0508" layer="51"/>
+<wire x1="10.4" y1="3" x2="9.925" y2="2.5" width="0.0508" layer="51" curve="84.949116"/>
+<wire x1="-10.4" y1="3" x2="-9.925" y2="2.5" width="0.0508" layer="51" curve="-83.820277"/>
+<wire x1="10" y1="20" x2="-10" y2="20" width="0.0508" layer="51"/>
+<wire x1="-11" y1="19" x2="-11" y2="3.6" width="0.0508" layer="51"/>
+<wire x1="3.225" y1="1.9" x2="3.225" y2="-1" width="0.0508" layer="51"/>
+<wire x1="2.025" y1="1.9" x2="2.025" y2="-1" width="0.0508" layer="51"/>
+<wire x1="3.225" y1="1.9" x2="2.025" y2="1.9" width="0.0508" layer="51" curve="180"/>
+<wire x1="11" y1="19" x2="11" y2="3.6" width="0.05" layer="51"/>
+<wire x1="10.4" y1="3" x2="11" y2="3.6" width="0.05" layer="51" curve="86.784874"/>
+<wire x1="-11" y1="3.6" x2="-10.4" y2="3" width="0.05" layer="51" curve="86.784874"/>
+<wire x1="10" y1="20" x2="11" y2="19" width="0.05" layer="51" curve="-87.205638"/>
+<wire x1="-11" y1="19" x2="-10" y2="20" width="0.05" layer="51" curve="-87.205638"/>
+<rectangle x1="-9.15" y1="1.4" x2="-8.85" y2="3.15" layer="31"/>
+<circle x="4" y="20" radius="3" width="0.05" layer="51"/>
+<text x="0" y="0.635" size="0.762" layer="25" align="center">&gt;Name</text>
+<text x="0" y="-0.635" size="0.762" layer="27" align="center">&gt;Value</text>
+<rectangle x1="-8.15" y1="1.4" x2="-7.85" y2="3.15" layer="31"/>
+<rectangle x1="-7.65" y1="1.4" x2="-7.35" y2="3.15" layer="31"/>
+<rectangle x1="-8.65" y1="1.4" x2="-8.35" y2="3.15" layer="31"/>
+<rectangle x1="-7.15" y1="1.4" x2="-6.85" y2="3.15" layer="31"/>
+<rectangle x1="-6.15" y1="1.4" x2="-5.85" y2="3.15" layer="31"/>
+<rectangle x1="-5.65" y1="1.4" x2="-5.35" y2="3.15" layer="31"/>
+<rectangle x1="-6.65" y1="1.4" x2="-6.35" y2="3.15" layer="31"/>
+<rectangle x1="-5.15" y1="1.4" x2="-4.85" y2="3.15" layer="31"/>
+<rectangle x1="-4.15" y1="1.4" x2="-3.85" y2="3.15" layer="31"/>
+<rectangle x1="-3.65" y1="1.4" x2="-3.35" y2="3.15" layer="31"/>
+<rectangle x1="-4.65" y1="1.4" x2="-4.35" y2="3.15" layer="31"/>
+<rectangle x1="-3.15" y1="1.4" x2="-2.85" y2="3.15" layer="31"/>
+<rectangle x1="-2.15" y1="1.4" x2="-1.85" y2="3.15" layer="31"/>
+<rectangle x1="-1.65" y1="1.4" x2="-1.35" y2="3.15" layer="31"/>
+<rectangle x1="-2.65" y1="1.4" x2="-2.35" y2="3.15" layer="31"/>
+<rectangle x1="-1.15" y1="1.4" x2="-0.85" y2="3.15" layer="31"/>
+<rectangle x1="-0.15" y1="1.4" x2="0.15" y2="3.15" layer="31"/>
+<rectangle x1="0.35" y1="1.4" x2="0.65" y2="3.15" layer="31"/>
+<rectangle x1="-0.65" y1="1.4" x2="-0.35" y2="3.15" layer="31"/>
+<rectangle x1="0.85" y1="1.4" x2="1.15" y2="3.15" layer="31"/>
+<rectangle x1="1.35" y1="1.4" x2="1.65" y2="3.15" layer="31"/>
+<rectangle x1="3.85" y1="1.4" x2="4.15" y2="3.15" layer="31"/>
+<rectangle x1="4.35" y1="1.4" x2="4.65" y2="3.15" layer="31"/>
+<rectangle x1="4.85" y1="1.4" x2="5.15" y2="3.15" layer="31"/>
+<rectangle x1="5.85" y1="1.4" x2="6.15" y2="3.15" layer="31"/>
+<rectangle x1="6.35" y1="1.4" x2="6.65" y2="3.15" layer="31"/>
+<rectangle x1="5.35" y1="1.4" x2="5.65" y2="3.15" layer="31"/>
+<rectangle x1="6.85" y1="1.4" x2="7.15" y2="3.15" layer="31"/>
+<rectangle x1="7.85" y1="1.4" x2="8.15" y2="3.15" layer="31"/>
+<rectangle x1="8.35" y1="1.4" x2="8.65" y2="3.15" layer="31"/>
+<rectangle x1="7.35" y1="1.4" x2="7.65" y2="3.15" layer="31"/>
+<rectangle x1="8.85" y1="1.4" x2="9.15" y2="3.15" layer="31"/>
+<rectangle x1="-9.4" y1="-6.15" x2="-9.1" y2="-4.4" layer="31"/>
+<rectangle x1="-8.4" y1="-6.15" x2="-8.1" y2="-4.4" layer="31"/>
+<rectangle x1="-7.9" y1="-6.15" x2="-7.6" y2="-4.4" layer="31"/>
+<rectangle x1="-8.9" y1="-6.15" x2="-8.6" y2="-4.4" layer="31"/>
+<rectangle x1="-7.4" y1="-6.15" x2="-7.1" y2="-4.4" layer="31"/>
+<rectangle x1="-6.4" y1="-6.15" x2="-6.1" y2="-4.4" layer="31"/>
+<rectangle x1="-5.9" y1="-6.15" x2="-5.6" y2="-4.4" layer="31"/>
+<rectangle x1="-6.9" y1="-6.15" x2="-6.6" y2="-4.4" layer="31"/>
+<rectangle x1="-5.4" y1="-6.15" x2="-5.1" y2="-4.4" layer="31"/>
+<rectangle x1="-4.4" y1="-6.15" x2="-4.1" y2="-4.4" layer="31"/>
+<rectangle x1="-3.9" y1="-6.15" x2="-3.6" y2="-4.4" layer="31"/>
+<rectangle x1="-4.9" y1="-6.15" x2="-4.6" y2="-4.4" layer="31"/>
+<rectangle x1="-3.4" y1="-6.15" x2="-3.1" y2="-4.4" layer="31"/>
+<rectangle x1="-2.4" y1="-6.15" x2="-2.1" y2="-4.4" layer="31"/>
+<rectangle x1="-1.9" y1="-6.15" x2="-1.6" y2="-4.4" layer="31"/>
+<rectangle x1="-2.9" y1="-6.15" x2="-2.6" y2="-4.4" layer="31"/>
+<rectangle x1="-1.4" y1="-6.15" x2="-1.1" y2="-4.4" layer="31"/>
+<rectangle x1="-0.4" y1="-6.15" x2="-0.1" y2="-4.4" layer="31"/>
+<rectangle x1="0.1" y1="-6.15" x2="0.4" y2="-4.4" layer="31"/>
+<rectangle x1="-0.9" y1="-6.15" x2="-0.6" y2="-4.4" layer="31"/>
+<rectangle x1="0.6" y1="-6.15" x2="0.9" y2="-4.4" layer="31"/>
+<rectangle x1="1.1" y1="-6.15" x2="1.4" y2="-4.4" layer="31"/>
+<rectangle x1="3.6" y1="-6.15" x2="3.9" y2="-4.4" layer="31"/>
+<rectangle x1="4.1" y1="-6.15" x2="4.4" y2="-4.4" layer="31"/>
+<rectangle x1="4.6" y1="-6.15" x2="4.9" y2="-4.4" layer="31"/>
+<rectangle x1="5.6" y1="-6.15" x2="5.9" y2="-4.4" layer="31"/>
+<rectangle x1="6.1" y1="-6.15" x2="6.4" y2="-4.4" layer="31"/>
+<rectangle x1="5.1" y1="-6.15" x2="5.4" y2="-4.4" layer="31"/>
+<rectangle x1="6.6" y1="-6.15" x2="6.9" y2="-4.4" layer="31"/>
+<rectangle x1="7.6" y1="-6.15" x2="7.9" y2="-4.4" layer="31"/>
+<rectangle x1="8.1" y1="-6.15" x2="8.4" y2="-4.4" layer="31"/>
+<rectangle x1="7.1" y1="-6.15" x2="7.4" y2="-4.4" layer="31"/>
+<rectangle x1="8.6" y1="-6.15" x2="8.9" y2="-4.4" layer="31"/>
+<rectangle x1="9.1" y1="-6.15" x2="9.4" y2="-4.4" layer="31"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Hardware">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="STAND-OFF-REFLOW-M2.5">
+<pad name="1" x="0" y="0" drill="3.8" diameter="6"/>
+<polygon width="0.1" layer="31">
+<vertex x="0.4" y="1.9" curve="-74.087907"/>
+<vertex x="1.9" y="0.4"/>
+<vertex x="3" y="0.4" curve="76.512269"/>
+<vertex x="0.4" y="3"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-1.9" y="0.4" curve="-74.087907"/>
+<vertex x="-0.4" y="1.9"/>
+<vertex x="-0.4" y="3" curve="76.512269"/>
+<vertex x="-3" y="0.4"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="-0.4" y="-1.9" curve="-74.087907"/>
+<vertex x="-1.9" y="-0.4"/>
+<vertex x="-3" y="-0.4" curve="76.512269"/>
+<vertex x="-0.4" y="-3"/>
+</polygon>
+<polygon width="0.1" layer="31">
+<vertex x="1.9" y="-0.4" curve="-74.087907"/>
+<vertex x="0.4" y="-1.9"/>
+<vertex x="0.4" y="-3" curve="76.512269"/>
+<vertex x="3" y="-0.4"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.000153125" drill="0.00030625">
 </class>
 </classes>
 <designrules name="default">
@@ -570,61 +785,61 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="S1" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="9.5" y="85.5" smashed="yes" rot="R180">
+<element name="S_ESC" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="9.5" y="85.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="NAME" x="9.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 </element>
-<element name="S2" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="28.5" y="85.5" smashed="yes" rot="R180">
+<element name="S_1" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="28.5" y="85.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 <attribute name="NAME" x="28.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
 </element>
-<element name="S3" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="47.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="47.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_2" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="47.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="47.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="47.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S4" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="66.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="66.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="66.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_3" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="66.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="66.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="66.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S5" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="85.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="85.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_4" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="85.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="85.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="85.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S6" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="104.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="104.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="104.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_5" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="104.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="104.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="104.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S7" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="123.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="123.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="123.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_6" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="123.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="123.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="123.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S8" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="142.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="142.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="142.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_7" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="142.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="142.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="142.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S9" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="161.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="161.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="161.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_8" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="161.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="161.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="161.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S10" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="180.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="180.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="180.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_9" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="180.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="180.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="180.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S11" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="199.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="199.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="199.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_0" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="199.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="199.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="199.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S12" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="218.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="218.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="218.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_MIN" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="218.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="218.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="218.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S13" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="237.5" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="237.5" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="237.5" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S-EQL" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="237.5" y="85.5" smashed="yes">
+<attribute name="NAME" x="237.5" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="237.5" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S14" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="266" y="85.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="266" y="78" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="266" y="92.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_BSP" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="266" y="85.5" smashed="yes">
+<attribute name="NAME" x="266" y="93" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="266" y="78.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
 <element name="D1" library="jlcpcb_basic_parts" package="SOD-123" value="" x="16.625" y="90" smashed="yes" rot="MR270">
 <attribute name="NAME" x="15.45" y="91.654" size="1" layer="26" rot="MR270"/>
@@ -668,64 +883,64 @@ design rules under a new name.</description>
 <element name="D14" library="jlcpcb_basic_parts" package="SOD-123" value="" x="273.125" y="90" smashed="yes" rot="MR270">
 <attribute name="NAME" x="271.95" y="91.654" size="1" layer="26" rot="MR270"/>
 </element>
-<element name="S15" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="14.25" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.25" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="14.25" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_TAB" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="14.25" y="66.5" smashed="yes">
+<attribute name="NAME" x="14.25" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="14.25" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S16" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="38" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="38" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="38" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_Q" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="38" y="66.5" smashed="yes">
+<attribute name="NAME" x="38" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="38" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S17" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="57" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="57" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="57" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_W" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="57" y="66.5" smashed="yes">
+<attribute name="NAME" x="57" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="57" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S18" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="76" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="76" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="76" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_E" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="76" y="66.5" smashed="yes">
+<attribute name="NAME" x="76" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="76" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S19" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="95" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="95" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="95" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_R" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="95" y="66.5" smashed="yes">
+<attribute name="NAME" x="95" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="95" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S20" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="114" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="114" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="114" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_T" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="114" y="66.5" smashed="yes">
+<attribute name="NAME" x="114" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="114" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S21" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="133" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="133" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="133" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_Y" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="133" y="66.5" smashed="yes">
+<attribute name="NAME" x="133" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="133" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S22" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="152" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="152" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="152" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_U" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="152" y="66.5" smashed="yes">
+<attribute name="NAME" x="152" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="152" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S23" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="171" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="171" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="171" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_I" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="171" y="66.5" smashed="yes">
+<attribute name="NAME" x="171" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="171" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S24" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="190" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="190" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="190" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_O" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="190" y="66.5" smashed="yes">
+<attribute name="NAME" x="190" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="190" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S25" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="209" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="209" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="209" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_P" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="209" y="66.5" smashed="yes">
+<attribute name="NAME" x="209" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="209" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S26" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="228" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="228" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="228" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_OB" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="228" y="66.5" smashed="yes">
+<attribute name="NAME" x="228" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="228" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S27" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="247" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="247" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="247" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_CB" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="247" y="66.5" smashed="yes">
+<attribute name="NAME" x="247" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="247" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S28" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="270.75" y="66.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="270.75" y="59" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="270.75" y="73.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_BSL" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="270.75" y="66.5" smashed="yes">
+<attribute name="NAME" x="270.75" y="74" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="270.75" y="59.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="D15" library="jlcpcb_basic_parts" package="SOD-123" value="" x="21.375" y="71" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.2" y="72.654" size="1" layer="26" rot="MR270"/>
+<element name="D15" library="jlcpcb_basic_parts" package="SOD-123" value="" x="4.375" y="70" smashed="yes" rot="MR270">
+<attribute name="NAME" x="3.2" y="71.654" size="1" layer="26" rot="MR270"/>
 </element>
 <element name="D16" library="jlcpcb_basic_parts" package="SOD-123" value="" x="45.125" y="71" smashed="yes" rot="MR270">
 <attribute name="NAME" x="43.95" y="72.654" size="1" layer="26" rot="MR270"/>
@@ -766,60 +981,60 @@ design rules under a new name.</description>
 <element name="D28" library="jlcpcb_basic_parts" package="SOD-123" value="" x="277.875" y="71" smashed="yes" rot="MR270">
 <attribute name="NAME" x="276.7" y="72.654" size="1" layer="26" rot="MR270"/>
 </element>
-<element name="S29" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="16.625" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.625" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="16.625" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_CPS" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="16.625" y="47.5" smashed="yes">
+<attribute name="NAME" x="16.625" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="16.625" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S30" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="42.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="42.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="42.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_A" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="42.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="42.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="42.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S31" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="61.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="61.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_S" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="61.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="61.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="61.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S32" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="80.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="80.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="80.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_D" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="80.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="80.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="80.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S33" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="99.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="99.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_F" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="99.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="99.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="99.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S34" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="118.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="118.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="118.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_G" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="118.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="118.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="118.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S35" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="137.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="137.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="137.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_H" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="137.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="137.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="137.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S36" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="156.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="156.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="156.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_J" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="156.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="156.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="156.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S37" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="175.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="175.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="175.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_K" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="175.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="175.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="175.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S38" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="194.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="194.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="194.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_L" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="194.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="194.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="194.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S39" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="213.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="213.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="213.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_SCL" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="213.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="213.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="213.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S40" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="232.75" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="232.75" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="232.75" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_QUO" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="232.75" y="47.5" smashed="yes">
+<attribute name="NAME" x="232.75" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="232.75" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S41" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="263.625" y="47.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="263.625" y="40" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="263.625" y="54.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_ENT" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="263.625" y="47.5" smashed="yes">
+<attribute name="NAME" x="263.625" y="55" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="263.625" y="40.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="D29" library="jlcpcb_basic_parts" package="SOD-123" value="" x="23.75" y="52" smashed="yes" rot="MR270">
-<attribute name="NAME" x="22.575" y="53.654" size="1" layer="26" rot="MR270"/>
+<element name="D29" library="jlcpcb_basic_parts" package="SOD-123" value="" x="4.75" y="51" smashed="yes" rot="MR270">
+<attribute name="NAME" x="3.575" y="52.654" size="1" layer="26" rot="MR270"/>
 </element>
 <element name="D30" library="jlcpcb_basic_parts" package="SOD-123" value="" x="49.875" y="52" smashed="yes" rot="MR270">
 <attribute name="NAME" x="48.7" y="53.654" size="1" layer="26" rot="MR270"/>
@@ -857,53 +1072,53 @@ design rules under a new name.</description>
 <element name="D41" library="jlcpcb_basic_parts" package="SOD-123" value="" x="270.75" y="52" smashed="yes" rot="MR270">
 <attribute name="NAME" x="269.575" y="53.654" size="1" layer="26" rot="MR270"/>
 </element>
-<element name="S42" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="21.375" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.375" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="21.375" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_LSH" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="21.375" y="28.5" smashed="yes">
+<attribute name="NAME" x="21.375" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="21.375" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S43" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="52.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="52.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_Z" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="52.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="52.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="52.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S44" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="71.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="71.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="71.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_X" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="71.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="71.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="71.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S45" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="90.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="90.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="90.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_C" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="90.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="90.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="90.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S46" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="109.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="109.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="109.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_V" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="109.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="109.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="109.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S47" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="128.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="128.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="128.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_B" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="128.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="128.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="128.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S48" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="147.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="147.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="147.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_N" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="147.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="147.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="147.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S49" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="166.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="166.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="166.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_M" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="166.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="166.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="166.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S50" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="185.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="185.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="185.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_COM" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="185.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="185.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="185.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S51" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="204.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="204.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="204.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_DOT" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="204.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="204.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="204.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S52" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="223.25" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="223.25" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="223.25" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_FSL" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="223.25" y="28.5" smashed="yes">
+<attribute name="NAME" x="223.25" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="223.25" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S53" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="258.875" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="258.875" y="21" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="258.875" y="35.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_RSH" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="258.875" y="28.5" smashed="yes">
+<attribute name="NAME" x="258.875" y="36" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="258.875" y="21.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
 <element name="D42" library="jlcpcb_basic_parts" package="SOD-123" value="" x="28.5" y="33" smashed="yes" rot="MR270">
 <attribute name="NAME" x="27.325" y="34.654" size="1" layer="26" rot="MR270"/>
@@ -941,37 +1156,37 @@ design rules under a new name.</description>
 <element name="D53" library="jlcpcb_basic_parts" package="SOD-123" value="" x="266" y="33" smashed="yes" rot="MR270">
 <attribute name="NAME" x="264.825" y="34.654" size="1" layer="26" rot="MR270"/>
 </element>
-<element name="S54" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="11.875" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.875" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="11.875" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_LCT" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="11.875" y="9.5" smashed="yes">
+<attribute name="NAME" x="11.875" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="11.875" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S55" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="35.625" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.625" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="35.625" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_LGU" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="35.625" y="9.5" smashed="yes">
+<attribute name="NAME" x="35.625" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="35.625" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S56" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="59.375" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="59.375" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="59.375" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_LAL" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="59.375" y="9.5" smashed="yes">
+<attribute name="NAME" x="59.375" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="59.375" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S57" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="130.625" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.625" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="130.625" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_SPC" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="130.625" y="9.5" smashed="yes">
+<attribute name="NAME" x="130.625" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="130.625" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S58" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="201.875" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="201.875" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="201.875" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_FN1" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="201.875" y="9.5" smashed="yes">
+<attribute name="NAME" x="201.875" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="201.875" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S59" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="225.625" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="225.625" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="225.625" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_RAL" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="225.625" y="9.5" smashed="yes">
+<attribute name="NAME" x="225.625" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="225.625" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S60" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="249.375" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="249.375" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="249.375" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_RGU" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="249.375" y="9.5" smashed="yes">
+<attribute name="NAME" x="249.375" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="249.375" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="S61" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="273.125" y="9.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="273.125" y="2" size="1.27" layer="25" rot="R180" align="bottom-center"/>
-<attribute name="NAME" x="273.125" y="16.5" size="1.27" layer="26" rot="MR180" align="bottom-center"/>
+<element name="S_RCT" library="ts_keyboards" package="MX-5-PIN-HOTSWAP" value="MX-5-PIN-HOTSWAP" x="273.125" y="9.5" smashed="yes">
+<attribute name="NAME" x="273.125" y="17" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="273.125" y="2.5" size="1.27" layer="26" rot="MR0" align="bottom-center"/>
 </element>
 <element name="D54" library="jlcpcb_basic_parts" package="SOD-123" value="" x="19" y="14" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.825" y="15.654" size="1" layer="26" rot="MR270"/>
@@ -997,8 +1212,8 @@ design rules under a new name.</description>
 <element name="D61" library="jlcpcb_basic_parts" package="SOD-123" value="" x="280.25" y="14" smashed="yes" rot="MR270">
 <attribute name="NAME" x="279.075" y="15.654" size="1" layer="26" rot="MR270"/>
 </element>
-<element name="Z1" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="9.5" y="85.5" smashed="yes"/>
-<element name="Z2" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="28.5" y="85.5" smashed="yes"/>
+<element name="Z1" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="9.5" y="85.5" smashed="yes" rot="R90"/>
+<element name="Z2" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="28.5" y="85.5" smashed="yes" rot="R90"/>
 <element name="Z3" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="47.5" y="85.5" smashed="yes"/>
 <element name="Z4" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="66.5" y="85.5" smashed="yes"/>
 <element name="Z5" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="85.5" y="85.5" smashed="yes"/>
@@ -1007,14 +1222,14 @@ design rules under a new name.</description>
 <element name="Z8" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="142.5" y="85.5" smashed="yes"/>
 <element name="Z9" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="161.5" y="85.5" smashed="yes"/>
 <element name="Z10" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="180.5" y="85.5" smashed="yes"/>
-<element name="Z11" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="199.5" y="85.5" smashed="yes"/>
+<element name="Z11" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="199.5" y="85.5" smashed="yes" rot="R270"/>
 <element name="Z12" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="218.5" y="85.5" smashed="yes"/>
 <element name="Z13" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="237.5" y="85.5" smashed="yes"/>
 <element name="Z14" library="ts_keyboards" package="MX-FPRINT-1900-200U" value="MX-FPRINT-200U19" x="266" y="85.5" smashed="yes"/>
 <element name="Z15" library="ts_keyboards" package="MX-FPRINT-1900-150U" value="MX-FPRINT-150U19" x="14.25" y="66.5" smashed="yes"/>
 <element name="Z16" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="38" y="66.5" smashed="yes"/>
 <element name="Z17" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="57" y="66.5" smashed="yes"/>
-<element name="Z18" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="76" y="66.5" smashed="yes"/>
+<element name="Z18" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="76" y="66.5" smashed="yes" rot="R90"/>
 <element name="Z19" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="95" y="66.5" smashed="yes"/>
 <element name="Z20" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="114" y="66.5" smashed="yes"/>
 <element name="Z21" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="133" y="66.5" smashed="yes"/>
@@ -1039,7 +1254,7 @@ design rules under a new name.</description>
 <element name="Z40" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="232.75" y="47.5" smashed="yes"/>
 <element name="Z41" library="ts_keyboards" package="MX-FPRINT-1900-225U" value="MX-FPRINT-225U19" x="263.625" y="47.5" smashed="yes"/>
 <element name="Z42" library="ts_keyboards" package="MX-FPRINT-1900-225U" value="MX-FPRINT-225U19" x="21.375" y="28.5" smashed="yes"/>
-<element name="Z43" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="52.25" y="28.5" smashed="yes"/>
+<element name="Z43" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="52.25" y="28.5" smashed="yes" rot="R90"/>
 <element name="Z44" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="71.25" y="28.5" smashed="yes"/>
 <element name="Z45" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="90.25" y="28.5" smashed="yes"/>
 <element name="Z46" library="ts_keyboards" package="MX-FPRINT-1900-100U" value="MX-FPRINT-100U19" x="109.25" y="28.5" smashed="yes"/>
@@ -1063,439 +1278,398 @@ design rules under a new name.</description>
 <element name="B42" library="ts_keyboards" package="MX-STABS-200U" value="MX-STABS-200U" x="21.375" y="28.5" smashed="yes" rot="R180"/>
 <element name="B53" library="ts_keyboards" package="MX-STABS-200U" value="MX-STABS-200U" x="258.875" y="28.5" smashed="yes" rot="R180"/>
 <element name="B57" library="ts_keyboards" package="MX-STABS-625U" value="MX-STABS-625U" x="130.625" y="9.5" smashed="yes"/>
+<element name="J6" library="SparkFun-MicroMod" package="M.2-CONNECTOR-E" value="MICROMOD-2222-C" x="78.7" y="61" smashed="yes" rot="MR0">
+<attribute name="NAME" x="78.7" y="61.635" size="0.762" layer="26" rot="MR0" align="center"/>
+<attribute name="PROD_ID" value="CONN-14877" x="101.7" y="92" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="78.7" y="60.365" size="0.762" layer="28" rot="MR0" align="center"/>
+</element>
+<element name="H5" library="SparkFun-Hardware" package="STAND-OFF-REFLOW-M2.5" value="STAND-OFF-REFLOW2.5MM_TALL" x="74.7" y="81" smashed="yes">
+<attribute name="PROD_ID" value="HW-14899" x="74.7" y="81" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
-<contactref element="S1" pad="P$1"/>
+<contactref element="S_ESC" pad="P$1"/>
 <contactref element="D1" pad="A"/>
 <wire x1="16.585" y1="82.96" x2="16.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$2">
-<contactref element="S2" pad="P$1"/>
+<contactref element="S_1" pad="P$1"/>
 <contactref element="D2" pad="A"/>
 <wire x1="35.585" y1="82.96" x2="35.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
-<contactref element="S3" pad="P$1"/>
+<contactref element="S_2" pad="P$1"/>
 <contactref element="D3" pad="A"/>
-<wire x1="54.585" y1="82.96" x2="54.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="40.415" y1="88.04" x2="54.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
-<contactref element="S4" pad="P$1"/>
+<contactref element="S_3" pad="P$1"/>
 <contactref element="D4" pad="A"/>
-<wire x1="73.585" y1="82.96" x2="73.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="59.415" y1="88.04" x2="73.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$5">
-<contactref element="S5" pad="P$1"/>
+<contactref element="S_4" pad="P$1"/>
 <contactref element="D5" pad="A"/>
-<wire x1="92.585" y1="82.96" x2="92.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="78.415" y1="88.04" x2="92.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
-<contactref element="S6" pad="P$1"/>
+<contactref element="S_5" pad="P$1"/>
 <contactref element="D6" pad="A"/>
-<wire x1="111.585" y1="82.96" x2="111.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="97.415" y1="88.04" x2="111.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$7">
-<contactref element="S7" pad="P$1"/>
+<contactref element="S_6" pad="P$1"/>
 <contactref element="D7" pad="A"/>
-<wire x1="130.585" y1="82.96" x2="130.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="116.415" y1="88.04" x2="130.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$8">
-<contactref element="S8" pad="P$1"/>
+<contactref element="S_7" pad="P$1"/>
 <contactref element="D8" pad="A"/>
-<wire x1="149.585" y1="82.96" x2="149.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="135.415" y1="88.04" x2="149.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$9">
-<contactref element="S9" pad="P$1"/>
+<contactref element="S_8" pad="P$1"/>
 <contactref element="D9" pad="A"/>
-<wire x1="168.625" y1="88.3617" x2="168.585" y2="82.96" width="0" layer="19" extent="16-16"/>
+<wire x1="168.625" y1="88.3617" x2="154.415" y2="88.04" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$10">
-<contactref element="S10" pad="P$1"/>
+<contactref element="S_9" pad="P$1"/>
 <contactref element="D10" pad="A"/>
-<wire x1="187.585" y1="82.96" x2="187.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="173.415" y1="88.04" x2="187.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$11">
-<contactref element="S11" pad="P$1"/>
+<contactref element="S_0" pad="P$1"/>
 <contactref element="D11" pad="A"/>
-<wire x1="206.585" y1="82.96" x2="206.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="192.415" y1="88.04" x2="206.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
-<contactref element="S12" pad="P$1"/>
+<contactref element="S_MIN" pad="P$1"/>
 <contactref element="D12" pad="A"/>
-<wire x1="225.585" y1="82.96" x2="225.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="211.415" y1="88.04" x2="225.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$13">
-<contactref element="S13" pad="P$1"/>
+<contactref element="S-EQL" pad="P$1"/>
 <contactref element="D13" pad="A"/>
-<wire x1="244.585" y1="82.96" x2="244.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="230.415" y1="88.04" x2="244.625" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$14">
-<contactref element="S14" pad="P$1"/>
+<contactref element="S_BSP" pad="P$1"/>
 <contactref element="D14" pad="A"/>
-<wire x1="273.085" y1="82.96" x2="273.125" y2="88.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="258.915" y1="88.04" x2="273.125" y2="88.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$15">
-<contactref element="S15" pad="P$1"/>
+<contactref element="S_TAB" pad="P$1"/>
 <contactref element="D15" pad="A"/>
-<wire x1="21.335" y1="63.96" x2="21.375" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="4.375" y1="68.3617" x2="7.165" y2="69.04" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$16">
-<contactref element="S16" pad="P$1"/>
+<contactref element="S_Q" pad="P$1"/>
 <contactref element="D16" pad="A"/>
-<wire x1="45.085" y1="63.96" x2="45.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="30.915" y1="69.04" x2="45.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$17">
-<contactref element="S17" pad="P$1"/>
+<contactref element="S_W" pad="P$1"/>
 <contactref element="D17" pad="A"/>
-<wire x1="64.085" y1="63.96" x2="64.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="49.915" y1="69.04" x2="64.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$18">
-<contactref element="S18" pad="P$1"/>
+<contactref element="S_E" pad="P$1"/>
 <contactref element="D18" pad="A"/>
-<wire x1="83.085" y1="63.96" x2="83.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="68.915" y1="69.04" x2="83.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$19">
-<contactref element="S19" pad="P$1"/>
+<contactref element="S_R" pad="P$1"/>
 <contactref element="D19" pad="A"/>
-<wire x1="102.085" y1="63.96" x2="102.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="87.915" y1="69.04" x2="102.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$20">
-<contactref element="S20" pad="P$1"/>
+<contactref element="S_T" pad="P$1"/>
 <contactref element="D20" pad="A"/>
-<wire x1="121.085" y1="63.96" x2="121.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="106.915" y1="69.04" x2="121.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$21">
-<contactref element="S21" pad="P$1"/>
+<contactref element="S_Y" pad="P$1"/>
 <contactref element="D21" pad="A"/>
-<wire x1="140.085" y1="63.96" x2="140.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="125.915" y1="69.04" x2="140.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$22">
-<contactref element="S22" pad="P$1"/>
+<contactref element="S_U" pad="P$1"/>
 <contactref element="D22" pad="A"/>
-<wire x1="159.085" y1="63.96" x2="159.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="144.915" y1="69.04" x2="159.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$23">
-<contactref element="S23" pad="P$1"/>
+<contactref element="S_I" pad="P$1"/>
 <contactref element="D23" pad="A"/>
-<wire x1="178.085" y1="63.96" x2="178.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="163.915" y1="69.04" x2="178.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$24">
-<contactref element="S24" pad="P$1"/>
+<contactref element="S_O" pad="P$1"/>
 <contactref element="D24" pad="A"/>
-<wire x1="197.085" y1="63.96" x2="197.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="197.125" y1="69.3617" x2="182.915" y2="69.04" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$25">
-<contactref element="S25" pad="P$1"/>
+<contactref element="S_P" pad="P$1"/>
 <contactref element="D25" pad="A"/>
-<wire x1="216.085" y1="63.96" x2="216.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="201.915" y1="69.04" x2="216.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$26">
-<contactref element="S26" pad="P$1"/>
+<contactref element="S_OB" pad="P$1"/>
 <contactref element="D26" pad="A"/>
-<wire x1="235.085" y1="63.96" x2="235.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="220.915" y1="69.04" x2="235.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$27">
-<contactref element="S27" pad="P$1"/>
+<contactref element="S_CB" pad="P$1"/>
 <contactref element="D27" pad="A"/>
-<wire x1="254.085" y1="63.96" x2="254.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="239.915" y1="69.04" x2="254.125" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$28">
-<contactref element="S28" pad="P$1"/>
+<contactref element="S_BSL" pad="P$1"/>
 <contactref element="D28" pad="A"/>
-<wire x1="277.835" y1="63.96" x2="277.875" y2="69.3617" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$29">
-<contactref element="S29" pad="P$1"/>
-<contactref element="D29" pad="A"/>
-<wire x1="23.71" y1="44.96" x2="23.75" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="263.665" y1="69.04" x2="277.875" y2="69.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$30">
-<contactref element="S30" pad="P$1"/>
+<contactref element="S_A" pad="P$1"/>
 <contactref element="D30" pad="A"/>
-<wire x1="49.835" y1="44.96" x2="49.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="35.665" y1="50.04" x2="49.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$31">
-<contactref element="S31" pad="P$1"/>
+<contactref element="S_S" pad="P$1"/>
 <contactref element="D31" pad="A"/>
-<wire x1="68.835" y1="44.96" x2="68.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="54.665" y1="50.04" x2="68.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$32">
-<contactref element="S32" pad="P$1"/>
+<contactref element="S_D" pad="P$1"/>
 <contactref element="D32" pad="A"/>
-<wire x1="87.835" y1="44.96" x2="87.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="73.665" y1="50.04" x2="87.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$33">
-<contactref element="S33" pad="P$1"/>
+<contactref element="S_F" pad="P$1"/>
 <contactref element="D33" pad="A"/>
-<wire x1="106.835" y1="44.96" x2="106.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="92.665" y1="50.04" x2="106.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$34">
-<contactref element="S34" pad="P$1"/>
+<contactref element="S_G" pad="P$1"/>
 <contactref element="D34" pad="A"/>
-<wire x1="125.835" y1="44.96" x2="125.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="111.665" y1="50.04" x2="125.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$35">
-<contactref element="S35" pad="P$1"/>
+<contactref element="S_H" pad="P$1"/>
 <contactref element="D35" pad="A"/>
-<wire x1="144.835" y1="44.96" x2="144.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="130.665" y1="50.04" x2="144.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$36">
-<contactref element="S36" pad="P$1"/>
+<contactref element="S_J" pad="P$1"/>
 <contactref element="D36" pad="A"/>
-<wire x1="163.835" y1="44.96" x2="163.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="149.665" y1="50.04" x2="163.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$37">
-<contactref element="S37" pad="P$1"/>
+<contactref element="S_K" pad="P$1"/>
 <contactref element="D37" pad="A"/>
-<wire x1="182.835" y1="44.96" x2="182.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="168.665" y1="50.04" x2="182.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$38">
-<contactref element="S38" pad="P$1"/>
+<contactref element="S_L" pad="P$1"/>
 <contactref element="D38" pad="A"/>
-<wire x1="201.835" y1="44.96" x2="201.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="187.665" y1="50.04" x2="201.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$39">
-<contactref element="S39" pad="P$1"/>
+<contactref element="S_SCL" pad="P$1"/>
 <contactref element="D39" pad="A"/>
-<wire x1="220.835" y1="44.96" x2="220.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="206.665" y1="50.04" x2="220.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$40">
-<contactref element="S40" pad="P$1"/>
+<contactref element="S_QUO" pad="P$1"/>
 <contactref element="D40" pad="A"/>
-<wire x1="239.835" y1="44.96" x2="239.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="225.665" y1="50.04" x2="239.875" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$41">
-<contactref element="S41" pad="P$1"/>
+<contactref element="S_ENT" pad="P$1"/>
 <contactref element="D41" pad="A"/>
-<wire x1="270.71" y1="44.96" x2="270.75" y2="50.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="256.54" y1="50.04" x2="270.75" y2="50.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$42">
-<contactref element="S42" pad="P$1"/>
+<contactref element="S_LSH" pad="P$1"/>
 <contactref element="D42" pad="A"/>
-<wire x1="28.46" y1="25.96" x2="28.5" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="14.29" y1="31.04" x2="28.5" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$43">
-<contactref element="S43" pad="P$1"/>
+<contactref element="S_Z" pad="P$1"/>
 <contactref element="D43" pad="A"/>
-<wire x1="59.335" y1="25.96" x2="59.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="45.165" y1="31.04" x2="59.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$44">
-<contactref element="S44" pad="P$1"/>
+<contactref element="S_X" pad="P$1"/>
 <contactref element="D44" pad="A"/>
-<wire x1="78.335" y1="25.96" x2="78.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="64.165" y1="31.04" x2="78.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$45">
-<contactref element="S45" pad="P$1"/>
+<contactref element="S_C" pad="P$1"/>
 <contactref element="D45" pad="A"/>
-<wire x1="97.335" y1="25.96" x2="97.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="83.165" y1="31.04" x2="97.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$46">
-<contactref element="S46" pad="P$1"/>
+<contactref element="S_V" pad="P$1"/>
 <contactref element="D46" pad="A"/>
-<wire x1="116.335" y1="25.96" x2="116.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="102.165" y1="31.04" x2="116.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$47">
-<contactref element="S47" pad="P$1"/>
+<contactref element="S_B" pad="P$1"/>
 <contactref element="D47" pad="A"/>
-<wire x1="135.335" y1="25.96" x2="135.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="121.165" y1="31.04" x2="135.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$48">
-<contactref element="S48" pad="P$1"/>
+<contactref element="S_N" pad="P$1"/>
 <contactref element="D48" pad="A"/>
-<wire x1="154.335" y1="25.96" x2="154.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="140.165" y1="31.04" x2="154.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$49">
-<contactref element="S49" pad="P$1"/>
+<contactref element="S_M" pad="P$1"/>
 <contactref element="D49" pad="A"/>
-<wire x1="173.335" y1="25.96" x2="173.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="159.165" y1="31.04" x2="173.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$50">
-<contactref element="S50" pad="P$1"/>
+<contactref element="S_COM" pad="P$1"/>
 <contactref element="D50" pad="A"/>
-<wire x1="192.335" y1="25.96" x2="192.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="178.165" y1="31.04" x2="192.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$51">
-<contactref element="S51" pad="P$1"/>
+<contactref element="S_DOT" pad="P$1"/>
 <contactref element="D51" pad="A"/>
-<wire x1="211.335" y1="25.96" x2="211.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="197.165" y1="31.04" x2="211.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$52">
-<contactref element="S52" pad="P$1"/>
+<contactref element="S_FSL" pad="P$1"/>
 <contactref element="D52" pad="A"/>
-<wire x1="230.335" y1="25.96" x2="230.375" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="230.375" y1="31.3617" x2="216.165" y2="31.04" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$53">
-<contactref element="S53" pad="P$1"/>
+<contactref element="S_RSH" pad="P$1"/>
 <contactref element="D53" pad="A"/>
-<wire x1="265.96" y1="25.96" x2="266" y2="31.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="251.79" y1="31.04" x2="266" y2="31.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$54">
-<contactref element="S54" pad="P$1"/>
+<contactref element="S_LCT" pad="P$1"/>
 <contactref element="D54" pad="A"/>
-<wire x1="18.96" y1="6.96" x2="19" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="4.79" y1="12.04" x2="19" y2="12.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$55">
-<contactref element="S55" pad="P$1"/>
+<contactref element="S_LGU" pad="P$1"/>
 <contactref element="D55" pad="A"/>
-<wire x1="42.71" y1="6.96" x2="42.75" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="28.54" y1="12.04" x2="42.75" y2="12.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$56">
-<contactref element="S56" pad="P$1"/>
+<contactref element="S_LAL" pad="P$1"/>
 <contactref element="D56" pad="A"/>
-<wire x1="66.46" y1="6.96" x2="66.5" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="52.29" y1="12.04" x2="66.5" y2="12.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$57">
-<contactref element="S57" pad="P$1"/>
+<contactref element="S_SPC" pad="P$1"/>
 <contactref element="D57" pad="A"/>
-<wire x1="137.71" y1="6.96" x2="137.75" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="123.54" y1="12.04" x2="137.75" y2="12.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$58">
-<contactref element="S58" pad="P$1"/>
+<contactref element="S_FN1" pad="P$1"/>
 <contactref element="D58" pad="A"/>
-<wire x1="208.96" y1="6.96" x2="209" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="194.79" y1="12.04" x2="209" y2="12.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$59">
-<contactref element="S59" pad="P$1"/>
+<contactref element="S_RAL" pad="P$1"/>
 <contactref element="D59" pad="A"/>
-<wire x1="232.71" y1="6.96" x2="232.75" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="218.54" y1="12.04" x2="232.75" y2="12.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$60">
-<contactref element="S60" pad="P$1"/>
+<contactref element="S_RGU" pad="P$1"/>
 <contactref element="D60" pad="A"/>
-<wire x1="256.46" y1="6.96" x2="256.5" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="256.5" y1="12.3617" x2="242.29" y2="12.04" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$61">
-<contactref element="S61" pad="P$1"/>
+<contactref element="S_RCT" pad="P$1"/>
 <contactref element="D61" pad="A"/>
-<wire x1="280.21" y1="6.96" x2="280.25" y2="12.3617" width="0" layer="19" extent="16-16"/>
+<wire x1="266.04" y1="12.04" x2="280.25" y2="12.3617" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW0">
-<contactref element="S14" pad="P$2"/>
-<contactref element="S1" pad="P$2"/>
-<contactref element="S2" pad="P$2"/>
-<contactref element="S3" pad="P$2"/>
-<contactref element="S4" pad="P$2"/>
-<contactref element="S5" pad="P$2"/>
-<contactref element="S6" pad="P$2"/>
-<contactref element="S7" pad="P$2"/>
-<contactref element="S8" pad="P$2"/>
-<contactref element="S9" pad="P$2"/>
-<contactref element="S10" pad="P$2"/>
-<contactref element="S11" pad="P$2"/>
-<contactref element="S12" pad="P$2"/>
-<contactref element="S13" pad="P$2"/>
-<wire x1="155.658" y1="80.42" x2="174.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="136.658" y1="80.42" x2="155.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="117.658" y1="80.42" x2="136.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="98.658" y1="80.42" x2="117.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="79.658" y1="80.42" x2="98.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="60.658" y1="80.42" x2="79.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="41.658" y1="80.42" x2="60.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="22.658" y1="80.42" x2="41.658" y2="80.42" width="0" layer="19" extent="16-16"/>
+<contactref element="S_ESC" pad="P$2"/>
+<contactref element="S_1" pad="P$2"/>
+<contactref element="S_2" pad="P$2"/>
+<contactref element="S_3" pad="P$2"/>
+<contactref element="S_4" pad="P$2"/>
+<contactref element="S_5" pad="P$2"/>
+<contactref element="S_6" pad="P$2"/>
+<contactref element="S_7" pad="P$2"/>
+<wire x1="129.342" y1="90.58" x2="148.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="110.342" y1="90.58" x2="129.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="91.342" y1="90.58" x2="110.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="72.342" y1="90.58" x2="91.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="53.342" y1="90.58" x2="72.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="22.658" y1="80.42" x2="53.342" y2="90.58" width="0" layer="19" extent="16-16"/>
 <wire x1="3.658" y1="80.42" x2="22.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="193.658" y1="80.42" x2="174.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="212.658" y1="80.42" x2="193.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="231.658" y1="80.42" x2="212.658" y2="80.42" width="0" layer="19" extent="16-16"/>
-<wire x1="260.158" y1="80.42" x2="231.658" y2="80.42" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW1">
-<contactref element="S28" pad="P$2"/>
-<contactref element="S27" pad="P$2"/>
-<contactref element="S26" pad="P$2"/>
-<contactref element="S25" pad="P$2"/>
-<contactref element="S24" pad="P$2"/>
-<contactref element="S23" pad="P$2"/>
-<contactref element="S22" pad="P$2"/>
-<contactref element="S21" pad="P$2"/>
-<contactref element="S20" pad="P$2"/>
-<contactref element="S19" pad="P$2"/>
-<contactref element="S18" pad="P$2"/>
-<contactref element="S17" pad="P$2"/>
-<contactref element="S16" pad="P$2"/>
-<contactref element="S15" pad="P$2"/>
-<wire x1="165.158" y1="61.42" x2="184.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="146.158" y1="61.42" x2="165.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="127.158" y1="61.42" x2="146.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="108.158" y1="61.42" x2="127.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="89.158" y1="61.42" x2="108.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="70.158" y1="61.42" x2="89.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="51.158" y1="61.42" x2="70.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="32.158" y1="61.42" x2="51.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="203.158" y1="61.42" x2="184.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="222.158" y1="61.42" x2="203.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="241.158" y1="61.42" x2="222.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="264.908" y1="61.42" x2="241.158" y2="61.42" width="0" layer="19" extent="16-16"/>
-<wire x1="8.408" y1="61.42" x2="32.158" y2="61.42" width="0" layer="19" extent="16-16"/>
+<contactref element="S_U" pad="P$2"/>
+<contactref element="S_Y" pad="P$2"/>
+<contactref element="S_T" pad="P$2"/>
+<contactref element="S_R" pad="P$2"/>
+<contactref element="S_E" pad="P$2"/>
+<contactref element="S_W" pad="P$2"/>
+<contactref element="S_Q" pad="P$2"/>
+<contactref element="S_TAB" pad="P$2"/>
+<wire x1="138.842" y1="71.58" x2="157.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="119.842" y1="71.58" x2="138.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="100.842" y1="71.58" x2="119.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="81.842" y1="71.58" x2="100.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="62.842" y1="71.58" x2="81.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="43.842" y1="71.58" x2="62.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="20.092" y1="71.58" x2="43.842" y2="71.58" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW2">
-<contactref element="S41" pad="P$2"/>
-<contactref element="S29" pad="P$2"/>
-<contactref element="S30" pad="P$2"/>
-<contactref element="S31" pad="P$2"/>
-<contactref element="S32" pad="P$2"/>
-<contactref element="S33" pad="P$2"/>
-<contactref element="S34" pad="P$2"/>
-<contactref element="S35" pad="P$2"/>
-<contactref element="S36" pad="P$2"/>
-<contactref element="S37" pad="P$2"/>
-<contactref element="S38" pad="P$2"/>
-<contactref element="S39" pad="P$2"/>
-<contactref element="S40" pad="P$2"/>
-<wire x1="188.908" y1="42.42" x2="207.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="169.908" y1="42.42" x2="188.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="150.908" y1="42.42" x2="169.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="131.908" y1="42.42" x2="150.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="112.908" y1="42.42" x2="131.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="93.908" y1="42.42" x2="112.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="74.908" y1="42.42" x2="93.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="55.908" y1="42.42" x2="74.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="36.908" y1="42.42" x2="55.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="226.908" y1="42.42" x2="207.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="10.783" y1="42.42" x2="36.908" y2="42.42" width="0" layer="19" extent="16-16"/>
-<wire x1="257.783" y1="42.42" x2="226.908" y2="42.42" width="0" layer="19" extent="16-16"/>
+<contactref element="S_CPS" pad="P$2"/>
+<contactref element="S_A" pad="P$2"/>
+<contactref element="S_S" pad="P$2"/>
+<contactref element="S_D" pad="P$2"/>
+<contactref element="S_F" pad="P$2"/>
+<contactref element="S_G" pad="P$2"/>
+<contactref element="S_H" pad="P$2"/>
+<contactref element="S_J" pad="P$2"/>
+<wire x1="143.592" y1="52.58" x2="162.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="124.592" y1="52.58" x2="143.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="105.592" y1="52.58" x2="124.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="86.592" y1="52.58" x2="105.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="67.592" y1="52.58" x2="86.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="48.592" y1="52.58" x2="67.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="22.467" y1="52.58" x2="48.592" y2="52.58" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW3">
-<contactref element="S53" pad="P$2"/>
-<contactref element="S42" pad="P$2"/>
-<contactref element="S43" pad="P$2"/>
-<contactref element="S44" pad="P$2"/>
-<contactref element="S45" pad="P$2"/>
-<contactref element="S46" pad="P$2"/>
-<contactref element="S47" pad="P$2"/>
-<contactref element="S48" pad="P$2"/>
-<contactref element="S49" pad="P$2"/>
-<contactref element="S50" pad="P$2"/>
-<contactref element="S51" pad="P$2"/>
-<contactref element="S52" pad="P$2"/>
-<wire x1="198.408" y1="23.42" x2="217.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="179.408" y1="23.42" x2="198.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="160.408" y1="23.42" x2="179.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="141.408" y1="23.42" x2="160.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="122.408" y1="23.42" x2="141.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="103.408" y1="23.42" x2="122.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="84.408" y1="23.42" x2="103.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="65.408" y1="23.42" x2="84.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="46.408" y1="23.42" x2="65.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="15.533" y1="23.42" x2="46.408" y2="23.42" width="0" layer="19" extent="16-16"/>
-<wire x1="253.033" y1="23.42" x2="217.408" y2="23.42" width="0" layer="19" extent="16-16"/>
+<contactref element="S_LSH" pad="P$2"/>
+<contactref element="S_Z" pad="P$2"/>
+<contactref element="S_X" pad="P$2"/>
+<contactref element="S_C" pad="P$2"/>
+<contactref element="S_V" pad="P$2"/>
+<contactref element="S_B" pad="P$2"/>
+<contactref element="S_N" pad="P$2"/>
+<wire x1="134.092" y1="33.58" x2="153.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="115.092" y1="33.58" x2="134.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="96.092" y1="33.58" x2="115.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="77.092" y1="33.58" x2="96.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="58.092" y1="33.58" x2="77.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="27.217" y1="33.58" x2="58.092" y2="33.58" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ROW4">
-<contactref element="S61" pad="P$2"/>
-<contactref element="S54" pad="P$2"/>
-<contactref element="S55" pad="P$2"/>
-<contactref element="S56" pad="P$2"/>
-<contactref element="S57" pad="P$2"/>
-<contactref element="S58" pad="P$2"/>
-<contactref element="S59" pad="P$2"/>
-<contactref element="S60" pad="P$2"/>
-<wire x1="219.783" y1="4.42" x2="243.533" y2="4.42" width="0" layer="19" extent="16-16"/>
-<wire x1="196.033" y1="4.42" x2="219.783" y2="4.42" width="0" layer="19" extent="16-16"/>
-<wire x1="267.283" y1="4.42" x2="243.533" y2="4.42" width="0" layer="19" extent="16-16"/>
-<wire x1="124.783" y1="4.42" x2="196.033" y2="4.42" width="0" layer="19" extent="16-16"/>
-<wire x1="53.533" y1="4.42" x2="124.783" y2="4.42" width="0" layer="19" extent="16-16"/>
-<wire x1="29.783" y1="4.42" x2="53.533" y2="4.42" width="0" layer="19" extent="16-16"/>
-<wire x1="6.033" y1="4.42" x2="29.783" y2="4.42" width="0" layer="19" extent="16-16"/>
+<contactref element="S_LCT" pad="P$2"/>
+<contactref element="S_LGU" pad="P$2"/>
+<contactref element="S_LAL" pad="P$2"/>
+<contactref element="S_SPC" pad="P$2"/>
+<contactref element="S_FN1" pad="P$2"/>
+<contactref element="S_RAL" pad="P$2"/>
+<contactref element="S_RGU" pad="P$2"/>
+<contactref element="S_RCT" pad="P$2"/>
+<wire x1="207.717" y1="14.58" x2="231.467" y2="14.58" width="0" layer="19" extent="16-16"/>
+<wire x1="255.217" y1="14.58" x2="231.467" y2="14.58" width="0" layer="19" extent="16-16"/>
+<wire x1="278.967" y1="14.58" x2="255.217" y2="14.58" width="0" layer="19" extent="16-16"/>
+<wire x1="136.467" y1="14.58" x2="207.717" y2="14.58" width="0" layer="19" extent="16-16"/>
+<wire x1="65.217" y1="14.58" x2="136.467" y2="14.58" width="0" layer="19" extent="16-16"/>
+<wire x1="41.467" y1="14.58" x2="65.217" y2="14.58" width="0" layer="19" extent="16-16"/>
+<wire x1="17.717" y1="14.58" x2="41.467" y2="14.58" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL0">
 <contactref element="D54" pad="C"/>
@@ -1503,9 +1677,17 @@ design rules under a new name.</description>
 <contactref element="D29" pad="C"/>
 <contactref element="D15" pad="C"/>
 <contactref element="D1" pad="C"/>
-<wire x1="21.375" y1="72.6383" x2="16.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="23.75" y1="53.6383" x2="21.375" y2="72.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="28.5" y1="34.6383" x2="23.75" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<contactref element="D9" pad="C"/>
+<contactref element="D23" pad="C"/>
+<contactref element="D37" pad="C"/>
+<contactref element="D49" pad="C"/>
+<wire x1="182.875" y1="53.6383" x2="178.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="173.375" y1="34.6383" x2="182.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="168.625" y1="91.6383" x2="178.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="28.5" y1="34.6383" x2="173.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="4.75" y1="52.6383" x2="28.5" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="4.375" y1="71.6383" x2="4.75" y2="52.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="16.625" y1="91.6383" x2="4.375" y2="71.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="19" y1="15.6383" x2="28.5" y2="34.6383" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL1">
@@ -1513,8 +1695,16 @@ design rules under a new name.</description>
 <contactref element="D16" pad="C"/>
 <contactref element="D30" pad="C"/>
 <contactref element="D55" pad="C"/>
-<wire x1="45.125" y1="72.6383" x2="35.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="49.875" y1="53.6383" x2="45.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<contactref element="D10" pad="C"/>
+<contactref element="D24" pad="C"/>
+<contactref element="D38" pad="C"/>
+<contactref element="D50" pad="C"/>
+<wire x1="201.875" y1="53.6383" x2="192.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="197.125" y1="72.6383" x2="201.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="187.625" y1="91.6383" x2="197.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="49.875" y1="53.6383" x2="187.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="45.125" y1="72.6383" x2="49.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="35.625" y1="91.6383" x2="45.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="42.75" y1="15.6383" x2="49.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL2">
@@ -1523,8 +1713,16 @@ design rules under a new name.</description>
 <contactref element="D31" pad="C"/>
 <contactref element="D43" pad="C"/>
 <contactref element="D56" pad="C"/>
-<wire x1="64.125" y1="72.6383" x2="54.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="68.875" y1="53.6383" x2="64.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<contactref element="D11" pad="C"/>
+<contactref element="D25" pad="C"/>
+<contactref element="D39" pad="C"/>
+<contactref element="D51" pad="C"/>
+<wire x1="220.875" y1="53.6383" x2="211.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="216.125" y1="72.6383" x2="220.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="206.625" y1="91.6383" x2="216.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="68.875" y1="53.6383" x2="206.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="64.125" y1="72.6383" x2="68.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="54.625" y1="91.6383" x2="64.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="59.375" y1="34.6383" x2="68.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="66.5" y1="15.6383" x2="59.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -1533,17 +1731,33 @@ design rules under a new name.</description>
 <contactref element="D18" pad="C"/>
 <contactref element="D32" pad="C"/>
 <contactref element="D44" pad="C"/>
+<contactref element="D12" pad="C"/>
+<contactref element="D26" pad="C"/>
+<contactref element="D40" pad="C"/>
+<contactref element="D52" pad="C"/>
+<contactref element="D57" pad="C"/>
 <wire x1="83.125" y1="72.6383" x2="73.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="87.875" y1="53.6383" x2="83.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="78.375" y1="34.6383" x2="87.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="137.75" y1="15.6383" x2="78.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="230.375" y1="34.6383" x2="137.75" y2="15.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="239.875" y1="53.6383" x2="230.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="235.125" y1="72.6383" x2="239.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="225.625" y1="91.6383" x2="235.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL4">
 <contactref element="D5" pad="C"/>
 <contactref element="D19" pad="C"/>
 <contactref element="D33" pad="C"/>
 <contactref element="D45" pad="C"/>
-<wire x1="102.125" y1="72.6383" x2="92.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="106.875" y1="53.6383" x2="102.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<contactref element="D13" pad="C"/>
+<contactref element="D27" pad="C"/>
+<contactref element="D58" pad="C"/>
+<wire x1="254.125" y1="72.6383" x2="209" y2="15.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="244.625" y1="91.6383" x2="254.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="106.875" y1="53.6383" x2="209" y2="15.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="102.125" y1="72.6383" x2="106.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="92.625" y1="91.6383" x2="102.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="97.375" y1="34.6383" x2="106.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL5">
@@ -1551,8 +1765,12 @@ design rules under a new name.</description>
 <contactref element="D20" pad="C"/>
 <contactref element="D34" pad="C"/>
 <contactref element="D46" pad="C"/>
-<wire x1="121.125" y1="72.6383" x2="111.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="125.875" y1="53.6383" x2="121.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<contactref element="D59" pad="C"/>
+<contactref element="D53" pad="C"/>
+<wire x1="266" y1="34.6383" x2="232.75" y2="15.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="125.875" y1="53.6383" x2="232.75" y2="15.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="121.125" y1="72.6383" x2="125.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="111.625" y1="91.6383" x2="121.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="116.375" y1="34.6383" x2="125.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL6">
@@ -1560,78 +1778,84 @@ design rules under a new name.</description>
 <contactref element="D21" pad="C"/>
 <contactref element="D35" pad="C"/>
 <contactref element="D47" pad="C"/>
-<contactref element="D57" pad="C"/>
+<contactref element="D14" pad="C"/>
+<contactref element="D28" pad="C"/>
+<contactref element="D41" pad="C"/>
+<contactref element="D60" pad="C"/>
 <wire x1="140.125" y1="72.6383" x2="130.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="144.875" y1="53.6383" x2="140.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="135.375" y1="34.6383" x2="144.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="137.75" y1="15.6383" x2="135.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="256.5" y1="15.6383" x2="144.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="270.75" y1="53.6383" x2="256.5" y2="15.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="277.875" y1="72.6383" x2="270.75" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="273.125" y1="91.6383" x2="277.875" y2="72.6383" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="COL7">
 <contactref element="D8" pad="C"/>
 <contactref element="D22" pad="C"/>
 <contactref element="D36" pad="C"/>
 <contactref element="D48" pad="C"/>
+<contactref element="D61" pad="C"/>
 <wire x1="159.125" y1="72.6383" x2="149.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="163.875" y1="53.6383" x2="159.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
 <wire x1="154.375" y1="34.6383" x2="163.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
+<wire x1="280.25" y1="15.6383" x2="163.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="COL8">
-<contactref element="D9" pad="C"/>
-<contactref element="D23" pad="C"/>
-<contactref element="D37" pad="C"/>
-<contactref element="D49" pad="C"/>
-<wire x1="182.875" y1="53.6383" x2="178.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="173.375" y1="34.6383" x2="182.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="168.625" y1="91.6383" x2="178.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<signal name="ROW5">
+<contactref element="S_BSP" pad="P$2"/>
+<contactref element="S_8" pad="P$2"/>
+<contactref element="S_9" pad="P$2"/>
+<contactref element="S_0" pad="P$2"/>
+<contactref element="S_MIN" pad="P$2"/>
+<contactref element="S-EQL" pad="P$2"/>
+<wire x1="243.342" y1="90.58" x2="271.842" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="224.342" y1="90.58" x2="243.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="205.342" y1="90.58" x2="224.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="186.342" y1="90.58" x2="205.342" y2="90.58" width="0" layer="19" extent="16-16"/>
+<wire x1="167.342" y1="90.58" x2="186.342" y2="90.58" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="COL9">
-<contactref element="D10" pad="C"/>
-<contactref element="D24" pad="C"/>
-<contactref element="D38" pad="C"/>
-<contactref element="D50" pad="C"/>
-<wire x1="201.875" y1="53.6383" x2="192.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="197.125" y1="72.6383" x2="201.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="187.625" y1="91.6383" x2="197.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<signal name="ROW6">
+<contactref element="S_BSL" pad="P$2"/>
+<contactref element="S_CB" pad="P$2"/>
+<contactref element="S_OB" pad="P$2"/>
+<contactref element="S_P" pad="P$2"/>
+<contactref element="S_O" pad="P$2"/>
+<contactref element="S_I" pad="P$2"/>
+<wire x1="195.842" y1="71.58" x2="176.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="214.842" y1="71.58" x2="195.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="233.842" y1="71.58" x2="214.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="252.842" y1="71.58" x2="233.842" y2="71.58" width="0" layer="19" extent="16-16"/>
+<wire x1="276.592" y1="71.58" x2="252.842" y2="71.58" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="COL10">
-<contactref element="D11" pad="C"/>
-<contactref element="D25" pad="C"/>
-<contactref element="D39" pad="C"/>
-<contactref element="D51" pad="C"/>
-<contactref element="D58" pad="C"/>
-<wire x1="209" y1="15.6383" x2="211.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="220.875" y1="53.6383" x2="211.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="216.125" y1="72.6383" x2="220.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="206.625" y1="91.6383" x2="216.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<signal name="ROW7">
+<contactref element="S_ENT" pad="P$2"/>
+<contactref element="S_K" pad="P$2"/>
+<contactref element="S_L" pad="P$2"/>
+<contactref element="S_SCL" pad="P$2"/>
+<contactref element="S_QUO" pad="P$2"/>
+<wire x1="181.592" y1="52.58" x2="200.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="219.592" y1="52.58" x2="200.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="238.592" y1="52.58" x2="219.592" y2="52.58" width="0" layer="19" extent="16-16"/>
+<wire x1="269.467" y1="52.58" x2="238.592" y2="52.58" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="COL11">
-<contactref element="D12" pad="C"/>
-<contactref element="D26" pad="C"/>
-<contactref element="D40" pad="C"/>
-<contactref element="D52" pad="C"/>
-<contactref element="D59" pad="C"/>
-<wire x1="230.375" y1="34.6383" x2="232.75" y2="15.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="239.875" y1="53.6383" x2="230.375" y2="34.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="235.125" y1="72.6383" x2="239.875" y2="53.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="225.625" y1="91.6383" x2="235.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<signal name="ROW8">
+<contactref element="S_RSH" pad="P$2"/>
+<contactref element="S_M" pad="P$2"/>
+<contactref element="S_COM" pad="P$2"/>
+<contactref element="S_DOT" pad="P$2"/>
+<contactref element="S_FSL" pad="P$2"/>
+<wire x1="191.092" y1="33.58" x2="210.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="172.092" y1="33.58" x2="191.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="229.092" y1="33.58" x2="210.092" y2="33.58" width="0" layer="19" extent="16-16"/>
+<wire x1="264.717" y1="33.58" x2="229.092" y2="33.58" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="COL12">
-<contactref element="D13" pad="C"/>
-<contactref element="D27" pad="C"/>
-<contactref element="D60" pad="C"/>
-<wire x1="254.125" y1="72.6383" x2="244.625" y2="91.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="256.5" y1="15.6383" x2="254.125" y2="72.6383" width="0" layer="19" extent="16-16"/>
+<signal name="GND">
+<contactref element="H5" pad="1"/>
 </signal>
-<signal name="COL13">
-<contactref element="D14" pad="C"/>
-<contactref element="D28" pad="C"/>
-<contactref element="D41" pad="C"/>
-<contactref element="D53" pad="C"/>
-<contactref element="D61" pad="C"/>
-<wire x1="277.875" y1="72.6383" x2="273.125" y2="91.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="270.75" y1="53.6383" x2="277.875" y2="72.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="266" y1="34.6383" x2="270.75" y2="53.6383" width="0" layer="19" extent="16-16"/>
-<wire x1="280.25" y1="15.6383" x2="266" y2="34.6383" width="0" layer="19" extent="16-16"/>
+<signal name="N$62">
+<contactref element="S_CPS" pad="P$1"/>
+<contactref element="D29" pad="A"/>
+<wire x1="4.75" y1="49.3617" x2="9.54" y2="50.04" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
