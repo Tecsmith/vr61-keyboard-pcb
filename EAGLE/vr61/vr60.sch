@@ -3796,7 +3796,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X1" library="ts_keyboards" deviceset="USB_C" device=""/>
 <part name="GND3" library="ts_custom_nick_nacks" deviceset="GND" device=""/>
 <part name="U$8" library="ts_keyboards" deviceset="MOUNTING-HOLE-VWIDE" device=""/>
-<part name="U$9" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
 <part name="U$10" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
 <part name="U$12" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
 <part name="U$13" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
@@ -3900,7 +3899,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="160.02" y="5.588" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U$8" gate="G$1" x="266.7" y="25.4" smashed="yes"/>
-<instance part="U$9" gate="G$1" x="266.7" y="30.48" smashed="yes"/>
 <instance part="U$10" gate="G$1" x="264.16" y="30.48" smashed="yes"/>
 <instance part="U$12" gate="G$1" x="259.08" y="30.48" smashed="yes"/>
 <instance part="U$13" gate="G$1" x="256.54" y="30.48" smashed="yes"/>
