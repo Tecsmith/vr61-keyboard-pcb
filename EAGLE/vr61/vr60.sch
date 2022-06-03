@@ -258,7 +258,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 
 &lt;p&gt;Collection of components  needed to produce mechnical keyboards.&lt;/p&gt;</description>
 <packages>
-<package name="MX-5-PIN-HOTSWAP">
+<package name="MX-5-PIN-HOTSWAP-PAD">
 <hole x="0" y="0" drill="3.9878"/>
 <hole x="-5.08" y="0" drill="1.75"/>
 <hole x="5.08" y="0" drill="1.75"/>
@@ -274,8 +274,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="-7" size="1.27" layer="26" rot="MR0" align="bottom-center">&gt;NAME</text>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.015" layer="21"/>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.015" layer="21"/>
-<hole x="2.54" y="5.08" drill="3"/>
-<hole x="-3.81" y="2.54" drill="3"/>
 <smd name="P$1" x="-7.085" y="2.54" dx="2.55" dy="2.5" layer="16"/>
 <smd name="P$2" x="5.842" y="5.08" dx="2.55" dy="2.5" layer="16"/>
 <wire x1="-6.085" y1="1.1" x2="-6.085" y2="4" width="0.15" layer="22"/>
@@ -290,6 +288,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="1.27" y="-5.08" radius="0.5" width="0.015" layer="21"/>
 <circle x="-3.81" y="-5.08" radius="0.5" width="0.015" layer="21"/>
 <circle x="3.81" y="-5.08" radius="0.5" width="0.015" layer="21"/>
+<pad name="P$3" x="-3.81" y="2.54" drill="3" diameter="3.75"/>
+<pad name="P$4" x="2.54" y="5.08" drill="3" diameter="3.75"/>
+<polygon width="0.127" layer="16">
+<vertex x="-6" y="3.7"/>
+<vertex x="-5" y="3.7"/>
+<vertex x="-5.5" y="2.5"/>
+<vertex x="-5" y="1.35"/>
+<vertex x="-6" y="1.35"/>
+</polygon>
+<polygon width="0.127" layer="16">
+<vertex x="4.75" y="6.25"/>
+<vertex x="4.7" y="3.9"/>
+<vertex x="3.7" y="3.9"/>
+<vertex x="4.25" y="5.05"/>
+<vertex x="3.75" y="6.25"/>
+</polygon>
 </package>
 <package name="MX-FPRINT-1905-100U">
 <wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.15" layer="21"/>
@@ -1175,15 +1189,15 @@ Used on single circuit logic gates</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MX-5-PIN-HOTSWAP">
+<deviceset name="MX-5-PIN-HOTSWAP-PAD">
 <gates>
 <gate name="G$1" symbol="SPST" x="1" y="0"/>
 </gates>
 <devices>
-<device name="" package="MX-5-PIN-HOTSWAP">
+<device name="" package="MX-5-PIN-HOTSWAP-PAD">
 <connects>
-<connect gate="G$1" pin="P" pad="P$1"/>
-<connect gate="G$1" pin="S" pad="P$2"/>
+<connect gate="G$1" pin="P" pad="P$1 P$3"/>
+<connect gate="G$1" pin="S" pad="P$2 P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5521,20 +5535,20 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="FRAME4" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="S_ESC" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_1" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_2" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_3" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_4" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_5" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_6" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_7" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_8" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_9" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_0" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_MIN" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S-EQL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_BSP" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
+<part name="S_ESC" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_1" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_2" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_3" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_4" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_5" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_6" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_7" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_8" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_9" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_0" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_MIN" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S-EQL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_BSP" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
 <part name="D1" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D2" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D3" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
@@ -5549,20 +5563,20 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="D12" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D13" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D14" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
-<part name="S_TAB" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_Q" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_W" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_E" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_R" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_T" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_Y" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_U" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_I" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_O" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_P" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_OB" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_CB" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_BSL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
+<part name="S_TAB" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_Q" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_W" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_E" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_R" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_T" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_Y" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_U" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_I" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_O" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_P" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_OB" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_CB" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_BSL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
 <part name="D15" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D16" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D17" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
@@ -5577,19 +5591,19 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="D26" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D27" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D28" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
-<part name="S_CPS" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_A" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_S" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_D" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_F" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_G" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_H" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_J" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_K" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_L" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_SCL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_QUO" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_ENT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
+<part name="S_CPS" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_A" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_S" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_D" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_F" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_G" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_H" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_J" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_K" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_L" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_SCL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_QUO" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_ENT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
 <part name="D29" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D30" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D31" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
@@ -5603,18 +5617,18 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="D39" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D40" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D41" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
-<part name="S_LSH" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_Z" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_X" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_C" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_V" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_B" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_N" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_M" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_COM" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_DOT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_FSL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_RSH" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
+<part name="S_LSH" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_Z" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_X" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_C" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_V" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_B" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_N" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_M" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_COM" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_DOT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_FSL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_RSH" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
 <part name="D42" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D43" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D44" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
@@ -5627,14 +5641,14 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="D51" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D52" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D53" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
-<part name="S_LCT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_LGU" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_LAL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_SPC" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_FN1" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_RAL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_RGU" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
-<part name="S_RCT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP" device=""/>
+<part name="S_LCT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_LGU" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_LAL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_SPC" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_FN1" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_RAL" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_RGU" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
+<part name="S_RCT" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device=""/>
 <part name="D54" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D55" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
 <part name="D56" library="jlcpcb_basic_parts" deviceset="1N5819WS" device=""/>
@@ -5716,9 +5730,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="GND1" library="ts_custom_nick_nacks" deviceset="GND" device=""/>
 <part name="GND2" library="ts_custom_nick_nacks" deviceset="GND" device=""/>
 <part name="U$3" library="ts_keyboards" deviceset="ESD_SRV05-4" device=""/>
-<part name="U$4" library="ts_keyboards" deviceset="MOUNTING-HOLE" device=""/>
-<part name="U$5" library="ts_keyboards" deviceset="MOUNTING-HOLE-VWIDE" device=""/>
-<part name="U$6" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
+<part name="SC1" library="ts_keyboards" deviceset="MOUNTING-HOLE" device=""/>
+<part name="SG1" library="ts_keyboards" deviceset="MOUNTING-HOLE-VWIDE" device=""/>
+<part name="SC2" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
 <part name="U$7" library="ts_keyboards" deviceset="PTC_ASMD1206" device=""/>
 <part name="LED-CL" library="ts_keyboards" deviceset="SK6812-E-REVERSE" device=""/>
 <part name="LED-5" library="ts_keyboards" deviceset="SK6812-E-REVERSE" device=""/>
@@ -5728,11 +5742,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="U$14" library="ts_keyboards" deviceset="TVS_SMF9.0CA" device=""/>
 <part name="X1" library="ts_keyboards" deviceset="USB_C" device=""/>
 <part name="GND3" library="ts_custom_nick_nacks" deviceset="GND" device=""/>
-<part name="U$8" library="ts_keyboards" deviceset="MOUNTING-HOLE-VWIDE" device=""/>
-<part name="U$10" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
-<part name="U$12" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
-<part name="U$13" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
-<part name="U$15" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
+<part name="SG4" library="ts_keyboards" deviceset="MOUNTING-HOLE-VWIDE" device=""/>
+<part name="SA1" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
+<part name="SG3" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
+<part name="SA3" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
+<part name="SA2" library="ts_keyboards" deviceset="MOUNTING-HOLE-WIDE" device=""/>
 <part name="U$11" library="ts_custom_nick_nacks" deviceset="5V" device=""/>
 <part name="GND4" library="ts_custom_nick_nacks" deviceset="GND" device=""/>
 <part name="IC2" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
@@ -5820,9 +5834,9 @@ ISOLATION</text>
 <attribute name="VALUE" x="185.42" y="36.068" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U$3" gate="G$1" x="71.12" y="149.86" smashed="yes" rot="R90"/>
-<instance part="U$4" gate="G$1" x="269.24" y="35.56" smashed="yes"/>
-<instance part="U$5" gate="G$1" x="269.24" y="25.4" smashed="yes"/>
-<instance part="U$6" gate="G$1" x="269.24" y="30.48" smashed="yes"/>
+<instance part="SC1" gate="G$1" x="233.68" y="33.02" smashed="yes"/>
+<instance part="SG1" gate="G$1" x="241.3" y="33.02" smashed="yes"/>
+<instance part="SC2" gate="G$1" x="236.22" y="33.02" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="101.6" y="165.1" smashed="yes">
 <attribute name="NAME" x="97.79" y="167.6146" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.79" y="160.782" size="1.778" layer="96"/>
@@ -5853,11 +5867,11 @@ ISOLATION</text>
 <instance part="GND3" gate="1" x="170.18" y="7.62" smashed="yes">
 <attribute name="VALUE" x="170.18" y="3.048" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$8" gate="G$1" x="266.7" y="25.4" smashed="yes"/>
-<instance part="U$10" gate="G$1" x="266.7" y="30.48" smashed="yes"/>
-<instance part="U$12" gate="G$1" x="264.16" y="30.48" smashed="yes"/>
-<instance part="U$13" gate="G$1" x="261.62" y="30.48" smashed="yes"/>
-<instance part="U$15" gate="G$1" x="259.08" y="30.48" smashed="yes"/>
+<instance part="SG4" gate="G$1" x="248.92" y="33.02" smashed="yes"/>
+<instance part="SA1" gate="G$1" x="254" y="33.02" smashed="yes"/>
+<instance part="SG3" gate="G$1" x="246.38" y="33.02" smashed="yes"/>
+<instance part="SA3" gate="G$1" x="259.08" y="33.02" smashed="yes"/>
+<instance part="SA2" gate="G$1" x="256.54" y="33.02" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="109.22" y="170.18" smashed="yes">
 <attribute name="VALUE" x="109.22" y="174.752" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -5961,18 +5975,18 @@ ISOLATION</text>
 <attribute name="VALUE" x="261.62" y="172.466" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="261.62" y="162.052" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J3" gate="G$1" x="236.22" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="246.38" y="37.846" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="246.38" y="53.086" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="J3" gate="G$1" x="241.3" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="251.46" y="42.926" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="251.46" y="58.166" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="GND10" gate="1" x="248.92" y="162.56" smashed="yes">
 <attribute name="VALUE" x="248.92" y="157.988" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="256.54" y="45.72" smashed="yes">
-<attribute name="VALUE" x="256.54" y="41.148" size="1.778" layer="96" align="top-center"/>
+<instance part="GND11" gate="1" x="261.62" y="50.8" smashed="yes">
+<attribute name="VALUE" x="261.62" y="46.228" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$18" gate="G$1" x="251.46" y="35.56" smashed="yes" rot="R180">
-<attribute name="VALUE" x="251.46" y="30.988" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+<instance part="U$18" gate="G$1" x="256.54" y="43.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="256.54" y="38.608" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -6107,8 +6121,8 @@ ISOLATION</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="GND"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="256.54" y1="45.72" x2="256.54" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="48.26" x2="248.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="50.8" x2="261.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -6156,27 +6170,9 @@ ISOLATION</text>
 <wire x1="175.26" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VIN"/>
-<wire x1="76.2" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
-<junction x="73.66" y="63.5"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="58.42" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
-<label x="58.42" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="58.42" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
-<junction x="60.96" y="63.5"/>
-<pinref part="D62" gate="G$1" pin="C"/>
-<wire x1="86.36" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="76.2" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="VCC"/>
-<wire x1="60.96" y1="63.5" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="VCC"/>
-<wire x1="248.92" y1="40.64" x2="251.46" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="40.64" x2="251.46" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="254" y1="45.72" x2="256.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="45.72" x2="256.54" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$18" gate="G$1" pin="VCC"/>
 </segment>
 </net>
@@ -6391,6 +6387,24 @@ ISOLATION</text>
 <junction x="109.22" y="165.1"/>
 <label x="116.84" y="165.1" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VIN"/>
+<wire x1="76.2" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<junction x="73.66" y="63.5"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="58.42" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
+<label x="58.42" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<junction x="60.96" y="63.5"/>
+<pinref part="D62" gate="G$1" pin="C"/>
+<wire x1="86.36" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="76.2" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="VCC"/>
+<wire x1="60.96" y1="63.5" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$67" class="0">
 <segment>
@@ -6559,8 +6573,8 @@ ISOLATION</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<label x="215.9" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="226.06" y1="43.18" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="220.98" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="48.26" x2="220.98" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="SWDIO"/>
 </segment>
 <segment>
@@ -6571,8 +6585,8 @@ ISOLATION</text>
 </net>
 <net name="SWDCK" class="0">
 <segment>
-<label x="223.52" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="226.06" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
+<label x="228.6" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="50.8" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="SWDCLK"/>
 </segment>
 <segment>
@@ -6583,8 +6597,8 @@ ISOLATION</text>
 </net>
 <net name="!RESET" class="0">
 <segment>
-<wire x1="226.06" y1="40.64" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
-<label x="223.52" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="91"/>
+<label x="228.6" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="!RESET"/>
 </segment>
 <segment>
@@ -6594,6 +6608,68 @@ ISOLATION</text>
 <wire x1="165.1" y1="162.56" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 <label x="165.608" y="157.988" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SC2" class="0">
+<segment>
+<pinref part="SC2" gate="G$1" pin="P$1"/>
+<wire x1="236.22" y1="31.496" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
+<label x="236.22" y="30.48" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SA1" class="0">
+<segment>
+<pinref part="SA1" gate="G$1" pin="P$1"/>
+<wire x1="254" y1="31.496" x2="254" y2="30.48" width="0.1524" layer="91"/>
+<label x="254" y="30.48" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="SG3" class="0">
+<segment>
+<label x="246.38" y="30.48" size="1.778" layer="95" rot="R270"/>
+<pinref part="SG3" gate="G$1" pin="P$1"/>
+<wire x1="246.38" y1="31.496" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SA3" class="0">
+<segment>
+<label x="259.08" y="30.48" size="1.778" layer="95" rot="R270"/>
+<pinref part="SA3" gate="G$1" pin="P$1"/>
+<wire x1="259.08" y1="31.496" x2="259.08" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SA2" class="0">
+<segment>
+<label x="256.54" y="30.48" size="1.778" layer="95" rot="R270"/>
+<pinref part="SA2" gate="G$1" pin="P$1"/>
+<wire x1="256.54" y1="31.496" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SC1" class="0">
+<segment>
+<label x="233.68" y="30.48" size="1.778" layer="95" rot="R270"/>
+<pinref part="SC1" gate="G$1" pin="P$1"/>
+<wire x1="233.68" y1="31.496" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SG1" class="0">
+<segment>
+<label x="241.3" y="30.48" size="1.778" layer="95" rot="R270"/>
+<pinref part="SG1" gate="G$1" pin="P$1"/>
+<wire x1="241.3" y1="31.496" x2="241.3" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SG4" class="0">
+<segment>
+<label x="248.92" y="30.48" size="1.778" layer="95" rot="R270"/>
+<pinref part="SG4" gate="G$1" pin="P$1"/>
+<wire x1="248.92" y1="31.496" x2="248.92" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SG2" class="0">
+<segment>
+<wire x1="243.84" y1="30.48" x2="243.84" y2="33.02" width="0.1524" layer="91"/>
+<label x="243.84" y="30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>
