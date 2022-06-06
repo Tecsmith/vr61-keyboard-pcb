@@ -14,6 +14,9 @@ Published as Open Source, under [MIT License](LICENSE.md):
 * [EAGLE PCB](EAGLE/vr61/vr61.brd)
 * [EAGLE Schematic](EAGLE/vr61/vr61.sch)
 
+Interim QMK code:
+* https://github.com/Tecsmith/vr61-keyboard-qmk
+
 ## Features
 
 **VR61-MicroMod** - using SparkFun MicroMod STM32 or RP2040 M.2 module
