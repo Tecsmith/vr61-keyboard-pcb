@@ -36,3 +36,21 @@
 - *(a bit off the design footprint)* [Grabert KB](https://github.com/KoBussLLC/grabert-hardware)
 - for M.2 example see [github.com/makerdiary/python-keyboard](https://github.com/makerdiary/python-keyboard) & [makerdiary.com/m60](https://makerdiary.com/pages/m60-mechanical-keyboard)
 
+## @tzarc Notes
+
+Explicitly listed below, pins are available on all of:
+> STM32, SAMD51, Teensy, RP2040, nRF52
+
+- A0/A1 available
+- PWM0/PWM1 available
+- D0/D1 available
+- G0-G3 available
+- AUD LRCLK/BCLK available
+- I2C SCL/SDA/INT available
+- SPI SCK/SDO/SDI/CS available
+
+further:
+
+- G4-G7 are unusable on RP2040 (collides with SPI)
+- CAN only available on STM32, SAMD51, Teensy
+- G11/SWO only available on STM32, SAMD51, Teensy

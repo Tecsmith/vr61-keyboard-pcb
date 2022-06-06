@@ -33,13 +33,28 @@ Interim QMK code:
     - Default key-maps for Mac use
 
 - User choice of microcontroller
+    
     - [STM32 Processor](https://www.sparkfun.com/products/17713)
-
-        ARM Cortex-M4, 168MHz, 1MB Flash, 192kB SRAM
+        - ARM Cortex-M4, 168MHz, 1MB Flash, 192kB SRAM
+        - https://github.com/Tecsmith/vr61-keyboard-qmk
 
     - [RP2040 Processor](https://www.sparkfun.com/products/17720)
+        - ARM Cortex-M0+, 133MHz, 128Mb Flash (16MB external), 264kB SRAM in six banks
+        - *(up next in the the dev cycle)*
 
-        ARM Cortex-M0+, 133MHz, 128Mb Flash (16MB external), 264kB SRAM in six banks        
+    To explore in the future:
+
+    - ~~[SAMD51 Processor](http://www.sparkfun.com/products/16791)~~
+        - ~~ARM Cortex-M4F, 120MHz, 1MB Flash, 256kB SRAM~~
+        - ~~*(uncertain if this is viable)*~~
+
+    - ~~[Teensy Processor](http://www.sparkfun.com/products/16402)~~
+        - ~~ARM Cortex-M7, 600MHz, 16MB Flash, 1024kB RAM~~
+        - ~~*(uncertain if this is viable)*~~
+
+    - ~~[nRF52840 Processor](http://www.sparkfun.com/products/16984)~~
+        - ~~ARM Cortex-M4, 64MHz, 1MB Flash, 256kB SRAM, Bluetooth 5~~
+        - ~~*(uncertain if this is viable)*~~
 
 - USB-C *(left side)*
 
