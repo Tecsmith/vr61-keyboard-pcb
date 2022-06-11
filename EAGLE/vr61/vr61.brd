@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="5" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="5" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -13621,15 +13621,12 @@ design rules under a new name.</description>
 <contactref element="X1" pad="A4B9"/>
 <contactref element="PTC" pad="P$1"/>
 <contactref element="ESD" pad="P$5"/>
-<wire x1="15.8" y1="88.545" x2="15.8" y2="87.2" width="0.508" layer="16"/>
-<wire x1="19" y1="84" x2="19" y2="81.5" width="0.508" layer="16"/>
-<wire x1="19" y1="81.5" x2="18" y2="80.5" width="0.508" layer="16"/>
+<wire x1="15.8" y1="88.545" x2="15.8" y2="87.6" width="0.508" layer="16"/>
+<wire x1="18.95" y1="84.7" x2="18.95" y2="81.45" width="0.508" layer="16"/>
+<wire x1="18.95" y1="81.45" x2="18" y2="80.5" width="0.508" layer="16"/>
 <wire x1="18" y1="80.5" x2="18" y2="79.5" width="0.508" layer="16"/>
-<wire x1="15.8" y1="87.2" x2="19" y2="84" width="0.508" layer="16"/>
-<wire x1="20.6" y1="88.545" x2="20.6" y2="87.4" width="0.508" layer="16"/>
-<wire x1="20.6" y1="87.4" x2="21" y2="87" width="0.508" layer="16"/>
-<wire x1="21" y1="87" x2="21" y2="86" width="0.508" layer="16"/>
-<wire x1="21" y1="86" x2="19" y2="84" width="0.508" layer="16"/>
+<wire x1="15.8" y1="87.6" x2="16.35" y2="87.05" width="0.508" layer="16"/>
+<wire x1="16.6" y1="87.05" x2="18.95" y2="84.7" width="0.508" layer="16"/>
 <wire x1="26.25" y1="75" x2="27.5" y2="75" width="0.508" layer="16"/>
 <via x="27.5" y="75" extent="1-16" drill="0.35"/>
 <wire x1="22" y1="75" x2="20.95" y2="76.05" width="0.508" layer="1"/>
@@ -13639,6 +13636,9 @@ design rules under a new name.</description>
 <via x="20" y="79.5" extent="1-16" drill="0.35"/>
 <wire x1="20" y1="79.5" x2="18" y2="79.5" width="0.508" layer="16"/>
 <wire x1="27.5" y1="75" x2="22" y2="75" width="0.508" layer="1"/>
+<wire x1="16.35" y1="87.05" x2="16.6" y2="87.05" width="0.508" layer="16"/>
+<wire x1="20.6" y1="86.35" x2="18.95" y2="84.7" width="0.508" layer="16"/>
+<wire x1="20.6" y1="88.545" x2="20.6" y2="86.35" width="0.508" layer="16"/>
 </signal>
 <signal name="LED">
 <contactref element="J6" pad="47"/>
