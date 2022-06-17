@@ -7,7 +7,7 @@
 > Very happy to announce that [PCBWay]((https://pcbway.com)) has gratefully sponsored the production of the first 5 PCBs, and a partial assembly service, for this project.  *(I will post images and results of the prototype testing herein as soon as I can.)*
 
 
-![](./docs/pcbway_banner-728x90.jpg)]
+![](docs/pcbway_banner-728x90.jpg)]
 
 > Thank you [PCBWay]((https://pcbway.com))!
 
