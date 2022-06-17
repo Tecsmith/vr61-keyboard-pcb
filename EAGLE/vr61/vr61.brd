@@ -291,7 +291,6 @@ http://c1k.it/vr61</text>
 <text x="54.4" y="77.6" size="1" layer="26" rot="MR90" align="center-left">GND</text>
 <text x="174.6" y="18.8" size="1.6764" layer="22" font="vector" rot="MR0">Ver 1.0 | Rev 2022-06-06</text>
 <text x="31.7" y="57" size="1" layer="26" rot="MR270" align="top-center">VIN/3</text>
-<text x="283" y="93" size="1.4224" layer="22" rot="MR270">JLCJLCJLCJLC</text>
 <text x="28" y="70" size="1.778" layer="22" rot="MR0">CMN</text>
 <wire x1="13.6" y1="60.25" x2="13.6" y2="57.75" width="0.254" layer="22"/>
 <wire x1="13.6" y1="57.75" x2="16.35" y2="57.75" width="0.254" layer="22"/>

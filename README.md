@@ -2,8 +2,13 @@
 
 ***Featuring SparkFun's MicroMod Processor Boards***
 
-> My first foray into building a full keyboard PCB.  This is very, very early design.  
-> &#x26A0; &#x26A0; &#x26A0; **PCB has not been prototyped or tested yet.** &#x26A0; &#x26A0; &#x26A0;
+> Very happy to announce that PCBWay has gratefully sponsored the production of the first 5 PCBs, and a partial assembly service, for this project.  *(I will post images and results of the prototype testing herein as soon as I can.)*
+
+<center>
+[![PCBWay - Official Sponsor](./docs/pcbway_banner-728x90.jpg)](https://pcbway.com)
+</center>
+
+> Thank you PCBWay!
 
 ![](docs/vr61-pcb-top.png)
 
