@@ -131,8 +131,8 @@ if (board) board(B) {
         strsub(filename(B.name), 0, strlen(filename(B.name)) - 4) +
         "_" + strlwr(layer_name_map[layer_choice]));
 
-    string cpl_filename = base_path + "_cpl.csv";
-    string bom_filename = base_path + "_bom.csv";
+    string cpl_filename = "jlcpcb_" + base_path + "_cpl.csv";
+    string bom_filename = "jlcpcb_" + base_path + "_bom.csv";
 
     output(cpl_filename) {
         printf("Designator,Mid X,Mid Y,Layer,Rotation\n");

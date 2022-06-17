@@ -613,101 +613,111 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
 <rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
 </package>
-<package name="USB_C_CUSB31-CFM2AX-01-X">
-<smd name="A1B12" x="-3.2" y="7.355" dx="0.575" dy="1.15" layer="1"/>
-<smd name="A4B9" x="-2.4" y="7.355" dx="0.575" dy="1.15" layer="1"/>
-<smd name="B8" x="-1.75" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="A5" x="-1.25" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="B7" x="-0.75" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="A6" x="-0.25" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="A7" x="0.25" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="B6" x="0.75" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="A8" x="1.25" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="B5" x="1.75" y="7.355" dx="0.275" dy="1.15" layer="1"/>
-<smd name="B4A9" x="2.4" y="7.355" dx="0.575" dy="1.15" layer="1"/>
-<smd name="B1A12" x="3.2" y="7.355" dx="0.575" dy="1.15" layer="1"/>
-<pad name="M3" x="-4.32" y="2.6" drill="0.6" diameter="1" shape="long" rot="R90"/>
-<wire x1="-4.62" y1="2.9" x2="-4.32" y2="3.2" width="0" layer="46" curve="-90"/>
-<wire x1="-4.32" y1="3.2" x2="-4.02" y2="2.9" width="0" layer="46" curve="-90"/>
-<wire x1="-4.02" y1="2.9" x2="-4.02" y2="2.3" width="0" layer="46"/>
-<wire x1="-4.02" y1="2.3" x2="-4.32" y2="2" width="0" layer="46" curve="-90"/>
-<wire x1="-4.32" y1="2" x2="-4.62" y2="2.3" width="0" layer="46" curve="-90"/>
-<wire x1="-4.62" y1="2.3" x2="-4.62" y2="2.9" width="0" layer="46"/>
-<pad name="M4" x="4.32" y="2.6" drill="0.6" diameter="1" shape="long" rot="R90"/>
-<wire x1="4.02" y1="2.9" x2="4.32" y2="3.2" width="0" layer="46" curve="-90"/>
-<wire x1="4.32" y1="3.2" x2="4.62" y2="2.9" width="0" layer="46" curve="-90"/>
-<wire x1="4.62" y1="2.9" x2="4.62" y2="2.3" width="0" layer="46"/>
-<wire x1="4.62" y1="2.3" x2="4.32" y2="2" width="0" layer="46" curve="-90"/>
-<wire x1="4.32" y1="2" x2="4.02" y2="2.3" width="0" layer="46" curve="-90"/>
-<wire x1="4.02" y1="2.3" x2="4.02" y2="2.9" width="0" layer="46"/>
-<pad name="M2" x="4.32" y="6.78" drill="0.6" diameter="1" shape="long" rot="R90"/>
-<wire x1="4.02" y1="7.33" x2="4.32" y2="7.63" width="0" layer="46" curve="-90"/>
-<wire x1="4.32" y1="7.63" x2="4.62" y2="7.33" width="0" layer="46" curve="-90"/>
-<wire x1="4.62" y1="7.33" x2="4.62" y2="6.23" width="0" layer="46"/>
-<wire x1="4.62" y1="6.23" x2="4.32" y2="5.93" width="0" layer="46" curve="-90"/>
-<wire x1="4.32" y1="5.93" x2="4.02" y2="6.23" width="0" layer="46" curve="-90"/>
-<wire x1="4.02" y1="6.23" x2="4.02" y2="7.33" width="0" layer="46"/>
-<pad name="M1" x="-4.32" y="6.78" drill="0.6" diameter="1" shape="long" rot="R90"/>
-<wire x1="-4.62" y1="7.33" x2="-4.32" y2="7.63" width="0" layer="46" curve="-90"/>
-<wire x1="-4.32" y1="7.63" x2="-4.02" y2="7.33" width="0" layer="46" curve="-90"/>
-<wire x1="-4.02" y1="7.33" x2="-4.02" y2="6.23" width="0" layer="46"/>
-<wire x1="-4.02" y1="6.23" x2="-4.32" y2="5.93" width="0" layer="46" curve="-90"/>
-<wire x1="-4.32" y1="5.93" x2="-4.62" y2="6.23" width="0" layer="46" curve="-90"/>
-<wire x1="-4.62" y1="6.23" x2="-4.62" y2="7.33" width="0" layer="46"/>
-<hole x="2.89" y="6.28" drill="0.65"/>
-<hole x="-2.89" y="6.28" drill="0.65"/>
-<wire x1="-4.47" y1="0" x2="-4.47" y2="7.35" width="0.05" layer="51"/>
-<wire x1="4.47" y1="7.35" x2="4.47" y2="0" width="0.05" layer="51"/>
-<wire x1="4.47" y1="0" x2="-4.47" y2="0" width="0.05" layer="51"/>
-<wire x1="-4.47" y1="4" x2="-4.47" y2="5.35" width="0.1016" layer="21"/>
-<wire x1="4.47" y1="5.35" x2="4.47" y2="4" width="0.1016" layer="21"/>
-<wire x1="4.47" y1="0" x2="-4.47" y2="0" width="0.1016" layer="21"/>
-<wire x1="-4.47" y1="0" x2="-4.47" y2="1.35" width="0.1016" layer="21"/>
-<wire x1="4.47" y1="1.35" x2="4.47" y2="0" width="0.1016" layer="21"/>
-<text x="-2.75" y="0.25" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="-1.5" y="0.25" size="0.4064" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<wire x1="-4.47" y1="7.35" x2="-3.53" y2="7.35" width="0.05" layer="51"/>
-<wire x1="3.53" y1="7.35" x2="4.47" y2="7.35" width="0.05" layer="51"/>
+<package name="TYPE-C-31-M-12">
+<smd name="A1B12-GND" x="-3.2" y="3.16" dx="0.6" dy="1.14" layer="1"/>
+<smd name="A4B9-VBUS" x="-2.4" y="3.16" dx="0.6" dy="1.14" layer="1"/>
+<smd name="B8-SBU2" x="-1.75" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="A5-CC1" x="-1.25" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="B7-DN2" x="-0.75" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="A6-DP1" x="-0.25" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="A7-DN1" x="0.25" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="B6-DP2" x="0.75" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="A8-SBU1" x="1.25" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="B5-CC2" x="1.75" y="3.16" dx="0.3" dy="1.14" layer="1"/>
+<smd name="B4A9-VBUS" x="2.4" y="3.16" dx="0.6" dy="1.14" layer="1"/>
+<smd name="B1A12-GND" x="3.2" y="3.16" dx="0.6" dy="1.14" layer="1"/>
+<pad name="M3" x="-4.32" y="-1.59" drill="0.6" diameter="1" shape="long" rot="R90"/>
+<wire x1="-4.62" y1="-1.3" x2="-4.32" y2="-1" width="0" layer="46" curve="-90"/>
+<wire x1="-4.32" y1="-1" x2="-4.02" y2="-1.3" width="0" layer="46" curve="-90"/>
+<wire x1="-4.02" y1="-1.3" x2="-4.02" y2="-1.9" width="0" layer="46"/>
+<wire x1="-4.02" y1="-1.9" x2="-4.32" y2="-2.2" width="0" layer="46" curve="-90"/>
+<wire x1="-4.32" y1="-2.2" x2="-4.62" y2="-1.9" width="0" layer="46" curve="-90"/>
+<wire x1="-4.62" y1="-1.9" x2="-4.62" y2="-1.3" width="0" layer="46"/>
+<pad name="M4" x="4.32" y="-1.59" drill="0.6" diameter="1" shape="long" rot="R90"/>
+<wire x1="4.02" y1="-1.3" x2="4.32" y2="-1" width="0" layer="46" curve="-90"/>
+<wire x1="4.32" y1="-1" x2="4.62" y2="-1.3" width="0" layer="46" curve="-90"/>
+<wire x1="4.62" y1="-1.3" x2="4.62" y2="-1.9" width="0" layer="46"/>
+<wire x1="4.62" y1="-1.9" x2="4.32" y2="-2.2" width="0" layer="46" curve="-90"/>
+<wire x1="4.32" y1="-2.2" x2="4.02" y2="-1.9" width="0" layer="46" curve="-90"/>
+<wire x1="4.02" y1="-1.9" x2="4.02" y2="-1.3" width="0" layer="46"/>
+<pad name="M2" x="4.32" y="2.59" drill="0.6" diameter="1" shape="long" rot="R90"/>
+<wire x1="4.02" y1="3.13" x2="4.32" y2="3.43" width="0" layer="46" curve="-90"/>
+<wire x1="4.32" y1="3.43" x2="4.62" y2="3.13" width="0" layer="46" curve="-90"/>
+<wire x1="4.62" y1="3.13" x2="4.62" y2="2.03" width="0" layer="46"/>
+<wire x1="4.62" y1="2.03" x2="4.32" y2="1.73" width="0" layer="46" curve="-90"/>
+<wire x1="4.32" y1="1.73" x2="4.02" y2="2.03" width="0" layer="46" curve="-90"/>
+<wire x1="4.02" y1="2.03" x2="4.02" y2="3.13" width="0" layer="46"/>
+<pad name="M1" x="-4.32" y="2.59" drill="0.6" diameter="1" shape="long" rot="R90"/>
+<wire x1="-4.62" y1="3.13" x2="-4.32" y2="3.43" width="0" layer="46" curve="-90"/>
+<wire x1="-4.32" y1="3.43" x2="-4.02" y2="3.13" width="0" layer="46" curve="-90"/>
+<wire x1="-4.02" y1="3.13" x2="-4.02" y2="2.03" width="0" layer="46"/>
+<wire x1="-4.02" y1="2.03" x2="-4.32" y2="1.73" width="0" layer="46" curve="-90"/>
+<wire x1="-4.32" y1="1.73" x2="-4.62" y2="2.03" width="0" layer="46" curve="-90"/>
+<wire x1="-4.62" y1="2.03" x2="-4.62" y2="3.13" width="0" layer="46"/>
+<hole x="2.89" y="2.09" drill="0.6"/>
+<hole x="-2.89" y="2.09" drill="0.6"/>
+<wire x1="-4.47" y1="-3.7" x2="-4.47" y2="3.65" width="0.05" layer="51"/>
+<wire x1="4.47" y1="3.65" x2="4.47" y2="-3.7" width="0.05" layer="51"/>
+<wire x1="4.47" y1="-3.7" x2="-4.47" y2="-3.7" width="0.05" layer="51"/>
+<wire x1="-4.47" y1="0.3" x2="-4.47" y2="1.65" width="0.1016" layer="21"/>
+<wire x1="4.47" y1="1.65" x2="4.47" y2="0.3" width="0.1016" layer="21"/>
+<wire x1="4.47" y1="-3.7" x2="-4.47" y2="-3.7" width="0.1016" layer="21"/>
+<wire x1="-4.47" y1="-3.7" x2="-4.47" y2="-2.35" width="0.1016" layer="21"/>
+<wire x1="4.47" y1="-2.35" x2="4.47" y2="-3.7" width="0.1016" layer="21"/>
+<text x="-2.75" y="-3.45" size="0.8128" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="-1.5" y="-3.45" size="0.4064" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<wire x1="-4.47" y1="3.65" x2="-3.53" y2="3.65" width="0.05" layer="51"/>
+<wire x1="3.53" y1="3.65" x2="4.47" y2="3.65" width="0.05" layer="51"/>
 <polygon width="0" layer="31">
-<vertex x="-4.826" y="6.7818"/>
-<vertex x="-4.826" y="7.2644" curve="-90"/>
-<vertex x="-4.318" y="7.7724" curve="-90"/>
-<vertex x="-3.8354" y="7.2898"/>
-<vertex x="-3.8354" y="6.7818"/>
-<vertex x="-3.8354" y="6.2738" curve="-90"/>
-<vertex x="-4.318" y="5.7912" curve="-90"/>
-<vertex x="-4.826" y="6.2992"/>
+<vertex x="-4.826" y="2.0992"/>
+<vertex x="-4.826" y="3.0644" curve="-90"/>
+<vertex x="-4.318" y="3.5724" curve="-90"/>
+<vertex x="-3.8354" y="3.0898"/>
+<vertex x="-3.8354" y="2.0738" curve="-90"/>
+<vertex x="-4.318" y="1.5912" curve="-90"/>
 </polygon>
 <polygon width="0" layer="31">
-<vertex x="3.8227" y="6.7945"/>
-<vertex x="3.8227" y="7.2771" curve="-90"/>
-<vertex x="4.3307" y="7.7851" curve="-90"/>
-<vertex x="4.8133" y="7.3025"/>
-<vertex x="4.8133" y="6.7945"/>
-<vertex x="4.8133" y="6.2865" curve="-90"/>
-<vertex x="4.3307" y="5.8039" curve="-90"/>
-<vertex x="3.8227" y="6.3119"/>
+<vertex x="3.8227" y="2.1119"/>
+<vertex x="3.8227" y="3.0771" curve="-90"/>
+<vertex x="4.3307" y="3.5851" curve="-90"/>
+<vertex x="4.8133" y="3.1025"/>
+<vertex x="4.8133" y="2.0865" curve="-90"/>
+<vertex x="4.3307" y="1.6039" curve="-90"/>
 </polygon>
 <polygon width="0" layer="31">
-<vertex x="3.8227" y="2.6035"/>
-<vertex x="3.8227" y="3.0861" curve="-90"/>
-<vertex x="4.3307" y="3.5941" curve="-90"/>
-<vertex x="4.8133" y="3.1115"/>
-<vertex x="4.8133" y="2.6035"/>
-<vertex x="4.8133" y="2.0955" curve="-90"/>
-<vertex x="4.3307" y="1.6129" curve="-90"/>
-<vertex x="3.8227" y="2.1209"/>
+<vertex x="3.8227" y="-2.0791"/>
+<vertex x="3.8227" y="-1.1139" curve="-90"/>
+<vertex x="4.3307" y="-0.6059" curve="-90"/>
+<vertex x="4.8133" y="-1.0885"/>
+<vertex x="4.8133" y="-2.1045" curve="-90"/>
+<vertex x="4.3307" y="-2.5871" curve="-90"/>
 </polygon>
 <polygon width="0" layer="31">
-<vertex x="-4.8133" y="2.6035"/>
-<vertex x="-4.8133" y="3.0861" curve="-90"/>
-<vertex x="-4.3053" y="3.5941" curve="-90"/>
-<vertex x="-3.8227" y="3.1115"/>
-<vertex x="-3.8227" y="2.6035"/>
-<vertex x="-3.8227" y="2.0955" curve="-90"/>
-<vertex x="-4.3053" y="1.6129" curve="-90"/>
-<vertex x="-4.8133" y="2.1209"/>
+<vertex x="-4.8133" y="-2.0791"/>
+<vertex x="-4.8133" y="-1.1139" curve="-90"/>
+<vertex x="-4.3053" y="-0.6059" curve="-90"/>
+<vertex x="-3.8227" y="-1.0885"/>
+<vertex x="-3.8227" y="-2.1045" curve="-90"/>
+<vertex x="-4.3053" y="-2.5871" curve="-90"/>
 </polygon>
+<wire x1="-3.7" y1="2.9" x2="-3.7" y2="2.1" width="0.1524" layer="39"/>
+<wire x1="-3.7" y1="2.1" x2="-4.4" y2="1.6" width="0.1524" layer="39"/>
+<wire x1="-4.4" y1="1.6" x2="-4.4" y2="-0.2" width="0.1524" layer="39"/>
+<wire x1="-4.4" y1="-0.2" x2="-3.7" y2="-0.8" width="0.1524" layer="39"/>
+<wire x1="-3.7" y1="-0.8" x2="-3.7" y2="-2.4" width="0.1524" layer="39"/>
+<wire x1="-3.7" y1="-2.4" x2="-4.4" y2="-2.9" width="0.1524" layer="39"/>
+<wire x1="-4.4" y1="-2.9" x2="-4.4" y2="-3.6" width="0.1524" layer="39"/>
+<wire x1="-4.4" y1="-3.6" x2="4.4" y2="-3.6" width="0.1524" layer="39"/>
+<wire x1="4.4" y1="-3.6" x2="4.4" y2="-2.9" width="0.1524" layer="39"/>
+<wire x1="4.4" y1="-2.9" x2="3.7" y2="-2.4" width="0.1524" layer="39"/>
+<wire x1="3.7" y1="-2.4" x2="3.7" y2="-0.8" width="0.1524" layer="39"/>
+<wire x1="3.7" y1="-0.8" x2="4.4" y2="-0.2" width="0.1524" layer="39"/>
+<wire x1="4.4" y1="-0.2" x2="4.4" y2="1.6" width="0.1524" layer="39"/>
+<wire x1="4.4" y1="1.6" x2="3.7" y2="2.2" width="0.1524" layer="39"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="2.9" width="0.1524" layer="39"/>
+<wire x1="3.7" y1="2.9" x2="-3.7" y2="2.9" width="0.1524" layer="39"/>
+<wire x1="-1" y1="0.015" x2="1" y2="0.015" width="0.05" layer="25"/>
+<wire x1="0" y1="1.015" x2="0" y2="-0.985" width="0.05" layer="25"/>
 </package>
 <package name="MOUNTING-HOLE-VWIDE">
 <hole x="-2" y="0" drill="2.5"/>
@@ -1518,17 +1528,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <gate name="G$1" symbol="USB_C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="USB_C_CUSB31-CFM2AX-01-X">
+<device name="" package="TYPE-C-31-M-12">
 <connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="D+" pad="A6 B6"/>
-<connect gate="G$1" pin="D-" pad="A7 B7"/>
-<connect gate="G$1" pin="GND" pad="A1B12 B1A12"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="CC1" pad="A5-CC1"/>
+<connect gate="G$1" pin="CC2" pad="B5-CC2"/>
+<connect gate="G$1" pin="D+" pad="A6-DP1 B6-DP2"/>
+<connect gate="G$1" pin="D-" pad="A7-DN1 B7-DN2"/>
+<connect gate="G$1" pin="GND" pad="A1B12-GND B1A12-GND"/>
+<connect gate="G$1" pin="SBU1" pad="A8-SBU1"/>
+<connect gate="G$1" pin="SBU2" pad="B8-SBU2"/>
 <connect gate="G$1" pin="SHIELD" pad="M1 M2 M3 M4"/>
-<connect gate="G$1" pin="VBUS" pad="A4B9 B4A9"/>
+<connect gate="G$1" pin="VBUS" pad="A4B9-VBUS B4A9-VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
