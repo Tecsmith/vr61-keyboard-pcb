@@ -200,13 +200,18 @@
 <wire x1="2" y1="0" x2="0" y2="2" width="0.0762" layer="20" curve="-91.503577"/>
 <wire x1="18" y1="2" x2="16" y2="0" width="0.0762" layer="20" curve="-88.492564"/>
 <text x="14.1" y="5.8" size="0.6096" layer="21" rot="R270">PTC</text>
-<text x="2.5" y="8.2" size="0.8128" layer="22" rot="MR90" align="center">Unified
+<text x="2" y="8.2" size="0.8128" layer="22" rot="MR90" align="center">Unified
 Daughterboard</text>
-<text x="16.1" y="8" size="0.6096" layer="22" rot="MR90" align="center">http://c1k.it/udb</text>
-<text x="12.5" y="3.5" size="0.6096" layer="22" rot="MR90" align="center">Original
-(c) ai03</text>
+<text x="9" y="16" size="0.6096" layer="22" rot="MR0" align="center">http://c1k.it/udb</text>
+<text x="16" y="10" size="0.6096" layer="22" rot="MR90" align="center">Original
+(c) 2019
+@ai03</text>
 <text x="6.4" y="14.9" size="0.6096" layer="22" rot="MR90" align="center-right">a clone by
 Tecsmith</text>
+<text x="5.2" y="3.85" size="0.6096" layer="26" ratio="20" rot="MR90" align="center-left">GND</text>
+<text x="7.7" y="3.85" size="0.6096" layer="26" ratio="20" rot="MR90" align="center-left">D-</text>
+<text x="10.2" y="3.85" size="0.6096" layer="26" ratio="20" rot="MR90" align="center-left">D+</text>
+<text x="12.7" y="3.85" size="0.6096" layer="26" ratio="20" rot="MR90" align="center-left">5V</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -431,6 +436,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X04_SMD_RA_FEMALE" urn="urn:adsk.eagle:footprint:37718/1" locally_modified="yes" library_version="1">
+<description>&lt;h3&gt;SMD - 4 Pin Right-Angle Female Header&lt;/h3&gt;
+Silk outline shows header location. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="3" x="1.27" y="0" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="2" x="-1.27" y="0" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="1" x="-3.81" y="0" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="4" x="3.81" y="0" dx="1.25" dy="3" layer="1" rot="R180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X04_1MM_RA" urn="urn:adsk.eagle:package:38096/1" type="box" library_version="1">
@@ -444,6 +464,20 @@ CONN_04
 </description>
 <packageinstances>
 <packageinstance name="1X04_1MM_RA"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04_SMD_RA_FEMALE" urn="urn:adsk.eagle:package:38100/1" type="box" library_version="1">
+<description>SMD - 4 Pin Right-Angle Female Header
+Silk outline shows header location. 
+Specifications:
+Pin count:4
+Pin pitch:0.1"
+
+Example device(s):
+CONN_04
+</description>
+<packageinstances>
+<packageinstance name="1X04_SMD_RA_FEMALE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2262,48 +2296,76 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.0889" y1="2.2733" x2="0.0889" y2="2.2987" layer="21"/>
 <rectangle x1="-0.0381" y1="2.2987" x2="0.0381" y2="2.3241" layer="21"/>
 </package>
-<package name="OSHW-LOGO-M" urn="urn:adsk.eagle:footprint:37012/1" library_version="1">
-<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Silkscreen&lt;/h3&gt;
+</packages>
+</library>
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
+<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
+This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="OSHW-LOGO-S" urn="urn:adsk.eagle:footprint:37013/1" library_version="1">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
 &lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<polygon width="0.0762" layer="21">
-<vertex x="0.6578" y="-1.588" curve="9.499253"/>
-<vertex x="0.9108" y="-1.4576"/>
-<vertex x="1.5392" y="-1.97"/>
-<vertex x="1.97" y="-1.5392"/>
-<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
-<vertex x="1.6747" y="-0.3866"/>
-<vertex x="2.4814" y="-0.3047"/>
-<vertex x="2.4814" y="0.3047"/>
-<vertex x="1.6747" y="0.3866" curve="19.001165"/>
-<vertex x="1.4576" y="0.9108"/>
-<vertex x="1.97" y="1.5392"/>
-<vertex x="1.5392" y="1.97"/>
-<vertex x="0.9108" y="1.4576" curve="19.001165"/>
-<vertex x="0.3866" y="1.6747"/>
-<vertex x="0.3047" y="2.4814"/>
-<vertex x="-0.3047" y="2.4814"/>
-<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
-<vertex x="-0.9108" y="1.4576"/>
-<vertex x="-1.5392" y="1.97"/>
-<vertex x="-1.97" y="1.5392"/>
-<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
-<vertex x="-1.6747" y="0.3866"/>
-<vertex x="-2.4814" y="0.3047"/>
-<vertex x="-2.4814" y="-0.3047"/>
-<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
-<vertex x="-1.4576" y="-0.9108"/>
-<vertex x="-1.97" y="-1.5392"/>
-<vertex x="-1.5392" y="-1.97"/>
-<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
-<vertex x="-0.6578" y="-1.588"/>
-<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
-<vertex x="-0.7813" y="0" curve="-247.497552"/>
-<vertex x="0.299" y="-0.7218"/>
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="OSHW-LOGO-S" urn="urn:adsk.eagle:package:37099/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Small - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+<packageinstances>
+<packageinstance name="OSHW-LOGO-S"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -2314,7 +2376,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0.000153125" drill="0.00030625">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2347,7 +2409,7 @@ design rules under a new name.</description>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
+<param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -2524,7 +2586,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="5.8" y="7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$2" library="random_logos" package="TECSMITH-CUBE" value="TECSMITH-LOGOSHORT" x="10" y="12.7" smashed="yes" rot="MR90"/>
-<element name="LOGO1" library="random_logos" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="6.1" y="3.5" smashed="yes" rot="MR90"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="OSHW-LOGO-S" package3d_urn="urn:adsk.eagle:package:37099/1" value="OSHW-LOGOS" x="16" y="5.7" smashed="yes" rot="MR90"/>
+<element name="J1" library="__untitled" package="1X04_SMD_RA_FEMALE" package3d_urn="urn:adsk.eagle:package:38100/1" value="" x="9" y="2" smashed="yes" rot="MR0">
+<attribute name="PROD_ID" value="CONN-12382" x="9" y="2" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2538,7 +2603,7 @@ design rules under a new name.</description>
 <contactref element="Y1" pad="P$3"/>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
-<via x="9" y="8.1" extent="1-16" drill="0.35" diameter="0.55"/>
+<via x="9" y="8.1" extent="1-16" drill="0.3" diameter="0.55"/>
 <wire x1="9" y1="8.1" x2="9" y2="5.8" width="0.254" layer="1"/>
 <polygon width="0.0762" layer="1">
 <vertex x="0" y="10.4"/>
@@ -2550,11 +2615,14 @@ design rules under a new name.</description>
 <vertex x="18" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<via x="4" y="7" extent="1-16" drill="0.35"/>
-<via x="9" y="2" extent="1-16" drill="0.35"/>
-<via x="13.4" y="6" extent="1-16" drill="0.35"/>
+<via x="4" y="7" extent="1-16" drill="0.3"/>
+<via x="14" y="6.5" extent="1-16" drill="0.3"/>
 <polygon width="0.0762" layer="16">
 <vertex x="0" y="0"/>
+<vertex x="6" y="0"/>
+<vertex x="6" y="4"/>
+<vertex x="12" y="4"/>
+<vertex x="12" y="0"/>
 <vertex x="18" y="0"/>
 <vertex x="18" y="8.5"/>
 <vertex x="0" y="8.5"/>
@@ -2568,6 +2636,8 @@ design rules under a new name.</description>
 <wire x1="2.05" y1="9.79" x2="2.05" y2="7.9" width="0.508" layer="1"/>
 <wire x1="16.02" y1="9.88" x2="15.94" y2="9.8" width="0.508" layer="1"/>
 <wire x1="15.94" y1="9.8" x2="14.6" y2="9.8" width="0.508" layer="1"/>
+<contactref element="J1" pad="4"/>
+<wire x1="5.19" y1="2" x2="5.19" y2="5.04" width="0.508" layer="16"/>
 </signal>
 <signal name="VSUP">
 <contactref element="PTC" pad="P$2"/>
@@ -2576,10 +2646,16 @@ design rules under a new name.</description>
 <wire x1="2.05" y1="5" x2="4.1" y2="5" width="0.508" layer="1"/>
 <wire x1="4.1" y1="5" x2="5.7" y2="3.4" width="0.508" layer="1"/>
 <wire x1="5.7" y1="3.4" x2="7.5" y2="3.4" width="0.508" layer="1"/>
-<wire x1="7.5" y1="3.4" x2="12.3" y2="3.4" width="0.508" layer="1"/>
-<wire x1="13.79" y1="4.89" x2="15.81" y2="4.89" width="0.508" layer="1"/>
-<wire x1="12.3" y1="3.4" x2="13.79" y2="4.89" width="0.508" layer="1"/>
 <wire x1="7.5" y1="4.7" x2="7.5" y2="3.4" width="0.508" layer="1"/>
+<via x="13.7" y="4.45" extent="1-16" drill="0.35"/>
+<wire x1="12.65" y1="3.4" x2="13.7" y2="4.45" width="0.508" layer="1"/>
+<wire x1="7.5" y1="3.4" x2="12.65" y2="3.4" width="0.508" layer="1"/>
+<wire x1="13.7" y1="4.45" x2="14.14" y2="4.89" width="0.508" layer="1"/>
+<wire x1="14.14" y1="4.89" x2="15.81" y2="4.89" width="0.508" layer="1"/>
+<contactref element="J1" pad="1"/>
+<wire x1="12.81" y1="2" x2="12.81" y2="4.06" width="0.508" layer="16"/>
+<wire x1="13.2" y1="4.45" x2="12.81" y2="4.06" width="0.508" layer="16"/>
+<wire x1="13.2" y1="4.45" x2="13.7" y2="4.45" width="0.508" layer="16"/>
 </signal>
 <signal name="CC1">
 <contactref element="X1" pad="A5-CC1"/>
@@ -2610,18 +2686,23 @@ design rules under a new name.</description>
 <wire x1="9.66" y1="8.37" x2="9.66" y2="7.84" width="0.254" layer="1"/>
 <wire x1="9.66" y1="7.84" x2="9.5" y2="7.68" width="0.254" layer="1"/>
 <wire x1="9.5" y1="7.68" x2="9.5" y2="4.7" width="0.254" layer="1"/>
-<via x="9.5" y="4.7" extent="1-16" drill="0.35"/>
+<via x="9.5" y="4.7" extent="1-16" drill="0.3"/>
 <wire x1="8.25" y1="9.59" x2="8.25" y2="8.86" width="0.254" layer="1"/>
 <wire x1="8" y1="7.6175" x2="7.93" y2="7.6875" width="0.254" layer="1"/>
 <wire x1="8" y1="7.6175" x2="8" y2="7.4175" width="0.254" layer="1"/>
 <wire x1="8.25" y1="8.86" x2="7.93" y2="8.54" width="0.254" layer="1"/>
 <wire x1="7.93" y1="8.54" x2="7.93" y2="7.6875" width="0.254" layer="1"/>
 <wire x1="8" y1="6.4" x2="7.6" y2="6" width="0.254" layer="1"/>
-<via x="7.6" y="6" extent="1-16" drill="0.35"/>
+<via x="7.6" y="6" extent="1-16" drill="0.3"/>
 <wire x1="8" y1="7.4175" x2="8" y2="6.4" width="0.254" layer="1"/>
-<wire x1="7.6" y1="6" x2="8.84" y2="6" width="0.254" layer="16"/>
-<wire x1="9.5" y1="5.34" x2="8.84" y2="6" width="0.254" layer="16"/>
-<wire x1="9.5" y1="5.34" x2="9.5" y2="4.7" width="0.254" layer="16"/>
+<wire x1="7.6" y1="6" x2="8.1" y2="5.5" width="0.254" layer="16"/>
+<wire x1="9.14" y1="5.5" x2="8.1" y2="5.5" width="0.254" layer="16"/>
+<wire x1="9.5" y1="5.14" x2="9.14" y2="5.5" width="0.254" layer="16"/>
+<wire x1="9.5" y1="5.14" x2="9.5" y2="4.7" width="0.254" layer="16"/>
+<contactref element="J1" pad="3"/>
+<wire x1="7.6" y1="6" x2="7.6" y2="3.78" width="0.254" layer="16"/>
+<wire x1="7.73" y1="3.65" x2="7.6" y2="3.78" width="0.254" layer="16"/>
+<wire x1="7.73" y1="3.65" x2="7.73" y2="2" width="0.254" layer="16"/>
 <wire x1="8" y1="7.4175" x2="9.5" y2="7.4175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
@@ -2636,19 +2717,24 @@ design rules under a new name.</description>
 <wire x1="8.5" y1="7.6775" x2="8.34" y2="7.8375" width="0.254" layer="1"/>
 <wire x1="8.34" y1="7.8375" x2="8.34" y2="8.37" width="0.254" layer="1"/>
 <wire x1="8.5" y1="7.4175" x2="8.5" y2="4.7" width="0.254" layer="1"/>
-<via x="8.5" y="4.7" extent="1-16" drill="0.35"/>
+<via x="8.5" y="4.7" extent="1-16" drill="0.3" diameter="0.5"/>
 <wire x1="9.75" y1="9.59" x2="9.75" y2="8.86" width="0.254" layer="1"/>
 <wire x1="10.07" y1="7.6875" x2="10" y2="7.6175" width="0.254" layer="1"/>
 <wire x1="10" y1="7.6175" x2="10" y2="7.4175" width="0.254" layer="1"/>
 <wire x1="9.75" y1="8.86" x2="10.07" y2="8.54" width="0.254" layer="1"/>
 <wire x1="10.07" y1="8.54" x2="10.07" y2="7.6875" width="0.254" layer="1"/>
 <wire x1="10" y1="6.4" x2="10.4" y2="6" width="0.254" layer="1"/>
-<via x="10.4" y="6" extent="1-16" drill="0.35"/>
+<via x="10.4" y="6" extent="1-16" drill="0.3"/>
 <wire x1="10" y1="7.4175" x2="10" y2="6.4" width="0.254" layer="1"/>
-<wire x1="8.5" y1="4.7" x2="9.2" y2="4" width="0.254" layer="16"/>
-<wire x1="10.4" y1="4.6" x2="10.4" y2="6" width="0.254" layer="16"/>
-<wire x1="9.2" y1="4" x2="9.8" y2="4" width="0.254" layer="16"/>
-<wire x1="9.8" y1="4" x2="10.4" y2="4.6" width="0.254" layer="16"/>
+<wire x1="9.1" y1="3.9" x2="8.5" y2="4.5" width="0.254" layer="16"/>
+<wire x1="8.5" y1="4.7" x2="8.5" y2="4.5" width="0.254" layer="16"/>
+<wire x1="10.4" y1="4.45" x2="10.4" y2="6" width="0.254" layer="16"/>
+<wire x1="9.1" y1="3.9" x2="9.85" y2="3.9" width="0.254" layer="16"/>
+<wire x1="9.85" y1="3.9" x2="10.1" y2="4.15" width="0.254" layer="16"/>
+<contactref element="J1" pad="2"/>
+<wire x1="10.1" y1="4.15" x2="10.4" y2="4.45" width="0.254" layer="16"/>
+<wire x1="10.27" y1="2" x2="10.27" y2="3.98" width="0.254" layer="16"/>
+<wire x1="10.27" y1="3.98" x2="10.1" y2="4.15" width="0.254" layer="16"/>
 </signal>
 <signal name="VBUS">
 <contactref element="X1" pad="A4B9-VBUS"/>
@@ -2701,9 +2787,6 @@ design rules under a new name.</description>
 <vertex x="18" y="10.9"/>
 <vertex x="18" y="16.5"/>
 </polygon>
-<wire x1="13.32" y1="10.16" x2="16.02" y2="11.58" width="0" layer="19" extent="1-1"/>
-<wire x1="4.68" y1="10.16" x2="13.32" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="1.96" y1="11.58" x2="4.68" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2716,7 +2799,6 @@ design rules under a new name.</description>
 <errors>
 <approved hash="21,19,50f752f552f550f7"/>
 <approved hash="5,1,af5d72f8bcd5028e"/>
-<approved hash="5,1,c28daf147651e732"/>
 <approved hash="5,1,98f427bef86a053a"/>
 <approved hash="5,1,98f427bef86a053a"/>
 <approved hash="5,1,98f427bef86a053a"/>
@@ -2724,14 +2806,8 @@ design rules under a new name.</description>
 <approved hash="5,1,915b46e4d5ddaceb"/>
 <approved hash="5,1,62b6fb81637e84ec"/>
 <approved hash="5,1,915b46e4d5ddaceb"/>
-<approved hash="5,1,a85fb967d325c93e"/>
 <approved hash="5,1,915b46e4d5ddaceb"/>
-<approved hash="5,1,4eadc07e70abe42d"/>
-<approved hash="5,1,0895c5f95069c993"/>
-<approved hash="5,1,49a1b3de5389dbdc"/>
-<approved hash="5,1,a85fb967d325c93e"/>
 <approved hash="5,1,62b6fb81637e84ec"/>
-<approved hash="5,1,976c14ec3e02d1e4"/>
 <approved hash="5,1,98f6c499863bf22e"/>
 <approved hash="5,1,98f6c499863bf22e"/>
 <approved hash="5,1,915b46e4d5ddaceb"/>
@@ -2764,23 +2840,28 @@ design rules under a new name.</description>
 <approved hash="4,16,91091e2062d746c3"/>
 <approved hash="19,1,0a858c38b60c9eba"/>
 <approved hash="19,1,643769a16f0b0674"/>
-<approved hash="19,1,0ef80fcf7da37c94"/>
 <approved hash="19,1,4bf657be95ee58e7"/>
-<approved hash="19,1,06ea07dffdb3fc86"/>
 <approved hash="19,1,92e66208b4ec7fe5"/>
 <approved hash="19,1,5be95fa11dee38f8"/>
 <approved hash="19,1,8285843b360f06bb"/>
-<approved hash="23,1,1ac0dc32c31005e2"/>
-<approved hash="23,1,9c7ab204b5849bfa"/>
 <approved hash="4,1,9adb5beea5f4d8d4"/>
 <approved hash="4,1,a05cc499e3f903bb"/>
 <approved hash="4,1,b55203668a1b5b39"/>
 <approved hash="4,16,9adb5beea5f4d8d4"/>
 <approved hash="4,16,a05cc499e3f903bb"/>
 <approved hash="4,16,b55203668a1b5b39"/>
+<approved hash="4,16,98eee761ec0ec279"/>
+<approved hash="4,16,999f7c66ee6a420b"/>
+<approved hash="4,16,cec30d674c1a3e50"/>
+<approved hash="4,16,07f00262221db667"/>
+<approved hash="5,1,522b76bc76957063"/>
+<approved hash="5,1,e4ba5dfd096e6c7b"/>
+<approved hash="5,1,13d333da15e31c25"/>
+<approved hash="19,1,13c399806b8ce1cf"/>
+<approved hash="19,1,b9d4d39721974bd4"/>
+<approved hash="23,1,1ac0dc32c31005e2"/>
 <approved hash="23,1,c5a6cd7deeeeeb66"/>
-<approved hash="23,1,cc074ff866c36014"/>
-<approved hash="23,1,5d58bbaabb0b5df9"/>
+<approved hash="23,1,9c7ab204b5849bfa"/>
 </errors>
 </board>
 </drawing>
