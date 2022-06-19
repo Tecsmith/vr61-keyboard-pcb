@@ -2,11 +2,17 @@
 
 ***(Not part of the project)***
 
+## MicroMod reference boards
+
+- SparkFun MicroMod ATP Carrier Board - https://github.com/sparkfun/MicroMod_ATP_Carrier_Board
+- SparkFun STM32 MicroMod Processor - https://github.com/sparkfun/MicroMod_STM32_Processor
+- SparkFun MicroMod Processor RP2040 - https://github.com/sparkfun/MicroMod_Processor-RP2040
+
 ## Tools Used
 
 - Layout
     - [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
-- Eagle
+- EAGLE key position generator
     - [Kalerator](https://kalerator.clueboard.co/)
 - KiCad
     - [@ai03 's PCB Designer Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)
@@ -14,11 +20,6 @@
 - Plate
     - [Swill's Plate & Case Builder](http://builder.swillkb.com/)
     - [Keyboard CAD Assistant](http://www.keyboardcad.com/)
-
-## Progression / Variants
-
-- VR61 Rev 1.0
-    - [KLE link](http://www.keyboard-layout-editor.com/#/gists/c812c931186e45a5acbc3e217ef4f161)
 
 
 ## Possible design aids

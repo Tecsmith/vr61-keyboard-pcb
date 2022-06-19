@@ -1,28 +1,30 @@
-# VR61 - Swappable Microcontroller Custom Keyboard PCB
+# VR61 - MicroMod 60% Custom Keyboard PCB
 
 ***Featuring SparkFun's MicroMod Processor Boards***
 
 ---
 
-> Very happy to announce that [PCBWay](https://pcbway.com) has gratefully sponsored the production of the first 5 PCBs, and a partial assembly service, for this project.  *(I will post images and results of the prototype testing herein as soon as I can.)*
+> Very happy to announce that [PCBWay](https://pcbway.com) has gratefully sponsored the production of the first 5 PCBs, and a partial assembly service *(all but the USB-C, Hot-Swap Sockets, JST-ph4 & SK6812's)*, for this project.  *(I will post images and results of the prototype testing herein as soon as I can.)*
 >
-> ![](docs/pcbway.jpg)
+> [![Official Sponsor - PCBWay](docs/pcbway.jpg)](https://pcbway.com/)
 >
 > Thank you [PCBWay](https://pcbway.com/)!
 
 ---
 
-![](docs/vr61-pcb-top.png)
+![PCB Top View](docs/vr61-pcb-top.png)
 
-![](docs/vr61-pcb-btm.png)
+![PCB Bottom View](docs/vr61-pcb-btm.png)
 
 Published as Open Source, under [MIT License](LICENSE.md):
-* [PDF Schematic](docs/vr61.pdf)
-* [EAGLE PCB](EAGLE/vr61/vr61.brd)
-* [EAGLE Schematic](EAGLE/vr61/vr61.sch)
+* [PDF Schematic](docs/vr61-revA.pdf)
+* [EAGLE PCB](EAGLE/vr61/vr61-revA.brd)
+* [EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)
 
-Interim QMK code:
+*(Interim)* QMK code:
 * https://github.com/Tecsmith/vr61-keyboard-qmk
+* *Subject to change once prototype is built.*
+* USB Identifier registered with [pid.codes](https://pid.codes/) = [`1209`/`7672`](https://pid.codes/1209/7672/)
 
 ## Features
 
@@ -32,12 +34,12 @@ Interim QMK code:
 
 - 60% form factor
     - Design to be compatible with GH60/HK60 cases
-    - Also compatible with Anne Pro 2 case *(drop in QMK replacement for existing AP2's or AP2 cases)*
+    - Also compatible with Anne Pro 2 cases *(drop in QMK replacement for existing AP2's or AP2 cases)*
     - MicroMod positioned in case *"battery compartment"* space.
 
 - QMK + VIA default f/w
     - Wired only *(no wireless)*
-    - Default key-maps for Mac use
+    - Default key-maps for Mac users
 
 - User choice of microcontroller
     
@@ -75,21 +77,35 @@ Interim QMK code:
 
 - PCB mounted stabs compatibility
 
-- [1.25, 1.25, 1.25, **6.25**, 1.25, 1.25, 1.25, 1.25] bottom row *(a.k.a. "Poker" / "POK3R")*
+- 61-Key Layout [1.25, 1.25, 1.25, **6.25**, 1.25, 1.25, 1.25, 1.25] bottom row *(a.k.a. "Poker" / "POK3R" Layout)*
 
-- Limited RGB LEDs
+- Limited RGB LEDs *(SK6812 mini-E)*
 
     - RGB Caps Lock Indicator
 
     - North facing RGB's under the `5`, `6`, `7` & `8` keys for layer indicator
 
-    - WS2812 breakout for optional external LEDs
+    - WS2812/SK6812 breakout for optional external LEDs
 
-- Spare GPIO slots (`A0` & `PWM`) for expansion
+- Spare GPIO pins (`A0` & `PWM`) breakout for expansion
 
-- Both `[Reset]` and `[Boot]` buttons
+   ... e.g., add speaker
+
+- Both `[Reset]` and `[Boot]` buttons *(as per MicroMod ref. design)*
 
     ... plus under space-bar Boot pins for bootload without disassembly
+
+## Progression / Variants
+
+- VR61 Rev A
+    - [KLE link](http://www.keyboard-layout-editor.com/#/gists/c812c931186e45a5acbc3e217ef4f161)
+
+## Up Next
+
+- [ ] Implement 61-64 key optionality
+- [ ] Implement ANSI-ISO key optionality
+- [ ] Power micro-LED under space-bar
+- [ ] Single button bootload button
 
 
 ---
