@@ -10,6 +10,8 @@
 >
 > Thank you [PCBWay](https://pcbway.com/)!
 
+Please follow the updates to this production process on the [updates](docs/updates/readme.md) page.
+
 ---
 
 ![PCB Top View](docs/vr61-pcb-top.png)
