@@ -1,7 +1,7 @@
 {
     "name":"VR61 MicroMod Poker",
-    "vendorId":"0x7672",
-    "productId":"0x0161",
+    "vendorId":"0x1209",
+    "productId":"0x7672",
     "lighting":"none",
     "matrix":{"rows":8,"cols":9},
     "layouts":{
