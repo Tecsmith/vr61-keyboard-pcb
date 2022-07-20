@@ -76,8 +76,8 @@ Came across some terminal issues when compiling the code and attempting to retro
 # Issues
 > as discovered ... to implement in rev. B
 
-- [ ] Position of MicroMod connector is too low, does not fit in AP2 case without minor cutting - possibly move this up as far as it can go.
-- [ ] Position of the BOOT pads in the space bar area should align to the AP2 slot
+- [ ] ~~Position of MicroMod connector is too low, does not fit in AP2 case without minor cutting - possibly move this up as far as it can go.~~
+- [x] Position of the BOOT pads in the space bar area should align to the AP2 slot
 
 #### Post FAIL / Rev B WIP
 
@@ -89,6 +89,6 @@ Came across some terminal issues when compiling the code and attempting to retro
 
 ## Maybe
 
-- [ ] Possibly Move 5678 LED's to north-facing.
+- [x] Move 5678 LED's to north-facing.
 - [ ] Possibly incorporate a ISO layout?
 - [ ] Possibly incorporate a 64-key layout?
