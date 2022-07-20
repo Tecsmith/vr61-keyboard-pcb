@@ -4,7 +4,7 @@
 
 ---
 
-> Very happy to announce that [PCBWay](https://pcbway.com) has gratefully sponsored the production of the first 5 PCBs, and a partial assembly service *(all but the USB-C, Hot-Swap Sockets, JST-ph4 & SK6812's)*, for this project.  *(I will post images and results of the prototype testing herein as soon as I can.)*
+> Very happy to announce that [PCBWay](https://pcbway.com) has gratefully sponsored the production of the first 5 RevA PCBs, and a partial assembly service *(all but the USB-C, Hot-Swap Sockets, JST-ph4 & SK6812's)*, for this project.  *(I will post images and results of the prototype testing [herein](docs/updates/readme.md) as I progress.)*
 >
 > [![Official Sponsor - PCBWay](docs/pcbway.jpg)](https://pcbway.com/)
 >
@@ -19,13 +19,23 @@ Please follow the updates to this production process on the [updates](docs/updat
 ![PCB Bottom View](docs/vr61-pcb-btm.png)
 
 Published as Open Source, under [MIT License](LICENSE.md):
-* [PDF Schematic](docs/vr61-revA.pdf)
-* [EAGLE PCB](EAGLE/vr61/vr61-revA.brd)
-* [EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)
+
+- Rev A
+    > Do not use this revision, it has terminal flaws.
+
+    * ~~[PDF Schematic](docs/vr61-revA.pdf)~~
+    * ~~[EAGLE PCB](EAGLE/vr61/vr61-revA.brd)~~
+    * ~~[EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)~~
+
+- Rev B
+    > WIP *(Work in Progress)*
+    * [PDF Schematic](docs/vr61-revB.pdf)
+    * [EAGLE PCB](EAGLE/vr61/vr61-revB.brd)
+    * [EAGLE Schematic](EAGLE/vr61/vr61-revB.sch)
 
 *(Interim)* QMK code:
 * https://github.com/Tecsmith/vr61-keyboard-qmk
-* *Subject to change once prototype is built.*
+* *Subject to change for Rev B build.*
 * USB Identifier registered with [pid.codes](https://pid.codes/) = [`1209`/`7672`](https://pid.codes/1209/7672/)
 
 ## Features
@@ -36,7 +46,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 - 60% form factor
     - Design to be compatible with GH60/HK60 cases
-    - Also compatible with Anne Pro 2 cases *(drop in QMK replacement for existing AP2's or AP2 cases)*
+    - Also compatible with Anne Pro 2 cases *(~~drop in~~ QMK replacement for existing AP2's or AP2 cases)* *[Removal of battery and minor case cut in the battery compartment required.]*
     - MicroMod positioned in case *"battery compartment"* space.
 
 - QMK + VIA default f/w
@@ -99,7 +109,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 ## Progression / Variants
 
-- VR61 Rev A
+- ~~VR61 Rev A~~
     - [KLE link](http://www.keyboard-layout-editor.com/#/gists/c812c931186e45a5acbc3e217ef4f161)
 
 ## Up Next

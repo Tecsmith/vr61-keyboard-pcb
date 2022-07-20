@@ -56,6 +56,20 @@ All notable updates to this project will be documented in this file.
   - Next time I will have all the components installed by the supplier!
 - PCBWay did an amazing job on the PCB!
 
+## 2022-07-20
+
+### Declaring Rev A as FAILED
+
+Came across some terminal issues when compiling the code and attempting to retro-fit the PCB into a AnnePro2 case.
+
+- The `ESC` key is off to right by 1mm.  Checked the CAD `.sch` and say that somehow I'd moved it and missed that it was off by 1mm.  Must have been on the rotation and I didn't double check.
+- The LED implementation does not work electronically.  Somewhere between the MCU the Level Shifter and the first LED something happens and I blow the 1st LED.  Soldered on 3 replacements, all blown. Bypass the `Caps-Lock` position and made `5` key 1st - that blew to.  Need to relook at more ref. designs for this.
+
+#### Next
+
+- Everything else seems to work.  Code also works...
+- ... but I'd assumed the memory IC on the MicroMod was an EEPROM. **It's not** .. it's Flash! *(Rookie assumption!)*  Will implement an I²C EEPROM as the 100,000 write cycles of the W25Q32FV Flash is far, far less than the 4,000,000 of an external EEPROM like the ST M24Cx IC's.
+> Wondering what I can do with the Flash tho ... seems a waste.
 
 ---
 
@@ -64,6 +78,14 @@ All notable updates to this project will be documented in this file.
 
 - [ ] Position of MicroMod connector is too low, does not fit in AP2 case without minor cutting - possibly move this up as far as it can go.
 - [ ] Position of the BOOT pads in the space bar area should align to the AP2 slot
+
+#### Post FAIL / Rev B WIP
+
+- [x] Correct `ESC` key position
+- [ ] New LED / Level Shift design
+- [ ] Bring out I²C from Micromod
+- [ ] Add I²C EEPROM module
+- [x] Move USB 0.5mm right to align to AP2 case slot. *(Uncertain this will jeopardise the GH60 cases.)*
 
 ## Maybe
 
