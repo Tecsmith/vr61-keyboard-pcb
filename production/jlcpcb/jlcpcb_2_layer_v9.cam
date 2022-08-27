@@ -6,7 +6,7 @@
     "description": {
         "EN": "<b>JLCPCB 2-Layer CAM job</b><p>\n\nFor Eagle 8.6.0 to 9.6.2<p>\n\nTop Copper:      pcbname.GTL<br>\nTop Solder Mask: pcbname.GTS<br>\nTop Silkscreen:  pcbname.GTO<br>\nTop Paste:       pcbname.GTP<p>\n\nBottom Copper:      pcbname.GBL<br>\nBottom Solder Mask: pcbname.GBS<br>\nBottom Silkscreen:  pcbname.GBO<br>\nBottom Paste:       pcbname.GBP<p>\n\nProfile: pcbname.GKO (Dimension (20) and Milling (46) layers are used)<p>\nDrill Layer: pcbname.XLN (Both plated and non-plated holes are merged in this file)<p>\n\nPlease refer to <a href=\"https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files\">How to Generate Gerber and Drill Files from Eagle</a> for more information.<p>\n\nEmail: support@jlcpcb.com<p>\nLast updated: 2020/11/18"
     },
-    "output_type": "zip",
+    "output_type": "directory",
     "outputs": [
         {
             "filename_prefix": "GerberJob",
