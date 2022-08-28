@@ -89,7 +89,9 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 - PCB mounted stabs compatibility
 
-- 61-Key Layout [1.25, 1.25, 1.25, **6.25**, 1.25, 1.25, 1.25, 1.25] bottom row *(a.k.a. "Poker" / "POK3R" Layout)*
+- Dual ANSI / ISO layout support
+
+- 61-Key (ANSI) / 62-Key (ISO) Layout [1.25, 1.25, 1.25, **6.25**, 1.25, 1.25, 1.25, 1.25] bottom row *(a.k.a. "Poker" / "POK3R" Layout)*
 
 - Limited RGB LEDs *(SK6812 mini-E)*
 
@@ -111,13 +113,6 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 - ~~VR61 Rev A~~
     - [KLE link](http://www.keyboard-layout-editor.com/#/gists/c812c931186e45a5acbc3e217ef4f161)
-
-## Up Next
-
-- [ ] Implement 61-64 key optionality
-- [ ] Implement ANSI-ISO key optionality
-- [ ] Power micro-LED under space-bar
-- [ ] Single button bootload button
 
 
 ---
