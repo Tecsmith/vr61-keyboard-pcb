@@ -219,10 +219,10 @@ x136.2 y57.9 d2.5</text>
 <text x="237.25" y="17.75" size="1.778" layer="22" rot="MR180" align="bottom-center">AP2</text>
 <text x="138.4" y="60.5" size="1.778" layer="22" rot="MR0" align="bottom-center">AP2</text>
 <text x="260.4" y="63.1" size="1.778" layer="22" rot="MR0" align="top-center">CMN</text>
-<text x="22.3" y="63.5" size="1.778" layer="22" rot="MR135" align="center-right">GROUND</text>
+<text x="23.2" y="62.9" size="1.778" layer="22" rot="MR180" align="center-right">GROUND</text>
 <text x="163.9" y="8.6" size="1.778" layer="22" rot="MR0">BOOT</text>
-<text x="29.4" y="50" size="1.778" layer="22" rot="MR90" align="center-left">BOOT</text>
-<text x="29.5" y="37.5" size="1.778" layer="22" rot="MR90" align="center-right">RESET</text>
+<text x="29.7" y="50" size="1.778" layer="22" rot="MR90" align="center-left">BOOT</text>
+<text x="29.8" y="37.5" size="1.778" layer="22" rot="MR90" align="center-right">RESET</text>
 <hole x="189.5" y="9.6" drill="2.5"/>
 <hole x="191.5" y="9.6" drill="2.5"/>
 <wire x1="192.15" y1="11.6" x2="192.15" y2="7.85" width="1" layer="22" curve="-180"/>
@@ -286,6 +286,10 @@ http://c1k.it/vr61</text>
 <circle x="33.4" y="35.55" radius="2" width="0.5" layer="22"/>
 <circle x="9.45" y="35.55" radius="2" width="0.5" layer="22"/>
 <text x="283.2" y="92.7" size="1.778" layer="22" rot="MR270">JLCJLCJLCJLC</text>
+<circle x="20.6" y="75.8" radius="0.2" width="0.1524" layer="22"/>
+<circle x="41" y="37.6" radius="0.2" width="0.1524" layer="22"/>
+<text x="27.1" y="76.9" size="1" layer="26" rot="MR0">PTC</text>
+<text x="16.6" y="78.4" size="1" layer="26" rot="MR270">ESD</text>
 </plain>
 <libraries>
 <library name="ts_keyboards">
@@ -10922,7 +10926,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08604" x="5.8" y="89.25" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="JP-VIN3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_PASTE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39283/1" value="OPT" x="55.6" y="19.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="55.6" y="21.543" size="1" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="53.6" y="21.543" size="1" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="55.6" y="18.757" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="J-BOOT" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="165.5" y="9.5" smashed="yes">
@@ -11026,7 +11030,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="95.3" y="60.925" size="1" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="95.3" y="59.86" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
-<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1K" x="94.4" y="54.7" smashed="yes" rot="MR180">
+<element name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="5.1K" x="92.4" y="54.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="93.765" y="54.065" size="1.27" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="70" x="94.4" y="54.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="94.4" y="54.7" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -11056,7 +11060,6 @@ design rules under a new name.</description>
 </element>
 <element name="T_ENT1" library="ts_keyboards" package="MX-STABS-200U" value="MX-STABS-200U" x="273.844" y="57.15" smashed="yes" rot="R270"/>
 <element name="J-52" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="123.5" y="64" smashed="yes" rot="MR270">
-<attribute name="NAME" x="122.103" y="65.27" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="125.532" y="65.27" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270"/>
 </element>
 </elements>
@@ -14279,8 +14282,10 @@ design rules under a new name.</description>
 <wire x1="95.95" y1="58.4" x2="95.95" y2="57.215" width="0.254" layer="16"/>
 <wire x1="95.95" y1="57.215" x2="95.935" y2="57.2" width="0.254" layer="16"/>
 <wire x1="84.025" y1="59" x2="95.35" y2="59" width="0.254" layer="16"/>
-<wire x1="95.935" y1="57.2" x2="95.935" y2="55.385" width="0.254" layer="16"/>
-<wire x1="95.935" y1="55.385" x2="95.25" y2="54.7" width="0.254" layer="16"/>
+<wire x1="95.935" y1="57.2" x2="96" y2="57.135" width="0.254" layer="16"/>
+<wire x1="96" y1="57.135" x2="96" y2="56" width="0.254" layer="16"/>
+<wire x1="94.7" y1="54.7" x2="93.25" y2="54.7" width="0.254" layer="16"/>
+<wire x1="96" y1="56" x2="94.7" y2="54.7" width="0.254" layer="16"/>
 </signal>
 <signal name="EE_CS">
 <contactref element="M1" pad="1"/>
@@ -14489,7 +14494,6 @@ design rules under a new name.</description>
 <approved hash="5,16,79d7002b8af5cdb6"/>
 <approved hash="5,16,f0d10e0f61f78de8"/>
 <approved hash="5,16,f7de0f6b59b795d8"/>
-<approved hash="5,16,83d22e353b90c604"/>
 <approved hash="5,16,7bbc8bddf64c7fbc"/>
 <approved hash="5,16,571217e4d0254d38"/>
 <approved hash="5,16,cb68bcf68dbb579e"/>
@@ -14656,38 +14660,26 @@ design rules under a new name.</description>
 <approved hash="5,16,efb89af283940f76"/>
 <approved hash="5,16,1a0e40bbf2981d63"/>
 <approved hash="5,16,dd0578c3bf6872a6"/>
-<approved hash="5,16,fc25c26f6335d448"/>
-<approved hash="5,16,f140e2d3bb5a317e"/>
-<approved hash="5,16,c7a3ce8b5c12f97e"/>
 <approved hash="5,16,03cedf63abedf2fd"/>
 <approved hash="5,16,b571052c27c9a5c4"/>
 <approved hash="5,16,7938bcf29294b976"/>
 <approved hash="5,16,209eea6c24c8f938"/>
 <approved hash="5,16,0fd3fa954c3dc6f0"/>
-<approved hash="5,16,cc8ef0446d1ed1c0"/>
-<approved hash="5,16,a5158b3493a4d47d"/>
 <approved hash="5,16,58d14508fdeedf46"/>
 <approved hash="5,16,013e16f0ab94ac70"/>
 <approved hash="5,16,24e7cf92a53260a6"/>
 <approved hash="5,16,ca2efc77b4dc2d12"/>
-<approved hash="5,16,5b63d025d773cf49"/>
-<approved hash="5,16,271ba8e26969dc3f"/>
 <approved hash="5,16,a60f8d56f9b78ac5"/>
 <approved hash="5,16,8b38fefe02945176"/>
 <approved hash="5,16,5f4e16b046183022"/>
 <approved hash="5,16,fd0dd44a84e7642f"/>
-<approved hash="5,16,83cc1202795c4ccb"/>
-<approved hash="5,16,0ae2f04614d383f8"/>
 <approved hash="5,16,a3a825dacd7e8fa7"/>
 <approved hash="5,16,2e68fa2e8486214b"/>
-<approved hash="5,16,14fbe794c7244b83"/>
 <approved hash="5,16,74a51fd9c40dc11f"/>
 <approved hash="5,16,6ff16cc1f2d2e4ca"/>
 <approved hash="5,16,f042058bbcc4f8b5"/>
-<approved hash="5,16,7fb150940e006b04"/>
 <approved hash="5,16,3b4a2519b13dccb6"/>
 <approved hash="5,16,9ba9d6e04bafab34"/>
-<approved hash="5,16,dee9753205b8d3ba"/>
 <approved hash="5,16,699f32714bb66b9f"/>
 <approved hash="5,16,9e59b66fe154e3e3"/>
 <approved hash="5,16,ef1ddccfd7a0e025"/>
@@ -14714,7 +14706,6 @@ design rules under a new name.</description>
 <approved hash="5,16,a338270e1a944176"/>
 <approved hash="5,16,ac26c9c86970ac22"/>
 <approved hash="5,16,027513322b9f0357"/>
-<approved hash="5,16,8abaece9213cb4b6"/>
 <approved hash="5,16,608ea3bf1ed5efb5"/>
 <approved hash="5,16,24e7ccaa6be18e33"/>
 <approved hash="5,16,1ce55f3df5b4f7b6"/>
@@ -14724,7 +14715,6 @@ design rules under a new name.</description>
 <approved hash="5,16,059207a6bc50a929"/>
 <approved hash="5,16,2b2a82cc67003d9e"/>
 <approved hash="5,16,4aed86dbdf5c2156"/>
-<approved hash="5,16,74bdb058f1cb633c"/>
 <approved hash="5,16,a33b50f02995da74"/>
 <approved hash="5,16,a30cddc1568aa1b4"/>
 <approved hash="5,16,06e56b3c3eb6e8b6"/>
@@ -14968,6 +14958,21 @@ design rules under a new name.</description>
 <approved hash="2,20,b123f1a7815d3b2d"/>
 <approved hash="2,20,17fe096f5402ceeb"/>
 <approved hash="19,16,f288cea87e419d4c"/>
+<approved hash="5,16,c60483d22e353b90"/>
+<approved hash="5,16,8fd92d936d966398"/>
+<approved hash="5,16,7766e2253028cc93"/>
+<approved hash="5,16,0a7018e838fe10c9"/>
+<approved hash="5,16,e0946553e45a0c12"/>
+<approved hash="5,16,c3c67f819bf76d91"/>
+<approved hash="5,16,e9ca804a9243add1"/>
+<approved hash="5,16,b659133b748158d4"/>
+<approved hash="5,16,317ef140e2d3bb5a"/>
+<approved hash="5,16,96f21d1065ac6e5a"/>
+<approved hash="5,16,9f13a77d6ecac5d8"/>
+<approved hash="5,16,23b4095295ed1b52"/>
+<approved hash="5,16,ed64b5b9975cb049"/>
+<approved hash="5,16,d3badee9753205b8"/>
+<approved hash="5,16,ece9213cb4b68aba"/>
 </errors>
 </board>
 </drawing>
