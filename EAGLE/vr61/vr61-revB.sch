@@ -461,28 +461,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.75" y="6.25"/>
 </polygon>
 </package>
-<package name="SC-74A" urn="urn:adsk.eagle:footprint:38787/1" locally_modified="yes" library_version="1">
-<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.15" layer="51"/>
-<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.15" layer="51"/>
-<wire x1="1.1" y1="0.75" x2="1.1" y2="-0.75" width="0.15" layer="51"/>
-<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.15" layer="51"/>
-<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.15" layer="21"/>
-<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.15" layer="21"/>
-<wire x1="-0.2" y1="0.75" x2="0.2" y2="0.75" width="0.15" layer="21"/>
-<smd name="6" x="-0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="4" x="0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="1" x="-0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="3" x="0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="2" x="0" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
-<rectangle x1="0.5" y1="0.7" x2="0.8" y2="1.1" layer="51"/>
-<rectangle x1="-0.8" y1="0.7" x2="-0.5" y2="1.1" layer="51"/>
-<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.7" layer="51" rot="R180"/>
-<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.7" layer="51" rot="R180"/>
-<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.7" layer="51" rot="R180"/>
-<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.905" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<circle x="-0.8" y="-0.3" radius="0.14141875" width="0.127" layer="21"/>
-</package>
 <package name="FOOTPRINT-AP2">
 <wire x1="0" y1="93" x2="0" y2="0" width="0.0762" layer="51" style="shortdash"/>
 <wire x1="0" y1="0" x2="283" y2="0" width="0.0762" layer="51" style="shortdash"/>
@@ -530,6 +508,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="38.1" x2="3.75" y2="38.1" width="2.5" layer="46"/>
 <wire x1="18.2" y1="94.6" x2="18.2" y2="89.6" width="0.127" layer="49" style="dashdot"/>
 <circle x="29.15" y="46.4" radius="1.5" width="0.254" layer="51"/>
+</package>
+<package name="SC-88A__TSSOP5__SOT353-1" urn="urn:adsk.eagle:footprint:38787/1" locally_modified="yes" library_version="1">
+<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.15" layer="51"/>
+<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.15" layer="51"/>
+<wire x1="1.1" y1="0.75" x2="1.1" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.15" layer="21"/>
+<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.15" layer="21"/>
+<wire x1="-0.2" y1="0.75" x2="0.2" y2="0.75" width="0.15" layer="21"/>
+<smd name="6" x="-0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="4" x="0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="1" x="-0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="3" x="0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="2" x="0" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
+<rectangle x1="0.5" y1="0.7" x2="0.8" y2="1.1" layer="51"/>
+<rectangle x1="-0.8" y1="0.7" x2="-0.5" y2="1.1" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.7" layer="51" rot="R180"/>
+<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.7" layer="51" rot="R180"/>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.7" layer="51" rot="R180"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.905" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<circle x="-0.8" y="-0.3" radius="0.14141875" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -804,6 +804,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.81" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 </symbol>
+<symbol name="FOOTPRINT-AP2">
+<text x="0" y="0" size="1.6764" layer="94">ANNE PRO 2 | 283 x 93</text>
+</symbol>
+<symbol name="FOOTPRINT-GH60">
+<text x="0" y="0" size="1.6764" layer="94">GH60 | 285 x 94.6</text>
+</symbol>
 <symbol name="74XX_LEVELSHIFT">
 <pin name="3_GND" x="5.08" y="-2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
 <pin name="Y_DOUT" x="-5.08" y="-2.54" visible="pad" length="short" direction="out"/>
@@ -840,12 +846,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.032" y="3.048" size="1.016" layer="94" align="bottom-right">!OE</text>
 <pin name="!OE" x="5.08" y="2.54" visible="pad" length="short" direction="in" rot="R180"/>
 <circle x="3.048" y="2.54" radius="0.254" width="0.508" layer="94"/>
-</symbol>
-<symbol name="FOOTPRINT-AP2">
-<text x="0" y="0" size="1.6764" layer="94">ANNE PRO 2 | 283 x 93</text>
-</symbol>
-<symbol name="FOOTPRINT-GH60">
-<text x="0" y="0" size="1.6764" layer="94">GH60 | 285 x 94.6</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1003,12 +1003,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="74AHCT1G125GV">
+<deviceset name="74AHCT1G125GW">
 <gates>
 <gate name="G$1" symbol="74XX_LEVELSHIFT" x="1" y="0"/>
 </gates>
 <devices>
-<device name="" package="SC-74A">
+<device name="" package="SC-88A__TSSOP5__SOT353-1">
 <connects>
 <connect gate="G$1" pin="!OE" pad="1"/>
 <connect gate="G$1" pin="3_GND" pad="3"/>
@@ -33451,11 +33451,11 @@ Source: AVX .. aphvc.pdf</description>
 <part name="S_LSFT2" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device="NO-SILK"/>
 <part name="S_ENT2" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device="NO-SILK"/>
 <part name="S_BSLS2" library="ts_keyboards" deviceset="MX-5-PIN-HOTSWAP-PAD" device="NO-SILK"/>
-<part name="U$14" library="ts_keyboards" deviceset="74AHCT1G125GV" device=""/>
 <part name="J-HOST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 <part name="J-63" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="T_ENT1" library="ts_keyboards" deviceset="MX-STABS-200U" device=""/>
 <part name="J-52" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
+<part name="U$14" library="ts_keyboards" deviceset="74AHCT1G125GW" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -33734,10 +33734,6 @@ ISOLATION</text>
 </instance>
 <instance part="FP_AP2" gate="G$1" x="193.04" y="17.78" smashed="yes"/>
 <instance part="FP_GH60" gate="G$1" x="193.04" y="15.24" smashed="yes"/>
-<instance part="U$14" gate="G$1" x="149.86" y="15.24" smashed="yes">
-<attribute name="NAME" x="147.32" y="21.59" size="1.27" layer="95"/>
-<attribute name="VALUE" x="142.24" y="5.08" size="1.27" layer="96"/>
-</instance>
 <instance part="J-HOST" gate="G$1" x="160.02" y="124.46" smashed="yes">
 <attribute name="VALUE" x="157.48" y="119.634" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="157.48" y="130.048" size="1.778" layer="95" font="vector"/>
@@ -33749,6 +33745,10 @@ ISOLATION</text>
 <instance part="J-52" gate="J$1" x="238.76" y="58.42" smashed="yes">
 <attribute name="VALUE" x="236.22" y="51.054" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="236.22" y="64.008" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="U$14" gate="G$1" x="149.86" y="15.24" smashed="yes">
+<attribute name="NAME" x="147.32" y="21.59" size="1.27" layer="95"/>
+<attribute name="VALUE" x="143.256" y="8.128" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -33901,6 +33901,24 @@ ISOLATION</text>
 <pinref part="J-52" gate="J$1" pin="1"/>
 </segment>
 <segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="71.12" y1="35.56" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="38.1" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<junction x="71.12" y="38.1"/>
+<wire x1="45.72" y1="38.1" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="GND"/>
+<wire x1="45.72" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="248.92" y1="142.24" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="C07" gate="G$1" pin="2"/>
 <pinref part="C08" gate="G$1" pin="2"/>
 <pinref part="C09" gate="G$1" pin="2"/>
@@ -33926,29 +33944,11 @@ ISOLATION</text>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="167.64" y1="25.4" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="!OE"/>
 <wire x1="157.48" y1="27.94" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="17.78" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <junction x="157.48" y="27.94"/>
-</segment>
-<segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="71.12" y1="35.56" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="38.1" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<junction x="71.12" y="38.1"/>
-<wire x1="45.72" y1="38.1" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="GND"/>
-<wire x1="45.72" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="248.92" y1="142.24" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U$14" gate="G$1" pin="!OE"/>
+<wire x1="157.48" y1="17.78" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">

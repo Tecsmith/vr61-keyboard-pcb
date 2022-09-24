@@ -58,14 +58,15 @@ All notable updates to this project will be documented in this file.
 
 - Soldered on UBS connector
 - Soldered on MicroMod connector
-- Insyalled SMT32 module and Tested key matrix - ***IT WORKS!***
-  - must say I build 2 boards and both didn't work at first - fault finding lead to discovery that one of the USB data lines was grounded.  On one board I stripped out the ESD thinking that was up-side-down... it wasn't.  And then I found it.  A solder short on the MicroMod connector between pin 5 and 7... on BOTH!
+- Installed SMT32 module and Tested key matrix - ***IT WORKS!***
+  - Must say I build 2 boards and both didn't work at first - fault finding lead to discovery that one of the USB data lines was grounded.  On one board I stripped out the ESD thinking that was up-side-down... it wasn't.  And then I found it.  A solder short on the MicroMod connector between pin 5 and 7... on BOTH!
+  - Must also say the soldering that Micromod connector was super difficult!
   - Next time I will have all the components installed by the supplier!
 - PCBWay did an amazing job on the PCB!
 
 ## 2022-07-20
 
-### Declaring Rev A as FAILED
+### Declaring Rev A as FAILED :(
 
 Came across some terminal issues when compiling the code and attempting to retro-fit the PCB into a AnnePro2 case.
 

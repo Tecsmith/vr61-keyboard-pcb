@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="10" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="10" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -441,28 +441,6 @@ http://c1k.it/vr61</text>
 <rectangle x1="-1.8" y1="-0.55" x2="-1.425" y2="0.55" layer="51"/>
 <rectangle x1="1.425" y1="-0.55" x2="1.8" y2="0.55" layer="51" rot="R180"/>
 </package>
-<package name="SC-74A" urn="urn:adsk.eagle:footprint:38787/1" locally_modified="yes" library_version="1">
-<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.15" layer="51"/>
-<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.15" layer="51"/>
-<wire x1="1.1" y1="0.75" x2="1.1" y2="-0.75" width="0.15" layer="51"/>
-<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.15" layer="51"/>
-<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.15" layer="21"/>
-<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.15" layer="21"/>
-<wire x1="-0.2" y1="0.75" x2="0.2" y2="0.75" width="0.15" layer="21"/>
-<smd name="6" x="-0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="4" x="0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="1" x="-0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="3" x="0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
-<smd name="2" x="0" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
-<rectangle x1="0.5" y1="0.7" x2="0.8" y2="1.1" layer="51"/>
-<rectangle x1="-0.8" y1="0.7" x2="-0.5" y2="1.1" layer="51"/>
-<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.7" layer="51" rot="R180"/>
-<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.7" layer="51" rot="R180"/>
-<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.7" layer="51" rot="R180"/>
-<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.905" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
-<circle x="-0.8" y="-0.3" radius="0.14141875" width="0.127" layer="21"/>
-</package>
 <package name="FOOTPRINT-AP2">
 <wire x1="0" y1="93" x2="0" y2="0" width="0.0762" layer="51" style="shortdash"/>
 <wire x1="0" y1="0" x2="283" y2="0" width="0.0762" layer="51" style="shortdash"/>
@@ -545,6 +523,28 @@ http://c1k.it/vr61</text>
 <vertex x="4.25" y="5.05"/>
 <vertex x="3.75" y="6.25"/>
 </polygon>
+</package>
+<package name="SC-88A__TSSOP5__SOT353-1" urn="urn:adsk.eagle:footprint:38787/1" locally_modified="yes" library_version="1">
+<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.15" layer="51"/>
+<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.15" layer="51"/>
+<wire x1="1.1" y1="0.75" x2="1.1" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.15" layer="21"/>
+<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.15" layer="21"/>
+<wire x1="-0.2" y1="0.75" x2="0.2" y2="0.75" width="0.15" layer="21"/>
+<smd name="6" x="-0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="4" x="0.65" y="1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="1" x="-0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="3" x="0.65" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
+<smd name="2" x="0" y="-1.0875" dx="0.375" dy="0.825" layer="1"/>
+<rectangle x1="0.5" y1="0.7" x2="0.8" y2="1.1" layer="51"/>
+<rectangle x1="-0.8" y1="0.7" x2="-0.5" y2="1.1" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.7" layer="51" rot="R180"/>
+<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.7" layer="51" rot="R180"/>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.7" layer="51" rot="R180"/>
+<text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.905" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<circle x="-0.8" y="-0.3" radius="0.14141875" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -11049,9 +11049,6 @@ design rules under a new name.</description>
 <element name="S_LSFT2" library="ts_keyboards" package="MX-5-PIN-HOTSWAP-PAD-NS" value="MX-5-PIN-HOTSWAP-PADNO-SILK" x="11.906" y="28.575" smashed="yes" rot="R180"/>
 <element name="S_ENT2" library="ts_keyboards" package="MX-5-PIN-HOTSWAP-PAD-NS" value="MX-5-PIN-HOTSWAP-PADNO-SILK" x="273.844" y="57.15" smashed="yes"/>
 <element name="S_BSLS2" library="ts_keyboards" package="MX-5-PIN-HOTSWAP-PAD-NS" value="MX-5-PIN-HOTSWAP-PADNO-SILK" x="252.413" y="47.625" smashed="yes" rot="R180"/>
-<element name="U$14" library="ts_keyboards" package="SC-74A" value="74AHCT1G125GV" x="40" y="36" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="40" y="34.095" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-</element>
 <element name="J-HOST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02" package3d_urn="urn:adsk.eagle:package:38039/1" value="" x="90" y="40.5" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="87.968" y="39.23" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90"/>
 </element>
@@ -11061,6 +11058,10 @@ design rules under a new name.</description>
 <element name="T_ENT1" library="ts_keyboards" package="MX-STABS-200U" value="MX-STABS-200U" x="273.844" y="57.15" smashed="yes" rot="R270"/>
 <element name="J-52" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="123.5" y="64" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="125.532" y="65.27" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270"/>
+</element>
+<element name="U$14" library="ts_keyboards" package="SC-88A__TSSOP5__SOT353-1" value="74AHCT1G125GW" x="40" y="36" smashed="yes" rot="MR270">
+<attribute name="NAME" x="40" y="37.27" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="40" y="34.095" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -12652,17 +12653,9 @@ design rules under a new name.</description>
 <contactref element="R4" pad="1"/>
 <contactref element="J-UBS" pad="GND"/>
 <contactref element="J-UBS" pad="GND2"/>
-<contactref element="C07" pad="2"/>
-<contactref element="C08" pad="2"/>
-<contactref element="C09" pad="2"/>
-<contactref element="C10" pad="2"/>
-<contactref element="C11" pad="2"/>
-<contactref element="C12" pad="2"/>
 <contactref element="C13" pad="2"/>
 <contactref element="M1" pad="4"/>
 <contactref element="R8" pad="1"/>
-<contactref element="U$14" pad="3"/>
-<contactref element="U$14" pad="1"/>
 <via x="70.4" y="54.8" extent="1-16" drill="0.35"/>
 <wire x1="69.65" y1="56.225" x2="69.65" y2="55.25" width="0.254" layer="16"/>
 <wire x1="70.1" y1="54.8" x2="69.65" y2="55.25" width="0.254" layer="16"/>
@@ -12698,6 +12691,14 @@ design rules under a new name.</description>
 <via x="118" y="92.5" extent="1-16" drill="0.35"/>
 <via x="115.5" y="89" extent="1-16" drill="0.35"/>
 <via x="71.4" y="58.5" extent="1-16" drill="0.35"/>
+<contactref element="U$14" pad="3"/>
+<contactref element="C07" pad="2"/>
+<contactref element="C08" pad="2"/>
+<contactref element="C09" pad="2"/>
+<contactref element="C10" pad="2"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C12" pad="2"/>
+<contactref element="U$14" pad="1"/>
 </signal>
 <signal name="N$62">
 <contactref element="S_CAPS" pad="P$1"/>
@@ -13718,7 +13719,6 @@ design rules under a new name.</description>
 <wire x1="29.9" y1="75.65" x2="28.2" y2="75.65" width="0.508" layer="16"/>
 <wire x1="28.2" y1="75.65" x2="26.55" y2="75.65" width="0.508" layer="16"/>
 <via x="28.2" y="75.65" extent="1-16" drill="0.35"/>
-<contactref element="U$14" pad="6"/>
 <wire x1="45.9012" y1="62.3114" x2="44" y2="62.3114" width="0.508" layer="16"/>
 <via x="44" y="62.3114" extent="1-16" drill="0.35"/>
 <wire x1="30.875" y1="68.975" x2="28.2" y2="71.65" width="0.508" layer="1"/>
@@ -13782,8 +13782,6 @@ design rules under a new name.</description>
 <wire x1="45.9012" y1="62.3114" x2="55.2886" y2="62.3114" width="0.254" layer="16"/>
 <wire x1="66.21026875" y1="59.816" x2="65.32626875" y2="60.7" width="0.254" layer="16"/>
 <wire x1="58.7" y1="60.7" x2="65.32626875" y2="60.7" width="0.254" layer="16"/>
-<wire x1="38.9125" y1="36.65" x2="38" y2="36.65" width="0.254" layer="16"/>
-<wire x1="38" y1="36.65" x2="37.3" y2="37.35" width="0.254" layer="16"/>
 <via x="37.3" y="37.35" extent="1-16" drill="0.35"/>
 <wire x1="37.3" y1="37.35" x2="36.3" y2="37.35" width="0.254" layer="1"/>
 <wire x1="36.3" y1="37.35" x2="34.85" y2="38.8" width="0.254" layer="1"/>
@@ -13866,6 +13864,9 @@ design rules under a new name.</description>
 <via x="186.85" y="83.1" extent="1-16" drill="0.35"/>
 <wire x1="186.85" y1="83.1" x2="186.33" y2="82.58" width="0.254" layer="16"/>
 <wire x1="186.33" y1="82.58" x2="175.62" y2="82.58" width="0.254" layer="16"/>
+<contactref element="U$14" pad="6"/>
+<wire x1="38.9125" y1="36.65" x2="38" y2="36.65" width="0.254" layer="16"/>
+<wire x1="38" y1="36.65" x2="37.3" y2="37.35" width="0.254" layer="16"/>
 </signal>
 <signal name="CC1">
 <contactref element="R1" pad="1"/>
@@ -14183,10 +14184,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="LED1ST">
 <contactref element="R6" pad="1"/>
-<contactref element="U$14" pad="2"/>
 <wire x1="44" y1="36" x2="45" y2="37" width="0.254" layer="16"/>
 <wire x1="45" y1="37" x2="45" y2="38.2" width="0.254" layer="16"/>
 <wire x1="45" y1="38.2" x2="44.85" y2="38.35" width="0.254" layer="16"/>
+<contactref element="U$14" pad="2"/>
 <wire x1="41.0875" y1="36" x2="44" y2="36" width="0.254" layer="16"/>
 </signal>
 <signal name="GROUND">
@@ -14235,17 +14236,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$66">
 <contactref element="R7" pad="2"/>
-<contactref element="U$14" pad="4"/>
 <wire x1="17.45" y1="38.5" x2="18.65" y2="37.3" width="0.254" layer="16"/>
 <wire x1="18.65" y1="37.3" x2="18.7" y2="37.3" width="0.254" layer="16"/>
 <via x="18.7" y="37.3" extent="1-16" drill="0.35"/>
-<via x="37.35" y="35.4" extent="1-16" drill="0.35"/>
+<via x="37.55" y="35.35" extent="1-16" drill="0.35"/>
 <wire x1="18.7" y1="37.3" x2="31.3372875" y2="37.3" width="0.254" layer="1"/>
 <wire x1="31.3372875" y1="37.3" x2="32.2642875" y2="38.227" width="0.254" layer="1"/>
-<wire x1="32.2642875" y1="38.227" x2="34.523" y2="38.227" width="0.254" layer="1"/>
-<wire x1="34.523" y1="38.227" x2="37.35" y2="35.4" width="0.254" layer="1"/>
-<wire x1="37.35" y1="35.4" x2="38.8625" y2="35.4" width="0.254" layer="16"/>
-<wire x1="38.8625" y1="35.4" x2="38.9125" y2="35.35" width="0.254" layer="16"/>
+<wire x1="32.2642875" y1="38.227" x2="34.673" y2="38.227" width="0.254" layer="1"/>
+<wire x1="34.673" y1="38.227" x2="37.55" y2="35.35" width="0.254" layer="1"/>
+<contactref element="U$14" pad="4"/>
+<wire x1="38.9125" y1="35.35" x2="37.55" y2="35.35" width="0.254" layer="16"/>
 </signal>
 <signal name="N$67">
 <contactref element="R7" pad="1"/>
