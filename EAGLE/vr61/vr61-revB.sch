@@ -473,10 +473,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <hole x="259" y="65" drill="3"/>
 <text x="24" y="62" size="1.6764" layer="51" align="top-center">AP2</text>
 <text x="73" y="12" size="1.6764" layer="51" align="top-center">AP2</text>
-<text x="137" y="53" size="1.6764" layer="51" align="top-center">AP2</text>
+<text x="136" y="53" size="1.6764" layer="51" align="top-center">AP2</text>
 <text x="259" y="62" size="1.6764" layer="51" align="top-center">AP2</text>
 <text x="236" y="17" size="1.6764" layer="51" align="top-center">AP2</text>
 <text x="1" y="1" size="1.6764" layer="51" rot="R90" align="top-left">283 x 93</text>
+<hole x="135" y="56" drill="3"/>
 </package>
 <package name="FOOTPRINT-GH60">
 <wire x1="0" y1="94.6" x2="0" y2="0" width="0.0762" layer="51" style="shortdash"/>
