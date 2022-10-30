@@ -22,6 +22,30 @@ All notable updates to this project will be documented in this file.
 - PCBWay confirmed sourcing of all parts
 - Order paid and go-ahead given
 
+## 2022-10-17
+
+- PCBWay order of 5 prototype bards arrived.  Some issues were encountered with the `74AHCT1G125GW` module footprint.
+
+## 2022-10-23
+
+- First prototype fully built
+- Code implemented, but no success of getting the LED's to work
+
+## 2022-10-27
+
+- Finally got the LED's to work
+- Issue was with the code and the PWM settings of the STM32 processor
+- Cannot get the PR2040 code to work -- parking the RP2040 LED implementation, the keymap works however
+
+## 2022-10-30
+
+- Final code on the keymaps completed
+- Minor edits to the PCB
+
+## Pending
+
+- PR2040 LED not working yet
+- SPI EEPROM not tested *(not even attempted, yet)*
 
 ---
 

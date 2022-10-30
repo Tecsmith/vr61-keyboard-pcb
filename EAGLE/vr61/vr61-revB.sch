@@ -33457,6 +33457,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="T_ENT1" library="ts_keyboards" deviceset="MX-STABS-200U" device=""/>
 <part name="J-52" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="U$14" library="ts_keyboards" deviceset="74AHCT1G125GW" device=""/>
+<part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-TALL-REDUNDANT" value="BOOT"/>
 </parts>
 <sheets>
 <sheet>
@@ -33481,6 +33482,8 @@ Board Connector</text>
 ISOLATION</text>
 <text x="48.26" y="58.42" size="1.778" layer="91">SPI EEPROM</text>
 <text x="180.34" y="55.88" size="1.778" layer="91">TE P# 2199119-4</text>
+<text x="269.24" y="157.48" size="1.778" layer="91" rot="R90">Do not populate</text>
+<text x="67.818" y="37.084" size="1.778" layer="91" rot="R180">Do not populate</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -33621,8 +33624,8 @@ ISOLATION</text>
 <attribute name="VALUE" x="256.54" y="172.466" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="256.54" y="162.052" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND10" gate="1" x="243.84" y="162.56" smashed="yes">
-<attribute name="VALUE" x="243.84" y="157.988" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="241.3" y="157.48" smashed="yes">
+<attribute name="VALUE" x="241.3" y="152.908" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U$4" gate="G$1" x="248.92" y="63.5" smashed="yes">
 <attribute name="VALUE" x="248.92" y="68.072" size="1.778" layer="96" align="bottom-center"/>
@@ -33750,6 +33753,10 @@ ISOLATION</text>
 <instance part="U$14" gate="G$1" x="149.86" y="15.24" smashed="yes">
 <attribute name="NAME" x="147.32" y="21.59" size="1.27" layer="95"/>
 <attribute name="VALUE" x="143.256" y="8.128" size="1.27" layer="96"/>
+</instance>
+<instance part="S3" gate="G$1" x="264.16" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="262.636" y="165.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="264.668" y="165.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -33893,7 +33900,15 @@ ISOLATION</text>
 <pinref part="J-BOOT" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="165.1" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="243.84" y1="165.1" x2="243.84" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="165.1" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="165.1" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="160.02" x2="264.16" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="157.48" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="157.48" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="160.02" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
+<junction x="243.84" y="165.1"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="55.88" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
@@ -34393,7 +34408,13 @@ ISOLATION</text>
 <segment>
 <pinref part="J-BOOT" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="167.64" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
-<label x="243.84" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="241.3" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="243.84" y1="167.64" x2="241.3" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="167.64" x2="243.84" y2="172.72" width="0.1524" layer="91"/>
+<junction x="243.84" y="167.64"/>
+<wire x1="243.84" y1="172.72" x2="264.16" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="172.72" x2="264.16" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN/3" class="0">
