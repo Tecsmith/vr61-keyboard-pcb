@@ -45,7 +45,6 @@ Published as Open Source, under [MIT License](LICENSE.md):
 ### QMK code:
 
 * https://github.com/Tecsmith/vr61-keyboard-qmk
-* *Subject to change for Rev B build.*
 * USB Identifier registered with [pid.codes](https://pid.codes/) = [`1209`/`7672`](https://pid.codes/1209/7672/)
 
 ### Layout
