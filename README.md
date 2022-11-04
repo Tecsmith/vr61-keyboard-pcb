@@ -20,23 +20,40 @@ Please follow the updates to this production process on the [updates](docs/updat
 
 Published as Open Source, under [MIT License](LICENSE.md):
 
-- Rev A
-    > Do not use this revision, it has terminal flaws.
+### **Rev B** &nbsp; ![](https://img.shields.io/badge/OK-Works-green)
 
-    * ~~[PDF Schematic](docs/vr61-revA.pdf)~~
-    * ~~[EAGLE PCB](EAGLE/vr61/vr61-revA.brd)~~
-    * ~~[EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)~~
+> &#128077; **WORKING, OK TO BUILD**
 
-- Rev B
-    > **WORKING, OK TO BUILD**
-    * [PDF Schematic](docs/vr61-revB.pdf)
-    * [EAGLE PCB](EAGLE/vr61/vr61-revB.brd)
-    * [EAGLE Schematic](EAGLE/vr61/vr61-revB.sch)
+* [PDF Schematic](docs/vr61-revB.pdf)
+* [EAGLE PCB](EAGLE/vr61/vr61-revB.brd)
+* [EAGLE Schematic](EAGLE/vr61/vr61-revB.sch)
 
-*(Interim)* QMK code:
+* Notes:
+    - Keymap Working on both STM32 and PR2040
+    - LED's Working on STM32 *(...but, unresponsive on RP2040)*
+    - *(Optional EEPROM not tested yet*
+
+
+### **Rev A** &nbsp; ![](https://img.shields.io/badge/!!-Fails-critical)
+
+> &#9888; Do not use this revision, it has terminal flaws.
+
+* ~~[PDF Schematic](docs/vr61-revA.pdf)~~
+* ~~[EAGLE PCB](EAGLE/vr61/vr61-revA.brd)~~
+* ~~[EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)~~
+
+### QMK code:
+
 * https://github.com/Tecsmith/vr61-keyboard-qmk
 * *Subject to change for Rev B build.*
 * USB Identifier registered with [pid.codes](https://pid.codes/) = [`1209`/`7672`](https://pid.codes/1209/7672/)
+
+### Layout
+
+* [KLE link](http://www.keyboard-layout-editor.com/#/gists/c812c931186e45a5acbc3e217ef4f161)
+
+
+*****
 
 ## Features
 
@@ -55,13 +72,13 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 - User choice of microcontroller
     
-    - [STM32 Processor](https://www.sparkfun.com/products/17713)
+    - [STM32 Processor](https://www.sparkfun.com/products/17713) 
         - ARM Cortex-M4, 168MHz, 1MB Flash, 192kB SRAM
         - https://github.com/Tecsmith/vr61-keyboard-qmk
 
-    - [RP2040 Processor](https://www.sparkfun.com/products/17720)
+    - [RP2040 Processor](https://www.sparkfun.com/products/17720) 
         - ARM Cortex-M0+, 133MHz, 128Mb Flash (16MB external), 264kB SRAM in six banks
-        - ***NB:*** *Cannot get the LED's to work on this, but the key matrix works just fine* ![Help Wanted](https://img.shields.io/badge/HELP-WANTED-brightgreen)
+        - ***NB:*** *Cannot get the LED's to work on this, but the key matrix works just fine* ![Help Wanted](https://img.shields.io/badge/HELP-WANTED-blueviolet)
 
 - USB-C *(left side)*
 
@@ -94,17 +111,6 @@ Published as Open Source, under [MIT License](LICENSE.md):
 - Both `[Reset]` and `[Boot]` buttons *(as per MicroMod ref. design)*
 
     ... plus under space-bar Boot pins for bootload without disassembly *(press while inserting cable for bootloader function)*
-
-## Progression / Variants
-
-- **VR61 Rev B**
-    - Keymap Working on both STM32 and PR2040
-    - LED's Working on STM32 *(unresponsive on RP2040)*
-    - *(Optional EEPROM not tested yet*
-
-- ~~VR61 Rev A~~
-    - [KLE link](http://www.keyboard-layout-editor.com/#/gists/c812c931186e45a5acbc3e217ef4f161)
-
 
 ---
 Made with &#9829; - Vino Rodrigues
