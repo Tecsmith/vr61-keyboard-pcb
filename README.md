@@ -28,7 +28,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
     * ~~[EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)~~
 
 - Rev B
-    > WIP *(Work in Progress)*
+    > **WORKING, OK TO BUILD**
     * [PDF Schematic](docs/vr61-revB.pdf)
     * [EAGLE PCB](EAGLE/vr61/vr61-revB.brd)
     * [EAGLE Schematic](EAGLE/vr61/vr61-revB.sch)
@@ -61,21 +61,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
     - [RP2040 Processor](https://www.sparkfun.com/products/17720)
         - ARM Cortex-M0+, 133MHz, 128Mb Flash (16MB external), 264kB SRAM in six banks
-        - *(up next in the the dev cycle)*
-
-    To explore in the future:
-
-    - ~~[SAMD51 Processor](http://www.sparkfun.com/products/16791)~~
-        - ~~ARM Cortex-M4F, 120MHz, 1MB Flash, 256kB SRAM~~
-        - ~~*(uncertain if this is viable)*~~
-
-    - ~~[Teensy Processor](http://www.sparkfun.com/products/16402)~~
-        - ~~ARM Cortex-M7, 600MHz, 16MB Flash, 1024kB RAM~~
-        - ~~*(uncertain if this is viable)*~~
-
-    - ~~[nRF52840 Processor](http://www.sparkfun.com/products/16984)~~
-        - ~~ARM Cortex-M4, 64MHz, 1MB Flash, 256kB SRAM, Bluetooth 5~~
-        - ~~*(uncertain if this is viable)*~~
+        - ***NB:*** *Cannot get the LED's to work on this, but the key matrix works just fine* ![Help Wanted](https://img.shields.io/badge/HELP-WANTED-brightgreen)
 
 - USB-C *(left side)*
 
@@ -101,15 +87,20 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
     - WS2812/SK6812 breakout for optional external LEDs
 
-- Spare GPIO pins (`A0` & `PWM`) breakout for expansion
+- Spare GPIO pins (`52` & `63`) breakout for expansion
 
    ... e.g., add speaker
 
 - Both `[Reset]` and `[Boot]` buttons *(as per MicroMod ref. design)*
 
-    ... plus under space-bar Boot pins for bootload without disassembly
+    ... plus under space-bar Boot pins for bootload without disassembly *(press while inserting cable for bootloader function)*
 
 ## Progression / Variants
+
+- **VR61 Rev B**
+    - Keymap Working on both STM32 and PR2040
+    - LED's Working on STM32 *(unresponsive on RP2040)*
+    - *(Optional EEPROM not tested yet*
 
 - ~~VR61 Rev A~~
     - [KLE link](http://www.keyboard-layout-editor.com/#/gists/c812c931186e45a5acbc3e217ef4f161)
