@@ -30,7 +30,6 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 * Notes:
     - Keymap Working on both STM32 and PR2040
-    - LED's Working on STM32 *(...but, unresponsive on RP2040)*
     - *(Optional EEPROM not tested yet*
 
 
