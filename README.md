@@ -42,6 +42,14 @@ Published as Open Source, under [MIT License](LICENSE.md):
 * ~~[EAGLE PCB](EAGLE/vr61/vr61-revA.brd)~~
 * ~~[EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)~~
 
+
+### **Rev B** &nbsp; ![](https://shields.io/badge/!-Working-green?logo=checkmarx&!=Working)
+
+* [PDF Schematic](docs/vr61-revB.pdf)
+* [EAGLE PCB](EAGLE/vr61/vr61-revB.brd)
+* [EAGLE Schematic](EAGLE/vr61/vr61-revB.sch)
+
+
 ### QMK code:
 
 * https://github.com/Tecsmith/vr61-keyboard-qmk
@@ -77,8 +85,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
     - [RP2040 Processor](https://www.sparkfun.com/products/17720) 
         - ARM Cortex-M0+, 133MHz, 128Mb Flash (16MB external), 264kB SRAM in six banks
-        - ***NB:*** *Cannot get the LED's to work on this, but the key matrix works just fine* ![Help Wanted](https://img.shields.io/badge/HELP-WANTED-blueviolet)
-
+        
 - USB-C *(left side)*
 
     ... but also optional JST connector for [ai03 Unified C3 Daughterboard](https://github.com/ai03-2725/Unified-Daughterboard)
@@ -105,7 +112,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 - Spare GPIO pins (`52` & `63`) breakout for expansion
 
-   ... e.g., add speaker
+   ... e.g., ~~add speaker~~
 
 - Both `[Reset]` and `[Boot]` buttons *(as per MicroMod ref. design)*
 
