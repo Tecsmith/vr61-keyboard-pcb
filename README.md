@@ -30,7 +30,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 * Notes:
     - Keymap Working on both STM32 and PR2040
-    - *(Optional EEPROM not tested yet*
+    - *(Optional EEPROM not tested yet)*
 
 
 ### **Rev A** &nbsp; ![](https://img.shields.io/badge/!!-Fails-critical)
