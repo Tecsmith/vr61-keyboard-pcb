@@ -20,7 +20,7 @@ Please follow the updates to this production process on the [updates](docs/updat
 
 Published as Open Source, under [MIT License](LICENSE.md):
 
-### **Rev B** &nbsp; ![](https://img.shields.io/badge/OK-Works-green)
+### **Rev B** &nbsp; ![](https://shields.io/badge/OK-Working-green?logo=checkmarx&OK=Working)
 
 > &#128077; **WORKING, OK TO BUILD**
 
@@ -41,13 +41,6 @@ Published as Open Source, under [MIT License](LICENSE.md):
 * ~~[PDF Schematic](docs/vr61-revA.pdf)~~
 * ~~[EAGLE PCB](EAGLE/vr61/vr61-revA.brd)~~
 * ~~[EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)~~
-
-
-### **Rev B** &nbsp; ![](https://shields.io/badge/!-Working-green?logo=checkmarx&!=Working)
-
-* [PDF Schematic](docs/vr61-revB.pdf)
-* [EAGLE PCB](EAGLE/vr61/vr61-revB.brd)
-* [EAGLE Schematic](EAGLE/vr61/vr61-revB.sch)
 
 
 ### QMK code:
