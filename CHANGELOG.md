@@ -6,12 +6,36 @@ All notable updates to this project will be documented in this file.
 > [PCBWay](https://pcbway.com) graciously offered to sponsor the prototype build of this keyboard
 
 <p align="center">
-<a href="https://pcbway.com/"><img src="../pcbway.jpg"></a>
+<a href="https://pcbway.com/"><img src="docs/pcbway.jpg"></a>
 </p>
 
 ---
 
 # Rev B - History
+
+## 2024-09-17
+
+> *a.k.a.* **Rev B.2**
+
+### Added
+
+- 4-pin DIP switch
+  - 1..3 consume empty switch slots.
+  - 4 is the VIN sensor switch for the MicroMod
+- 3x Manufacturing fiduciary marks
+- Expanded options for solder-on, or Mill-Max socket switches *(does not use hot-swap sockets)*
+  - Split Right Shift
+  - Split Backspace
+  - Stepped Caps-Lock
+
+### Changed
+
+- Maved to latest footprints of the Eagle Tecsmith Keyboard Library
+  - MX key
+  - MX Stabs
+  - SK6821 LED
+- Taces now route to socket via pads, not SMD hotswap pads as these may tear off in a desoldering scenario.
+- Ajusted Ground Plane mesh/hash as former model had differeing setting for top and bottom
 
 ## 2022-08-30
 
@@ -62,11 +86,11 @@ All notable updates to this project will be documented in this file.
 
 - Got an email will the finished build - shipping to me next.
   
-  <a href="prod_1.jpg"><img src="prod_1.jpg" width="10%"></a>
-  <a href="prod_2.jpg"><img src="prod_2.jpg" width="10%"></a>
-  <a href="prod_3.jpg"><img src="prod_3.jpg" width="10%"></a>
-  <a href="prod_4.jpg"><img src="prod_4.jpg" width="10%"></a>
-  <a href="prod_5.jpg"><img src="prod_5.jpg" width="10%"></a>
+  <a href="docs/updates/prod_1.jpg"><img src="docs/updates/prod_1.jpg" width="10%"></a>
+  <a href="docs/updates/prod_2.jpg"><img src="docs/updates/prod_2.jpg" width="10%"></a>
+  <a href="docs/updates/prod_3.jpg"><img src="docs/updates/prod_3.jpg" width="10%"></a>
+  <a href="docs/updates/prod_4.jpg"><img src="docs/updates/prod_4.jpg" width="10%"></a>
+  <a href="docs/updates/prod_5.jpg"><img src="docs/updates/prod_5.jpg" width="10%"></a>
 
 
 ## 2022-07-15

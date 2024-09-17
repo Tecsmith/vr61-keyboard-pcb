@@ -10,7 +10,7 @@
 >
 > Thank you [PCBWay](https://pcbway.com/)!
 
-Please follow the updates to this production process on the [updates](docs/updates/readme.md) page.
+Please follow the updates to this production process on the [updates](CHANGELOG.md) page.
 
 ---
 
@@ -24,7 +24,7 @@ Published as Open Source, under [MIT License](LICENSE.md):
 
 > &#128077; **WORKING, OK TO BUILD**
 
-* [PDF Schematic](docs/vr61-revB.pdf)
+* [PDF Schematic](docs/vr61-revB.2.pdf) <sup>1</sup>
 * [EAGLE PCB](EAGLE/vr61/vr61-revB.brd)
 * [EAGLE Schematic](EAGLE/vr61/vr61-revB.sch)
 
@@ -32,14 +32,17 @@ Published as Open Source, under [MIT License](LICENSE.md):
     - Keymap Working on both STM32 and PR2040
     - *(Optional EEPROM not tested yet)*
 
+> <sup>1</sup> = *RevB.1 schematic is [here](docs/vr61-revB.pdf)*
 
 ### **Rev A** &nbsp; ![](https://img.shields.io/badge/!!-Fails-critical)
 
 > &#9888; Do not use this revision, it has terminal flaws.
 
 * ~~[PDF Schematic](docs/vr61-revA.pdf)~~
-* ~~[EAGLE PCB](EAGLE/vr61/vr61-revA.brd)~~
-* ~~[EAGLE Schematic](EAGLE/vr61/vr61-revA.sch)~~
+* ~~EAGLE PCB~~ <sup>2</sup>
+* ~~EAGLE Schematic~~ <sup>2</sup>
+
+> <sup>2</sup> = *to access these files please use the Github history*
 
 
 ### QMK code:
