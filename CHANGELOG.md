@@ -30,7 +30,8 @@ All notable updates to this project will be documented in this file.
 
 ### Changed
 
-- Maved to latest footprints of the Eagle Tecsmith Keyboard Library
+- Licence changed from MIT to [CC BY-SA 4.0](LICENCE.md) in compliance with the SparkFun MicroMod Licence.
+- Maved to latest footprints of the Tecsmith [`ts-eagle-lib`](https://github.com/Tecsmith/ts-eagle-lib) keyboard library
   - MX key
   - MX Stabs
   - SK6821 LED

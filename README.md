@@ -4,13 +4,13 @@
 
 ---
 
-> Very happy to announce that [PCBWay](https://pcbway.com) has gratefully sponsored the production of the first 5 RevA PCBs, and a partial assembly service *(all but the USB-C, Hot-Swap Sockets, JST-ph4 & SK6812's)*, for this project.  *(I will post images and results of the prototype testing [herein](docs/updates/readme.md) as I progress.)*
+> Very happy to announce that [PCBWay](https://pcbway.com) has gratefully sponsored the production of the first 5 RevA PCBs, and a partial assembly service *(all but the USB-C, Hot-Swap Sockets, JST-ph4 & SK6812's)*, for this project.
 >
 > [![Official Sponsor - PCBWay](docs/pcbway.jpg)](https://pcbway.com/)
 >
 > Thank you [PCBWay](https://pcbway.com/)!
 
-Please follow the updates to this production process on the [updates](CHANGELOG.md) page.
+Please follow the updates to this production process on the [changelog](CHANGELOG.md) page.
 
 ---
 
@@ -18,7 +18,9 @@ Please follow the updates to this production process on the [updates](CHANGELOG.
 
 ![PCB Bottom View](docs/vr61-pcb-btm.png)
 
-Published as Open Source, under [MIT License](LICENSE.md):
+Published as Open Source, under a [ Creative Commons Share-alike 4.0 International](LICENSE.md).  [![CC-0 license](https://shields.io/badge/-BY--SA_4.0-black?logo=creativecommons&logoColor=%23000&labelColor=%23c1c1c1
+)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 
 ### **Rev B** &nbsp; ![](https://shields.io/badge/OK-Working-green?logo=checkmarx&OK=Working)
 
