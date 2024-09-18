@@ -36,6 +36,7 @@ All notable updates to this project will be documented in this file.
   - SK6821 LED
 - Taces now route to socket via pads, not SMD hotswap pads as these may tear off in a desoldering scenario.
 - Ajusted Ground Plane mesh/hash as former model had differeing setting for top and bottom
+- Revised Boot button.  *(MicroMod provides 2 button reset/boot but both are ground based, so can be consolodated into one.)*
 
 ## 2022-08-30
 
