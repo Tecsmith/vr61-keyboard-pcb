@@ -36859,8 +36859,8 @@ for under space bar</text>
 <approved hash="104,1,33.02,12.7,LED-8,3_GND,GND,,,"/>
 <approved hash="104,1,22.86,17.78,LED-8,1_VDD,VSUP,,,"/>
 <approved hash="104,1,109.22,124.46,J-UDB,VCC,VSUP,,,"/>
-<approved hash="104,1,154.94,12.7,U$14,3_GND,GND,,,"/>
-<approved hash="104,1,144.78,17.78,U$14,5_VCC,VSUP,,,"/>
+<approved hash="104,1,154.94,12.7,74AH,3_GND,GND,,,"/>
+<approved hash="104,1,144.78,17.78,74AH,5_VCC,VSUP,,,"/>
 <approved hash="106,1,251.46,35.56,SC1,,,,,"/>
 <approved hash="208,1,175.26,165.1,VCC,sup,,,,"/>
 <approved hash="208,1,124.46,93.98,VCC,sup,,,,"/>
@@ -36932,7 +36932,7 @@ for under space bar</text>
 <approved hash="113,2,148.613,33.02,D62,,,,,"/>
 <approved hash="113,1,249.597,164.968,J-BOOT,,,,,"/>
 <approved hash="113,1,12.0227,14.1021,J-LED,,,,,"/>
-<approved hash="113,1,27.2627,158.824,J-UBS,,,,,"/>
+<approved hash="113,1,27.2627,158.805,J-UBS,,,,,"/>
 <approved hash="113,2,39.3929,63.5,D43,,,,,"/>
 <approved hash="113,1,164.423,127.132,J-HOST,,,,,"/>
 <approved hash="113,1,236.897,72.2579,J-63,,,,,"/>
