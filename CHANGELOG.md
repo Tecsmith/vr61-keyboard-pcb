@@ -27,6 +27,7 @@ All notable updates to this project will be documented in this file.
   - Split Right Shift
   - Split Backspace
   - Stepped Caps-Lock
+- Added PCB edge slots to support Bakeneko type cases
 
 ### Changed
 

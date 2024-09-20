@@ -116,4 +116,4 @@ Published as Open Source, under a [ Creative Commons Share-alike 4.0 Internation
     ... plus under space-bar Boot pins for bootload without disassembly *(press while inserting cable for bootloader function)*
 
 ---
-Made with &#9829; - Vino Rodrigues
+Made with &#9829; by Vino Rodrigues
