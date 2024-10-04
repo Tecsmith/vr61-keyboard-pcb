@@ -33598,6 +33598,62 @@ General-purpose diode for high-speed switching</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="tecsmith_jlcpcb_ordering">
+<packages>
+<package name="JLC_ORDER_NUMBER_TEXT">
+<rectangle x1="-5" y1="-1" x2="5" y2="1" layer="21"/>
+<rectangle x1="-5" y1="-1" x2="5" y2="1" layer="39"/>
+</package>
+<package name="JLC_ORDER_NUMBER_QR_10X10">
+<rectangle x1="-5" y1="-5" x2="5" y2="5" layer="21"/>
+<rectangle x1="-6" y1="-6" x2="6" y2="6" layer="39"/>
+</package>
+<package name="JLC_ORDER_NUMBER_QR_8X8">
+<rectangle x1="-4" y1="-4" x2="4" y2="4" layer="21"/>
+<rectangle x1="-5" y1="-5" x2="5" y2="5" layer="39"/>
+</package>
+<package name="JLC_ORDER_NUMBER_QR_5X5">
+<rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="21"/>
+<rectangle x1="-3" y1="-3" x2="3" y2="3" layer="39"/>
+<rectangle x1="-3" y1="-3" x2="3" y2="3" layer="41"/>
+</package>
+</packages>
+<symbols>
+<symbol name="JLC_CUSTOMER_ID_QR">
+<text x="0" y="0" size="2.54" layer="97">JLCPCB:</text>
+<text x="15.24" y="0" size="2.54" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JLC_ORDER_NUMBER_QR">
+<gates>
+<gate name="G$1" symbol="JLC_CUSTOMER_ID_QR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TEXT" package="JLC_ORDER_NUMBER_TEXT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="QR_10X10" package="JLC_ORDER_NUMBER_QR_10X10">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="QR_8X8" package="JLC_ORDER_NUMBER_QR_8X8">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="QR_5X5" package="JLC_ORDER_NUMBER_QR_5X5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CNAME" value="VR61 - MicroMod 60% Custom Keyboard PCB"/>
@@ -33857,6 +33913,7 @@ General-purpose diode for high-speed switching</description>
 <part name="GND14" library="ts_custom_nick_nacks" deviceset="GND" device=""/>
 <part name="U$24" library="ts_keyboards" deviceset="FOOTPRINT-BAKENEKO60" device=""/>
 <part name="U$25" library="ts_keyboards" deviceset="FOOTPRINT-DIMS-GH60" device=""/>
+<part name="U$26" library="tecsmith_jlcpcb_ordering" deviceset="JLC_ORDER_NUMBER_QR" device="QR_5X5" value="?"/>
 </parts>
 <sheets>
 <sheet>
@@ -35666,6 +35723,7 @@ for under space bar</text>
 <instance part="S_CAPS2" gate="G$1" x="22.86" y="104.14" smashed="yes" rot="MR90">
 <attribute name="NAME" x="11.43" y="100.838" size="1.778" layer="95" rot="MR90"/>
 </instance>
+<instance part="U$26" gate="G$1" x="226.568" y="6.35" smashed="yes"/>
 </instances>
 <busses>
 </busses>
